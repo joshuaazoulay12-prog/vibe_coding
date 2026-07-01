@@ -1,8 +1,11 @@
 import asyncio
+import json
+import os
 
 import httpx
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pydantic import BaseModel
 
 app = FastAPI(title="Reeds Jobs API")
 
@@ -27,6 +30,18 @@ GREENHOUSE_BOARDS = [
 ]
 GREENHOUSE_URL = "https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
 
+GEMINI_MODEL = "gemini-2.5-flash"
+GEMINI_URL = (
+    "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+)
+RANK_BATCH_SIZE = 30
+RANK_MAX_CONCURRENCY = 5
+
+
+class RankRequest(BaseModel):
+    cv: str
+    role: str
+
 
 async def fetch_board(client: httpx.AsyncClient, token: str) -> list[dict]:
     """Fetch all jobs for a single Greenhouse board and tag them with the company."""
@@ -47,15 +62,11 @@ async def fetch_board(client: httpx.AsyncClient, token: str) -> list[dict]:
     return jobs
 
 
-@app.get("/jobs")
-async def get_jobs() -> dict:
-    """Fetch jobs from all configured Greenhouse boards concurrently and combine them."""
-    async with httpx.AsyncClient(timeout=30.0) as client:
-        results = await asyncio.gather(
-            *(fetch_board(client, token) for token in GREENHOUSE_BOARDS),
-            return_exceptions=True,
-        )
-
+async def fetch_all_jobs(client: httpx.AsyncClient) -> list[dict]:
+    results = await asyncio.gather(
+        *(fetch_board(client, token) for token in GREENHOUSE_BOARDS),
+        return_exceptions=True,
+    )
     jobs: list[dict] = []
     for token, result in zip(GREENHOUSE_BOARDS, results):
         if isinstance(result, Exception):
@@ -64,5 +75,123 @@ async def get_jobs() -> dict:
                 detail=f"Failed to fetch jobs for board '{token}': {result}",
             )
         jobs.extend(result)
+    return jobs
 
+
+@app.get("/jobs")
+async def get_jobs() -> dict:
+    """Fetch jobs from all configured Greenhouse boards concurrently and combine them."""
+    async with httpx.AsyncClient(timeout=30.0) as client:
+        jobs = await fetch_all_jobs(client)
     return {"count": len(jobs), "jobs": jobs}
+
+
+async def score_batch(
+    client: httpx.AsyncClient,
+    api_key: str,
+    cv: str,
+    role: str,
+    batch: list[dict],
+    start_idx: int,
+    semaphore: asyncio.Semaphore,
+) -> list[dict]:
+    """Ask Gemini to score a batch of jobs against the CV + target role."""
+    jobs_desc = "\n".join(
+        f"{start_idx + i}. [{j['company']}] {j['title']} — {j['location'] or 'N/A'}"
+        for i, j in enumerate(batch)
+    )
+    prompt = (
+        "You are a career-fit scoring assistant. Given a candidate CV and a target role, "
+        "score each listed job 0-100 for how well it fits the candidate and target role, "
+        "and write a one-sentence reason grounded in the CV.\n\n"
+        f"Candidate CV:\n{cv}\n\n"
+        f"Target role: {role}\n\n"
+        f"Jobs:\n{jobs_desc}\n\n"
+        'Return ONLY a JSON array. Each element must be '
+        '{"index": <int>, "score": <int 0-100>, "reason": "<one short sentence>"}. '
+        "Include every listed index exactly once."
+    )
+    payload = {
+        "contents": [{"parts": [{"text": prompt}]}],
+        "generationConfig": {
+            "responseMimeType": "application/json",
+            "temperature": 0.2,
+        },
+    }
+    async with semaphore:
+        response = await client.post(
+            GEMINI_URL.format(model=GEMINI_MODEL),
+            params={"key": api_key},
+            json=payload,
+        )
+    response.raise_for_status()
+    data = response.json()
+    text = data["candidates"][0]["content"]["parts"][0]["text"]
+    parsed = json.loads(text)
+    if not isinstance(parsed, list):
+        raise ValueError("Gemini response is not a JSON array")
+    return parsed
+
+
+@app.post("/rank")
+async def rank_jobs(req: RankRequest) -> dict:
+    """Rank every job by fit against the provided CV and target role."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        raise HTTPException(
+            status_code=500,
+            detail="GEMINI_API_KEY environment variable is not set.",
+        )
+
+    async with httpx.AsyncClient(timeout=120.0) as client:
+        jobs = await fetch_all_jobs(client)
+
+        semaphore = asyncio.Semaphore(RANK_MAX_CONCURRENCY)
+        batch_tasks = [
+            score_batch(
+                client, api_key, req.cv, req.role, jobs[i : i + RANK_BATCH_SIZE], i, semaphore
+            )
+            for i in range(0, len(jobs), RANK_BATCH_SIZE)
+        ]
+        batch_results = await asyncio.gather(*batch_tasks, return_exceptions=True)
+
+    scores: dict[int, tuple[int, str]] = {}
+    errors: list[str] = []
+    for res in batch_results:
+        if isinstance(res, Exception):
+            errors.append(str(res))
+            continue
+        for item in res:
+            idx = item.get("index")
+            if not isinstance(idx, int) or idx < 0 or idx >= len(jobs):
+                continue
+            try:
+                score = int(item.get("score", 0))
+            except (TypeError, ValueError):
+                score = 0
+            score = max(0, min(100, score))
+            reason = str(item.get("reason", "")).strip()
+            scores[idx] = (score, reason)
+
+    if not scores:
+        raise HTTPException(
+            status_code=502,
+            detail=f"Ranking failed: {errors[0] if errors else 'no scores returned'}",
+        )
+
+    ranked = []
+    for i, job in enumerate(jobs):
+        score, reason = scores.get(i, (0, "Not scored"))
+        ranked.append(
+            {
+                "title": job["title"],
+                "company": job["company"],
+                "location": job["location"],
+                "apply_url": job["apply_url"],
+                "score": score,
+                "reason": reason,
+            }
+        )
+    ranked.sort(key=lambda j: j["score"], reverse=True)
+
+    return {"count": len(ranked), "jobs": ranked}
