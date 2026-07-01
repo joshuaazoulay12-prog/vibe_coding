@@ -1,11 +1,12 @@
 import asyncio
+import io
 import json
 import os
 
 import httpx
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pypdf import PdfReader
 
 app = FastAPI(title="Reeds Jobs API")
 
@@ -36,11 +37,6 @@ GEMINI_URL = (
 )
 RANK_BATCH_SIZE = 30
 RANK_MAX_CONCURRENCY = 5
-
-
-class RankRequest(BaseModel):
-    cv: str
-    role: str
 
 
 async def fetch_board(client: httpx.AsyncClient, token: str) -> list[dict]:
@@ -133,9 +129,31 @@ async def score_batch(
     return parsed
 
 
+def extract_cv_text(filename: str, data: bytes) -> str:
+    """Extract plain text from an uploaded CV; supports PDF and plain text."""
+    name = (filename or "").lower()
+    if name.endswith(".pdf") or data[:4] == b"%PDF":
+        try:
+            reader = PdfReader(io.BytesIO(data))
+            parts = [page.extract_text() or "" for page in reader.pages]
+            text = "\n".join(parts).strip()
+        except Exception as exc:
+            raise HTTPException(status_code=400, detail=f"Failed to parse PDF: {exc}")
+        if not text:
+            raise HTTPException(status_code=400, detail="Could not extract text from PDF.")
+        return text
+    try:
+        return data.decode("utf-8", errors="ignore").strip()
+    except Exception as exc:
+        raise HTTPException(status_code=400, detail=f"Failed to read CV: {exc}")
+
+
 @app.post("/rank")
-async def rank_jobs(req: RankRequest) -> dict:
-    """Rank every job by fit against the provided CV and target role."""
+async def rank_jobs(
+    cv: UploadFile = File(...),
+    role: str = Form(...),
+) -> dict:
+    """Rank every job by fit against the uploaded CV (PDF or text) and target role."""
     api_key = os.environ.get("GEMINI_API_KEY")
     if not api_key:
         raise HTTPException(
@@ -143,13 +161,18 @@ async def rank_jobs(req: RankRequest) -> dict:
             detail="GEMINI_API_KEY environment variable is not set.",
         )
 
+    cv_bytes = await cv.read()
+    if not cv_bytes:
+        raise HTTPException(status_code=400, detail="CV file is empty.")
+    cv_text = extract_cv_text(cv.filename or "", cv_bytes)
+
     async with httpx.AsyncClient(timeout=120.0) as client:
         jobs = await fetch_all_jobs(client)
 
         semaphore = asyncio.Semaphore(RANK_MAX_CONCURRENCY)
         batch_tasks = [
             score_batch(
-                client, api_key, req.cv, req.role, jobs[i : i + RANK_BATCH_SIZE], i, semaphore
+                client, api_key, cv_text, role, jobs[i : i + RANK_BATCH_SIZE], i, semaphore
             )
             for i in range(0, len(jobs), RANK_BATCH_SIZE)
         ]
