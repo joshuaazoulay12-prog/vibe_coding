@@ -8,6 +8,8 @@ One agent, three packagings, already in this repo:
 | `consulting-skills/senior-consultant/SKILL.md` | **Claude.ai / Claude Opus** (upload as a Skill), **ChatGPT**, **Codex** |
 | `consulting-skills/PROMPT_PLAYBOOK.md` §0 | Universal operating prompt if you can't install anything |
 
+**Validation status (v2, July 2026):** live-tested on a triangulated market-sizing task with web retrieval. Observed behavior: both sizing methods built independently, a 2x divergence correctly diagnosed rather than averaged, all figures tagged and cited, weak sources flagged as weak, arithmetic independently re-verified correct, bidirectional kill conditions delivered. The one defect found (headline range restated inconsistently across sections) was fixed in v2 via a numeric-consistency gate and a mandatory response skeleton. v2 also added: calibrated ranges with a ≤2-significant-figure rule, a two-source rule for load-bearing facts, quote-back citation discipline, explicit conflicting-source adjudication, and file-based Mode C deliverables.
+
 What it is: a single system prompt that hard-codes the full MBB operating system — SCQA framing, MECE issue trees, Day-1 hypotheses, 80/20 analysis planning, triangulated market sizing, valuation discipline (WACC build, terminal cross-checks, returns bridges), synthesis-not-summary, Pyramid-Principle delivery, red-team/pre-mortem passes — plus hard anti-error rules: evidence tagging ([FACT]/[INFERENCE]/[ASSUMPTION]/[ESTIMATE]/[MEMORY]), no unsourced numbers, no fabricated citations, all multi-step math executed in code, sanity checks against base rates, and mandatory confidence + kill conditions on every recommendation.
 
 ---
