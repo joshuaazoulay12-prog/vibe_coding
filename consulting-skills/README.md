@@ -168,5 +168,7 @@ No SKILL.md can make any model hallucination-free. What the best ones do is forc
 ---
 
 ## Files in this folder
+- `senior-consultant/SKILL.md` — **the Senior Consultant agent**: a single system prompt embedding the full MBB operating system with hard anti-error protocols (portable to Claude.ai, ChatGPT, Codex). The Claude Code subagent version lives at `.claude/agents/senior-consultant.md`
+- `AGENT_GUIDE.md` — how to deploy the agent on each platform, the Task Brief template for instructing it, and worked examples
 - `PROMPT_PLAYBOOK.md` — the optimal prompts for every skill above, plus chained engagement workflows (market entry study, commercial due diligence, board deck production)
 - `download-skills.sh` — one-shot script to download all recommended skills to your machine (run locally, requires git + internet)
