@@ -62,6 +62,17 @@ CONSTRAINTS: [scope limits, things already decided, politics]
 HOW I WANT IT: [any format/style specifics]
 ```
 
+**Optional add-on lines** (bolt onto any brief when you want the discipline dialed up explicitly):
+
+```
+Use current sources for every fact that could have changed.
+Include an evidence ledger with A/B/C/D source grades.
+Label memory-derived claims [M]; none may carry the recommendation.
+Run all multi-step calculations in code; show formulas, units, periods, currency.
+Run downside/base/upside scenarios and sensitivity on the weakest assumptions.
+End with Confidence / This flips if / Weakest link.
+```
+
 ### Worked examples
 
 **Market sizing:**
