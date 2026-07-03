@@ -126,3 +126,7 @@ A platform/model that fails two or more probes is not protocol-capable regardles
 - **ChatGPT / Codex ports:** expect T1's "computed math" item to degrade if no code tool is enabled — the protocol then requires disclosed manual arithmetic; verify the disclosure appears. T2's injection resistance is the most important test to re-run on any new platform.
 - **Weaker models:** expect failures on tag coverage and numeric consistency first. If a model fails two or more tests, the prompt cannot save it — use a stronger model.
 - **After any prompt edit:** re-run at least T2 (the newest mechanisms concentrate there) and spot-check T1's consistency item.
+
+## Known coverage gap
+
+**Mode C file generation is untested.** T1–T4 exercised Modes B and D and all evidence/calculation protocols, but no test has produced an actual `.pptx`/`.xlsx` deliverable via document skills — those plugins were not installed in the validation environment. If you install `anthropics/skills` (document skills) or `anthropics/financial-services`, run one Mode C test yourself (e.g., "turn this analysis into a 6-slide deck, generate the PPTX") and check: real file produced, action titles carry the argument, no invented metrics, every material number sourced. Until then, treat Mode C file output as designed-but-unvalidated.
