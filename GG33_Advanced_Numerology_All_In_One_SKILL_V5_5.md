@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-The embedded manual is **V5.4 Integrity-Audited** (July 5, 2026): the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not replace the embedded manual with older versions.
+Package version: **V5.5 All-In-One** (July 5, 2026) — skill scaffold, deterministic calculator, and embedded manual combined. The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not replace the embedded manual with older versions.
 
 ## Non-Negotiable Calibration
 
@@ -181,6 +181,8 @@ def previous_month(month: int) -> int:
 
 
 def compute(birth: dt.date, event: dt.date | None) -> dict:
+    if event is not None and event < birth:
+        raise ValueError("Event date precedes birth date; personal cycles are undefined before birth.")
     report: dict = {
         "input": {
             "birth_date": birth.isoformat(),
@@ -225,6 +227,7 @@ def compute(birth: dt.date, event: dt.date | None) -> dict:
                 "Calendar day 11 and 22 are preserved in Personal Day and Universal Day components.",
                 "20 is labeled Hidden 11 instead of reducing to 2.",
                 "When a Personal Year resolves to 20 (Hidden 11), Personal Month math here adds 20; the manual does not document whether 11 should be used instead — flag the ambiguity if the PM lands on a master boundary.",
+                "If the birth day does not exist in a calendar month (day 29, 30, or 31), that month's Personal Month begins on the 1st of the following month; the manual does not define this case.",
                 "Chinese zodiac signs and interpretations must be verified separately from the references.",
             ],
         }
