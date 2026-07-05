@@ -170,7 +170,7 @@ A current public GG33 Academy life-path page labels **9** as “The Finisher” 
 14. Master Number System
 15. The Governor System (Number 6)
 16. The Liquidity Drain System (Number 7)
-17. Number-Specific Rules (4, 8, 9)
+17. Number-Specific Rules (4, 8, 9) & Self-Destruct Configurations
 18. Chinese Astrology Integration
 19. Proven Outcome Formulas
 20. Calculation Rules (Advanced)
@@ -1231,7 +1231,8 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 ⚠️ **CRITICAL restrictions on this rule:**
 - Does **NOT** apply to Personal DAY masters alone
 - Does **NOT** apply to PY9 (which is downward completion, not a master year)
-- If Body is in Hidden 11 year (PY20): treat UD 5, 11, 22, and 33 as Green/Buy days regardless of Month/Year enemy status
+- If Body is in Hidden 11 year (PY20): treat UD 5, 11, 22, and 33 (and UD 20 = Hidden 11, §14.1) as Green/Buy days regardless of Month/Year enemy status
+- **Documented fuel limit:** on a Zero-Fuel Universal Day (7 or 9) with stacked enemy friction, this Master-Year override can FAIL — §19.2 Formula D documents IPO PY20 + UD9 producing a parabolic drop, while §23.13 shows the same exception holding on an igniting UD5. Check the UD's fuel status before applying this override.
 </warning>
 
 </subsection>
@@ -1782,7 +1783,7 @@ These neutralizations allow Masters to function normally and drive prices upward
 |-----|-------|
 | **PD = LP** | Predict Stability/Hold (Resonance Override) even in Enemy Months |
 | **PD8 + Friend Day** | Predict Massive Open / Green |
-| **Body in Hidden 11 year (PY20)** | Treat UD 5, 11, 22, 33 as Green/Buy days regardless of Month/Year enemy status |
+| **Body in Hidden 11 year (PY20)** | Treat UD 5, 11, 22, 33 (and UD 20 = Hidden 11) as Green/Buy days regardless of Month/Year enemy status — but see the §14.4 fuel limit for Zero-Fuel UDs (7/9) |
 | **PD3 vs Birth Month 4** (internal clash) | Predict self-destruct — mandates a loss/drop reading within the framework regardless of other positives |
 | **IPO Birthday + Master Number Day (11 or 22)** | IGNORE Personal Year entirely |
 
