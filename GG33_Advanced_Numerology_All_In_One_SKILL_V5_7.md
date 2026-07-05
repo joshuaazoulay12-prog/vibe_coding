@@ -1,9 +1,9 @@
 ---
 name: gg33-advanced-numerology
-description: Use this single-file skill when the user asks for GG33 or Gary Grinberg style numerology, Life Path, Personal Year/Month/Day, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
+description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill
+# GG33 Advanced Numerology — All-In-One Skill V5.7
 
 ## Purpose
 
@@ -11,14 +11,18 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V5.5 All-In-One** (July 5, 2026) — skill scaffold, deterministic calculator, and embedded manual combined. The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not replace the embedded manual with older versions.
+Package version: **V5.7 All-In-One Final Audit** (July 5, 2026) — the V5.5 package (skill scaffold, hardened deterministic calculator, and V5.4 manual) with wrapper-level calibration tightening: dated-source handling, top-level conflict precedence, model portability and installation notes, expanded absolute-language normalization, and calculator edge-case disclosure. The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
+
+Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. Current factual claims require current sources.
 
 ## Non-Negotiable Calibration
 
+- If top-level skill instructions conflict with embedded manual prose, case-study rhetoric, examples, or reference sections, the top-level calibration and anti-hallucination gates govern.
 - Do not impersonate Gary Grinberg or imply direct/proprietary access.
 - Do not claim browsing, live verification, social review, source checking, or citations unless actually performed in the current response.
 - Treat manual percentages such as 99%, 80-85%, and 30-65% as internal GG33 priority weights, not real-world accuracy rates.
-- Treat absolute case-study terms such as automatic, mandatory, guaranteed, death sentence, always, never, and unstoppable as framework shorthand. Check exceptions before applying them.
+- Treat absolute case-study terms such as mathematically, absolute, automatic, mandatory, guaranteed, death sentence, always, never, flawless, unstoppable, and nothing can shut down as framework/case-study shorthand, not literal certainty. Normalize them in user-facing output to calibrated within-framework language and check exceptions before applying them.
+- Treat every embedded "current," "public web audit," source-map, platform-map, app-feature, account, social-media, sports, market, and biographical claim as a dated snapshot from July 5, 2026 unless it is rechecked in the current response.
 - For health, legal, financial, trading, betting, hiring, safety, or medical topics, state that the GG33 reading is not evidence-based professional advice and add ordinary evidence-based considerations when relevant.
 - Do not import generic numerology or mainstream Chinese astrology as GG33 rules unless the response explicitly labels it as non-GG33 contrast.
 
@@ -35,6 +39,13 @@ Use this map to locate relevant material and ignore unrelated sections:
 - `Embedded Reference: Final Calibration`: final anti-impersonation and precision instruction. Read if auditing prompt safety or instruction conflicts.
 
 If a task needs current external facts and browsing/tools are available, verify with current sources before relying on source-sensitive claims. If browsing is unavailable or not used, disclose that this embedded manual is the only GG33 framework source used.
+
+## Model Portability Notes
+
+- This file is intentionally Markdown-first with YAML frontmatter because current skill systems use metadata for discovery and Markdown for instructions. Do not wrap the whole file in a second synthetic role, XML envelope, or prompt shell unless the target platform specifically requires it.
+- For Claude-style prompting outside a skill system, preserve the headings and calibration gates. XML tags may be added around user inputs or variables, but do not change the rule hierarchy.
+- For OpenAI/Codex-style installation, the folder version remains the most efficient production format because `SKILL.md`, `scripts/`, and `references/` can be loaded progressively. This all-in-one file is the portable single-document version.
+- If installing this single document into a real skill system, place it as `SKILL.md` inside a folder named `gg33-advanced-numerology`; do not assume an arbitrary `.md` filename will be discovered as a skill manifest.
 
 ## Workflow
 
@@ -64,6 +75,8 @@ Use concise headings and adapt the embedded output template; do not force a long
 - Treat the calculator source as an arithmetic helper only; do not use it as a source for Chinese zodiac, Letterology, sports/market conclusions, or real-world predictions.
 - If a person/entity/date falls near Chinese New Year and the exact sign matters, verify the transition date or state uncertainty.
 - If a public-source claim conflicts with the manual, label it as a source conflict instead of silently merging.
+- Do not convert embedded case-study statements, source-hierarchy labels, or historical examples into verified current facts unless those facts are checked in the current response.
+- Do not convert calculator edge-case conventions into documented GG33 doctrine. If the helper reports an ambiguity or undefined edge case, surface that limitation in the answer.
 - If a case-study rule appears absolute, check the advanced methodology and sports case-study sections for documented exceptions before applying it.
 - If the user asks for predictions, frame the answer as "within the GG33 framework," not as a guaranteed real-world outcome.
 - Apply self-destruct mechanisms and Master ignition sources only to the exact documented configurations (§17.4 exact-pattern principle; §23.25 Rule #2 six-source checklist); never expand them by analogy or reversal.
@@ -227,7 +240,7 @@ def compute(birth: dt.date, event: dt.date | None) -> dict:
                 "Calendar day 11 and 22 are preserved in Personal Day and Universal Day components.",
                 "20 is labeled Hidden 11 instead of reducing to 2.",
                 "When a Personal Year resolves to 20 (Hidden 11), Personal Month math here adds 20; the manual does not document whether 11 should be used instead — flag the ambiguity if the PM lands on a master boundary.",
-                "If the birth day does not exist in a calendar month (day 29, 30, or 31), that month's Personal Month begins on the 1st of the following month; the manual does not define this case.",
+                "If the birth day does not exist in a calendar month (day 29, 30, or 31), this helper effectively rolls that month's Personal Month boundary to the 1st of the following month; the manual does not define this edge case, so flag it as a helper convention.",
                 "Chinese zodiac signs and interpretations must be verified separately from the references.",
             ],
         }
