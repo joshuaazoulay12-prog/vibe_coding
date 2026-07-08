@@ -130,7 +130,7 @@ Detriment = the sign opposite a planet's domicile.
 | Air | Gemini, Libra, Aquarius | Saturn | Mercury | Jupiter |
 | Water | Cancer, Scorpio, Pisces | Venus | Mars | Moon |
 
-Use the three lords of the **sect light's** triplicity for the general arc of life: 1st lord ≈ early life, 2nd ≈ middle, 3rd ≈ later (Dorotheus; the three-part split is the medieval form of the older two-part one). The Lilly layer uses only the day/night pair.
+Use the lords of the **sect light's** triplicity for the general arc of life. Dorotheus (*Carmen* Bk. I) and Valens split life in **two**: 1st lord ≈ first half, 2nd ≈ second half, the participating lord assists both. The three-part split (1st/2nd/3rd ≈ early/middle/late) is the medieval method of Andarzaghar (related by al-Qabisi and Bonatti) — if used, attribute it there, not to Dorotheus. The Lilly layer uses only the day/night pair.
 
 ### 4.4 Egyptian bounds (terms) — Hellenistic layer (Valens, Dorotheus, Firmicus, George, Brennan)
 Read as: ruler **up to** that degree. The Sun and Moon have no bounds.
@@ -206,7 +206,7 @@ Mercury → 1st · Moon → 3rd · Venus → 5th · Mars → 6th · Sun → 9th 
 Notes: Fortune and Spirit are the two main lots (Valens, Brennan, George). The Eros/Necessity/Courage/Victory/Nemesis forms above are the Paulus "Seven Lots" set; Valens' own Eros and Necessity use a different build — flag this if the user wants the Valens forms. **Lilly layer:** use the **day** Fortune formula and do not reverse it at night.
 
 ### 4.10 Lilly — orbs and dignity scores (Lilly layer only)
-**Orbs belong to the planet, not the aspect:** Saturn 9° · Jupiter 9° · Mars 7° · Sun 15° · Venus 7° · Mercury 7° · Moon 12° · house cusp 5°.
+**Orbs belong to the planet, not the aspect:** Saturn 9° · Jupiter 9° · Mars 7° · Sun 15° · Venus 7° · Mercury 7° · Moon 12° · house cusp 5°. Lilly's own printed figures vary between passages of *Christian Astrology* (e.g., Saturn's orb 9° — moiety 4°30′ — in one place, moiety 5 → orb 10° in another; Venus 7° vs. moiety 4 → 8°): this table fixes one coherent set, so treat near-boundary aspect calls as provisional, and user-supplied orbs override.
 **Moiety rule:** an aspect is active when the gap ≤ (half the orb of planet A + half the orb of planet B). *Partile* = exact to the degree; *platic* = within the moiety.
 **Essential dignity score:** domicile +5 · exaltation +4 · triplicity +3 · term +2 · face +1. **Essential debilities:** detriment −5 · fall −4 · peregrine (no dignity at all) −5. The **almuten** of any point = the planet with the highest total score there.
 
@@ -255,7 +255,7 @@ Orientality note: the upper (diurnal) planets ♄ ♃ ♂ are strengthened **ori
 | Author | House system | Bounds | Methods to fold in |
 |---|---|---|---|
 | **Vettius Valens** | Whole Sign | Egyptian | Sect; Lots of Fortune & Spirit + four main lots; zodiacal releasing (aphesis = releasing the years) from Spirit/Fortune; profections; "turning the wheel" (counting from a place/lot); active vs. idle places; triplicity lords of sect; master of the chart |
-| **Claudius Ptolemy** | Sign/place-based topical logic; do not treat him as a modern house-system authority | Ptolemaic | Sect; ruler of a topic by five tests (domicile, exaltation, triplicity, term, phase/aspect); the life-giver (hyleg) and primary directions for length of life; **quality of soul** — Mercury = the reasoning mind, the Moon = the sensing/feeling mind, judged by their condition and aspects; cautious, natural-cause style; Lot of Fortune only |
+| **Claudius Ptolemy** | Sign/place-based topical logic; do not treat him as a modern house-system authority | Ptolemaic | Sect; ruler of a topic by five tests (domicile, exaltation, triplicity, term, phase/aspect); the life-giver (hyleg) and primary directions for length of life; **quality of soul** — Mercury = the reasoning mind, the Moon = the sensing/feeling mind, judged by their condition and aspects; cautious, natural-cause style; Lot of Fortune only, computed the same by day and night (no night reversal) |
 | **Dorotheus of Sidon** | Whole Sign | Egyptian | Triplicity lords of sect for the life arc and per topic; topic-by-topic method (esp. marriage via Venus, children, parents); Lot of Fortune; early profections + directions + transits |
 | **Firmicus Maternus** | Whole Sign | Egyptian | Detailed planet-in-house and aspect readings; angles vs. succedent vs. cadent (weak) houses; antiscia (solstice-mirror points); decans; ruler of the chart; work/career via the planet on or aspecting the MC |
 | **William Lilly** | Regiomontanus | Lilly/Ptolemaic table in 4.5 | Essential + accidental dignity scoring; almuten (highest-scoring ruler); planetary orbs and the moiety rule (4.10); antiscia; fixed stars; Part of Fortune; full house meanings; reception |
@@ -272,7 +272,7 @@ Orientality note: the upper (diurnal) planets ♄ ♃ ♂ are strengthened **ori
 5. **Aspects:** the five aspects, by sign and by degree; **overcoming** (the planet in the earlier/higher sign of a right-side square or trine dominates); **enclosure** (a planet hemmed by the two malefics = harmful, or by the two benefics = helpful); **bonification** (helped by a benefic aspect/enclosure/reception) vs. **maltreatment** (harmed by a malefic); **adherence** (a bodily conjunction applying within 3°); **aversion** (a planet in the 2nd/6th/8th/12th from another — they cannot see each other).
 
 ### 4.14 Major fixed stars (Lilly, Firmicus layer) — conjunctions within ~1°–2°
-> **Positions precess (~1° per 72 years), so do NOT use a remembered degree.** Take each star's current position from the pasted chart or an ephemeris; if none is provided, write "fixed-star positions not provided." Only the brightest stars are used, and only by tight conjunction.
+> **Positions precess (~1° per 72 years), so do NOT use a remembered degree.** Take each star's current position from the pasted chart or an ephemeris; if none is provided, write "fixed-star positions not provided." Only the brightest stars are used, and only by tight conjunction (the 5° Algol orb in 4.10 is Lilly's scoring rule, not a reading orb).
 > **The Nature column follows the traditional attributions (Ptolemy / Robson) — a few differ between sources; verify before leaning on them. The reputations in the last column are stable.**
 
 | Star | Nature | Typical reading on a tight conjunction |
