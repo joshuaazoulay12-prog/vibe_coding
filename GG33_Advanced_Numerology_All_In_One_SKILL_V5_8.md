@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V5.7
+# GG33 Advanced Numerology — All-In-One Skill V5.8
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V5.7 All-In-One Final Audit** (July 5, 2026) — the V5.5 package (skill scaffold, hardened deterministic calculator, and V5.4 manual) with wrapper-level calibration tightening: dated-source handling, top-level conflict precedence, model portability and installation notes, expanded absolute-language normalization, and calculator edge-case disclosure. The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
+Package version: **V5.8 All-In-One** (July 5, 2026) — the V5.7 package (V5.5 scaffold + hardened calculator + V5.4 manual, plus V5.7 wrapper calibration) with two user-supplied reference tables integrated under source-status tags and conflict disclosures: an extended Friendly/Neutral/Frenemy/Enemy compatibility matrix (§4.6) and a compound-number meanings table for 0–33 (§13.3). The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
 
 Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. Current factual claims require current sources.
 
@@ -80,6 +80,7 @@ Use concise headings and adapt the embedded output template; do not force a long
 - If a case-study rule appears absolute, check the advanced methodology and sports case-study sections for documented exceptions before applying it.
 - If the user asks for predictions, frame the answer as "within the GG33 framework," not as a guaranteed real-world outcome.
 - Apply self-destruct mechanisms and Master ignition sources only to the exact documented configurations (§17.4 exact-pattern principle; §23.25 Rule #2 six-source checklist); never expand them by analogy or reversal.
+- Treat the user-supplied tables in §4.6 and §13.3 as user-supplied summaries: where they conflict with §4.5 or §13-§17 mechanics (notably the 5-ignites-22 ignition doctrine and the 20 = Hidden 11 rule), the manual governs and the conflict must be disclosed.
 
 ---
 
@@ -565,7 +566,7 @@ When current verification is required and browsing is available, execute relevan
 
 ## Reference Contents
 
-- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, compatibility chart
+- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, compatibility chart, extended compatibility matrix (§4.6)
 - §5 Chinese astrology basics: signs, enemy years, friend years, own years, Snake-year caveat
 - §6 Analysis execution sequence and worked calculation walkthrough
 - §7 Quality assurance checklist
@@ -696,7 +697,7 @@ When current verification is required and browsing is available, execute relevan
 ### §4.5 Numerology Compatibility Chart
 
 <rule id="§4.5.compatibility_chart" priority="key">
-🔑 **Use this as the complete number-compatibility reference.** It consolidates the prior friend/enemy pair lists into one chart to avoid repetition.
+🔑 **Use this as the canonical number-compatibility reference.** It consolidates the prior friend/enemy pair lists into one chart to avoid repetition. An extended user-supplied Friendly/Neutral/Frenemy/Enemy matrix is in §4.6 with conflict disclosures; where the two disagree, this chart governs.
 </rule>
 
 **Legend:**  
@@ -720,6 +721,50 @@ When current verification is required and browsing is available, execute relevan
 | **11** | Masters, 3, 7 | 1, 7 | 9 |
 | **22** | Masters, 3 | 8 | 9 |
 | **33** | Masters, 3, 5 | 8 | No enemies |
+
+</subsection>
+
+<subsection id="§4.6" title="Extended Compatibility Matrix (User-Supplied)">
+
+### §4.6 Extended Compatibility Matrix — Friendly / Neutral / Frenemy / Enemy
+
+<rule id="§4.6.source_status" priority="key">
+🔑 **Source status: user-supplied summary** (chart image supplied July 5, 2026; not public-source verified). Its unique contribution is the **Neutral** category, which §4.5 does not carry. Where this matrix and §4.5 disagree on a pair's polarity, **§4.5 and the §13-§17 mechanics govern (dc.4)** and the disagreement must be disclosed as a source conflict (dc.6).
+</rule>
+
+| # | Friendly | Neutral | Frenemy | Enemy |
+|---:|---|---|---|---|
+| **1** | 1, 2, 6, 7, 8, 11 | 3, 4, 5, 22, 33 | — | 9 |
+| **2** | 1, 3, 8 | 2, 4, 5, 6, 7, 11, 22, 33 | — | 9 |
+| **3** | 2, 5, 6, 8, 11, 22, 33 | 1, 9 | 7 | 4 |
+| **4** | 2, 4, 6, 7, 8, 9 | 1, 11, 22 | 33 | 3, 5 |
+| **5** | 3, 5, 7, 8, 9, 33 | 1, 2, 11 | — | 4, 6, 22 |
+| **6** | 3, 4, 8, 9, 22 | 1, 2, 6, 11, 33 | — | 5, 7 |
+| **7** | 1, 4, 5, 11, 22 | 2, 7 | 3, 33 | 6, 8, 9 |
+| **8** | 1, 2, 3, 4, 5, 6, 11, 22, 33 | 9 | — | 7, 8 |
+| **9** | 4, 5, 6 | 3, 8 | — | 1, 2, 7, 9, 11, 22, 33 |
+| **11** | 1, 3, 7, 8, 11, 22, 33 | 2, 4, 5, 6 | — | 9 |
+| **22** | 3, 6, 7, 8, 11, 22, 33 | 1, 2, 4 | — | 5, 9 |
+| **33** | 3, 5, 8, 11, 22, 33 | 1, 2, 6 | 4, 7 | 9 |
+
+**Transcription notes (verified against the source image):**
+- Every row assigns all 12 numbers (1-9, 11, 22, 33) except row 3, which states no 3-with-3 relation.
+- Two pairs are asymmetric in the source: 1 lists 6 as Friendly while 6 lists 1 as Neutral; 4 lists 2 as Friendly while 2 lists 4 as Neutral. Transcribed as-is; treat one-way listings like the documented one-way 8→1 support (§13.2).
+- This matrix **agrees** with every friend/enemy pairing the case studies actually exercise: 1-9, 9-11, 3-4, 4-5, 3-8, 4-9, 7-11, 7-8, and 8-8 (self).
+
+<warning id="§4.6.conflicts">
+⚠️ **Known conflicts with canonical rules — do not silently merge:**
+
+| This matrix says | Conflicting canonical rule | Resolution |
+|---|---|---|
+| 5 enemy 22; 5 neutral 11 | 5 is the High Energy Activator that ignites all Masters (§14.1); letterology n=5 permanently ignites v=22 (§14.6, §22.3) | **Ignition doctrine governs.** Never use these listings to negate an ignition chain; at most they color personality compatibility. |
+| 9 enemy 33; 33 frenemy 4 and 7 | §4.5: 33 has no enemies | §4.5 governs; disclose the conflict when it matters. |
+| 6 enemy 7; 7 enemy 9; 9 enemy 9 (itself) | No counterpart in §4.5 or the §13 profiles | User-supplied-only claims; do not present as established GG33 rules. |
+| 3 neutral with 1 and 9 | §4.5: 3 friendly with all except 4 and 7 | §4.5 governs; disclose. |
+| 2 friendly only with 1, 3, 8 | §4.5: 2 friendly with 3, 4, 5, 6, 1 | §4.5 governs; disclose. |
+</warning>
+
+**Usage:** Use this matrix for the Neutral granularity §4.5 lacks (e.g., identifying clean zero-attack/zero-support platforms in readings) and as a secondary personality-compatibility layer. It never overrides §4.5, the ignition mechanics of §14, or documented case-study rules.
 
 </subsection>
 
@@ -1176,7 +1221,7 @@ Always state confidence with **three separate layers**:
 ## Reference Contents
 
 - §12 Accuracy / priority hierarchy
-- §13 Number reference guide and core number profiles
+- §13 Number reference guide, core number profiles, and compound number meanings 0–33 (§13.3)
 - §14 Master Number system and ignition rules (including the §14.4 Dead Money fuel limit)
 - §15 Governor system, Number 6
 - §16 Liquidity Drain system, Number 7
@@ -1474,6 +1519,59 @@ Always state confidence with **three separate layers**:
 **Applied rule:** 9 is completion, endings, cycle closure, and adaptation. In stocks/events, PY9 on Body is a downward completion directive unless a specific documented exception applies.
 
 </number_profile>
+
+</subsection>
+
+<subsection id="§13.3" title="Compound Number Meanings 0–33 (User-Supplied)">
+
+### §13.3 Compound Number Meanings 0–33 — "Numbers Exposed" Table
+
+<rule id="§13.3.source_status" priority="key">
+🔑 **Source status: user-supplied summary** (chart image supplied July 5, 2026; not public-source verified). Its unique contribution is the meanings of **0, 10, and the compound numbers 12-31**, which appear nowhere else in this manual. For 1-9 the prose profiles in §13.1-§13.2 remain canonical; for 11/22/33 see §14.8-§14.9. Keyword rows for those numbers are kept below only to preserve the source table intact — do not re-derive doctrine from them.
+</rule>
+
+| # | Meaning (as supplied) |
+|---:|---|
+| **0** | The egg. Infinite potential. Amplifier. Acts like a hidden 9. Everything and nothing all at once. |
+| **1** | The beginning. Pioneer. Leadership. Masculine energy. Aggression. Singular focus. Assertion. Independence. |
+| **2** | Co-operation. Peace. Duality. Diplomacy. Femininity. Passivity. Reception. Balance. Emotional sensitivity. |
+| **3** | Creativity. Child-like energy. Communication. Networking. Entertainment. Speech. Imagination. Shadow: criminality. |
+| **4** | Order. Hard work. Law. Discipline. Structures. Limitations. Engineering. Routine. |
+| **5** | Change. Transformation. Chaos. New experiences. Beauty. Good health. Travel. Freedom. |
+| **6** | Family. Real estate. Service. Nurturing. Responsibility. Selflessness. Caring for others. |
+| **7** | Intelligence. Learning. Injury-prone. Maturity. Wisdom. High IQ. Practical, applicable intelligence. |
+| **8** | Karma. Money. Power. Can be good OR bad — determined by individual karma, not knowable from outside. NOT a guaranteed wealth number. |
+| **9** | Endings. Adaptation to others. Primal desires. NOT automatically "old souls" or "humanitarians" — that is a popular myth. |
+| **10** | Amplified 1 energy. The zero magnifies the 1 — extra aggression, extra leadership force. Reduces to 1: leadership, pioneer, new beginnings. |
+| **11** | MASTER — Spiritual awakening. Intuition. Visionary sight. Pure emotional energy at its highest frequency. Built from two 1s; shares essence with 2 at a higher octave. |
+| **12** | Reduces to 3: creativity, communication, expression. The fullness of creation — both 1 (masculine) and 2 (feminine) together in one number, leading to 3 (creation). Colored by the aggression of 1 and the peace of 2. |
+| **13** | Reduces to 4: order, hard work, discipline, routine. Influence through work, order, control and mastery. Colored by the aggression of 1 and the creativity of 3. |
+| **14** | Reduces to 5: change, transformation, freedom, travel. Sudden unexpected changes — freedom only through discipline. Colored by the aggression of 1 and the order of 4. |
+| **15** | Reduces to 6: family, service, nurturing, love. Beauty in service. Love and sex. Colored by the aggression of 1 and the change of 5. |
+| **16** | Reduces to 7: intelligence, wisdom, maturity. Ego death. A tower falling. Colored by the aggression of 1 and the family energy of 6. |
+| **17** | Reduces to 8: karma, money, power. Hope. Willpower. Rebuilding after a tower falls. Colored by the aggression of 1 and the intelligence of 7. |
+| **18** | Reduces to 9: endings, adaptation, primal desires. The beginning of karma. Coming to maturity. Colored by the aggression of 1 and the karma of 8. |
+| **19** | Reduces to 1: leadership, new beginnings, aggression. The beginning of the end. Hyper fast effects from causes. Colored by the aggression of 1 and the endings of 9. |
+| **20** | Reduces to 2: co-operation, peace, emotional sensitivity. Hidden 11. An amplified 2 — an even more emotionally sensitive frequency. The zero deepens feeling and receptivity to an acute level. |
+| **21** | Reduces to 3: creativity, communication, expression. Double independence. Luck in solo adventures. Colored by the peace of 2 and the aggression of 1. |
+| **22** | MASTER — Material mastery. Practical accomplishment at scale. Building OR destroying in the material world. Built from two 2s; shares essence with 4 at a higher octave. |
+| **23** | Reduces to 5: change, transformation, freedom, travel. Double luck. Luck in travel and romance. Colored by the peace of 2 and the creativity of 3. |
+| **24** | Reduces to 6: family, service, nurturing, responsibility. Double discipline. Triple 8 resonance. Wealth number. Colored by the peace of 2 and the order of 4. |
+| **25** | Reduces to 7: intelligence, wisdom, maturity. Double speed and change. Hyper fast thoughts — often associated with anxiety and mental challenges. Colored by the peace of 2 and the change of 5. |
+| **26** | Reduces to 8: karma, money, power. Double service. Money, power, and karma from family ties or a calling to serve humanity. Colored by the peace of 2 and the family energy of 6. |
+| **27** | Reduces to 9: endings, adaptation, completion. Double intellect. Wisdom through endings and service. Colored by the peace of 2 and the intelligence of 7. |
+| **28** | Reduces to 1: leadership, pioneer, new beginnings. Double karma. Double portion. Wealth number — attracts money with less resistance than virtually any other. Colored by the receptivity of 2 and the karma of 8. |
+| **29** | Reduces to 11 (MASTER): spiritual awakening, intuition, pure emotion. Emotional trauma, pain, conflict. Make or break. Colored by the peace of 2 and the endings of 9. |
+| **30** | Reduces to 3: creativity, communication, expression. Reset in luck. Hyper creativity and communication — the zero amplifies 3 energy, marking changing phases of life. |
+| **31** | Reduces to 4: order, hard work, discipline. Inverted 13. Prosperity and influence through order, work, and communication. Colored by the creativity of 3 and the aggression of 1. |
+| **32** | *Row obscured in the source image — content not captured. Do not reconstruct or guess it.* |
+| **33** | MASTER — INFLUENCE. Divine intervention. Utter destruction or divine promotion. The road to enlightenment. Combines spiritual gifts of 11 and material mastery of 22. Built from two 3s; shares essence with 6 at a higher octave. |
+
+**Calibration notes:**
+- **Row 20 conflict:** the "reduces to 2 / amplified 2" framing conflicts with the canonical rule that 20 = Hidden 11 and is never treated as 2 (§4.2, §14.8). The Hidden-11 rule governs; the row's added texture (deepened sensitivity/receptivity) may be used as personality color only.
+- **Octave language:** "shares essence with 2/4/6 at a higher octave" (rows 11/22/33) does not license reduction — Masters are never reduced (§4.2).
+- **Row 0:** "acts like a hidden 9" is a user-supplied symbolic claim with no counterpart elsewhere in this manual. It has NO effect on arithmetic: the digit 0 contributes zero in every GG33 calculation (§4.1); never substitute 9 for 0 in date math.
+- Row 28 aligns with §4.2's wealth indicator; row 24's "Triple 8 resonance / wealth number" claim exists only in this table. Row 29 is consistent with §14.8's 11-family totals (29 → 11).
 
 </subsection>
 
