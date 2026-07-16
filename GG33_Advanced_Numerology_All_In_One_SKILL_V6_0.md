@@ -1336,7 +1336,7 @@ Always state confidence with **three separate layers**:
 
 **Compatibility routing:** §4.5 supplies every Friendly/Neutral/Frenemy/Enemy label. The notes below preserve only noncategorical emphasis, dynamics, triangles, or construction formulas; none overrides §4.5.
 
-<number_profile number="1" title=" Number 1 — Leadership / Male Energy">
+<number_profile number="1" title="Number 1 — Leadership / Male Energy">
 
 **Applies to:** Born on the **1st, 10th, 19th, or 28th**, or an LP1 entity.
 
