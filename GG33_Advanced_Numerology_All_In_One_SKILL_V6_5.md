@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V6.4
+# GG33 Advanced Numerology — All-In-One Skill V6.5
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V6.4 All-In-One** (July 16, 2026) — V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
+Package version: **V6.5 All-In-One** (July 16, 2026) — V6.4 plus the canonical Letterology letter-value reference (§4.6): the full A–Z ordinal table with single-digit sum values, the Master Letters K (11) and V (22), the documented name-sum convention (sum single-digit values, preserve master totals 11/20/22/33), and explicit edge-case disclosures (K/V sum boundary, T vs Hidden 11, non-letter characters, diacritics), machine-verified against every name calculation documented in this manual. V6.4 was V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
 
 Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
 
@@ -298,7 +298,7 @@ if __name__ == "__main__":
 ================================================================================
   GG33 ADVANCED NUMEROLOGY & CHINESE ASTROLOGY — System Instruction Manual
   Baseline: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
-  Overlay:  V6.4 package controls and canonical §4.5/§13 references supersede affected baseline material.
+  Overlay:  V6.5 package controls and canonical §4.5/§4.6/§13 references supersede affected baseline material.
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
   Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
@@ -573,7 +573,7 @@ When current verification is required and browsing is available, execute relevan
 
 ## Reference Contents
 
-- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, directional compatibility matrix
+- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, directional compatibility matrix, letterology letter values (§4.6)
 - §5 Chinese astrology basics: signs, enemy years, friend years, own years, Snake-year caveat
 - §6 Analysis execution sequence and worked calculation walkthrough
 - §7 Quality assurance checklist
@@ -763,6 +763,45 @@ When current verification is required and browsing is available, execute relevan
 | **22** | Masters, 3 | 8 | 9 |
 | **33** | Masters, 3, 5 | 8 | No enemies |
 
+</subsection>
+
+<subsection id="§4.6" title="Letterology Letter Values (A–Z) & Name Calculation">
+
+### §4.6 Letterology Letter Values (A–Z) & Name Calculation
+
+<rule id="§4.6.letter_values" priority="key">
+🔑 **Canonical letter-value reference.** Values are the letter's alphabet position (ordinal), reduced to a single digit for sums. **K (11th) and V (22nd) are the Master Letters**: their full ordinals drive pattern/ignition rules (§14.6, §23.13), while documented name sums use single-digit values throughout. This table is derived from, and machine-verified against, every name calculation documented in this manual.
+</rule>
+
+| Letter | Ordinal | Sum value | Letter | Ordinal | Sum value |
+|:---:|:---:|:---:|:---:|:---:|:---:|
+| A | 1 | 1 | N | 14 | 5 |
+| B | 2 | 2 | O | 15 | 6 |
+| C | 3 | 3 | P | 16 | 7 |
+| D | 4 | 4 | Q | 17 | 8 |
+| E | 5 | 5 | R | 18 | 9 |
+| F | 6 | 6 | S | 19 | 1 |
+| G | 7 | 7 | T | 20 | 2 |
+| H | 8 | 8 | U | 21 | 3 |
+| I | 9 | 9 | **V** | **22 (Master)** | 4 |
+| J | 10 | 1 | W | 23 | 5 |
+| **K** | **11 (Master)** | 2 | X | 24 | 6 |
+| L | 12 | 3 | Y | 25 | 7 |
+| M | 13 | 4 | Z | 26 | 8 |
+
+**Name-sum method (the documented convention):**
+1. Uppercase the name; use letters only. Spaces, hyphens, apostrophes, and other non-letter characters contribute nothing.
+2. Sum the **single-digit Sum values** of every letter (K contributes 2; V contributes 4 — as in every documented sum, e.g., TOFIQ MUSAYEV = 56 and CHARLES RADTKE = 53).
+3. Reduce the total by digit-summing, **preserving master totals 11, 20 (Hidden 11), 22, and 33** (e.g., MANDEL = 22 stays 22; TOFIQ MUSAYEV = 56 → 11 stays 11).
+4. Per §23.26 Rule #2: check the **full-name sum first**, then each individual whole name — a Master total at either level is a permanent name-level Master.
+5. **Pattern detection is a separate step:** scan the letters for the Master Letters K (=11) and V (=22) and the 5-letters (E, N, W) for ignition chains. The documented ignition pattern is a 5-letter igniting V=22 (§14.6); per §23.13, `5 ignites 22`, NOT `5 ignites 11`.
+
+**Verified reproductions (this table + method):** THOMAS = 22; PAULO = 20 (Hidden 11); PAULO COSTA = 33; JAI = 11; MANDEL = 22; AZAMAT = 17 → 8; MURZAKANOV = 43 → 7; YAKHYAEV = 35 → 8; CHARLES RADTKE = 53 → 8; FRANCISCO PRADO = 70 → 7; RENATO MOICANO = 62 → 8; TOFIQ MUSAYEV = 56 → 11; letters C=3, E=5, I=9, L=3, N=5, O=6, U=3; master letters K=11 and V=22.
+
+**Edge-case disclosures (do not improvise beyond these):**
+- **K/V in sums vs patterns:** contributing the full ordinals 11/22 to a sum instead of 2/4 converges with the documented convention on every documented name (the values differ by multiples of 9), but can diverge when a path lands exactly on a master total — e.g., K + V = 2 + 4 = **6** under the documented convention, not 11 + 22 = 33. Only cycle-level rules (e.g., §14.2's `Hidden 11 + Calendar Day 22 = 33`) combine master values at full weight; no documented letter-sum does. If a sum sits on such a boundary, state the convention used.
+- **T is not a Hidden-11 letter.** T's ordinal is 20, but no rule in this manual grants letter-level Hidden-11 status to T (or special status to S=19 or J=10 beyond their reduced values); in every documented sum T contributes 2. Do not invent such a rule; if a future source documents one, integrate it with a source-status tag (dc.6).
+- **Diacritics and non-Latin scripts are undocumented.** The manual's examples cover plain A–Z names only. If a name contains accented or non-Latin characters, disclose the limitation instead of silently transliterating.
 </subsection>
 
 </section>
@@ -1647,6 +1686,7 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 - **n = 5** (Chaos / High Energy) permanently ignites **v = 22** (Master Builder/Number) at the name level, regardless of what the Universal Day is
 - **Internal chain:** `n=5 → v=22 → LP33`. Self-contained and self-sustaining — requires no external spark.
 - **Name Resonance:** when PD matches letterology energy (e.g., Body PD5 = letterology n=5), this creates alignment and amplification of internal ignition
+- Letter values for all sums and pattern checks: see the canonical §4.6 table
 - An ignited v=22 (itself a Master Number / High Energy igniter) feeds LP33 from within — UD6 Governor cannot suppress internally ignited Masters; it can only moderate the move
 - PD11 alongside LP33 creates a second simultaneous Master Resonance layer across the entity
 
@@ -2149,7 +2189,7 @@ For full event, sports, market, or multi-entity analyses, calculate the relevant
 2. Personal Month
 3. Personal Day
 4. Daily, Monthly, and Yearly Chinese Zodiac animal when relevant; verify transition-sensitive dates with current sources. Treat `7catyear.com` as a Tier 2 utility, not official proof by itself.
-5. Letterology when relevant (first letter, vowels, and whole name); treat its energy claims as framework rules.
+5. Letterology when relevant (first letter, vowels, and whole name); treat its energy claims as framework rules. Use the §4.6 letter-value table and name-sum method for all letter values and name sums.
 6. Zodiac animal relationships when relevant: Friend / Enemy / Own status for Year, Month, and Day.
 
 </subsection>
