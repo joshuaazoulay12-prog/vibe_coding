@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V6.0
+# GG33 Advanced Numerology — All-In-One Skill V6.2
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V6.0 All-In-One** (July 16, 2026) — V5.8 plus the V5.9 compatibility-routing restructure (directional §4.5 matrix as the sole category source, §13 consolidation with `Root / Status` routing, visible normalization, 20/29 preserved as 11-category inputs, 0 and the obscured 32 left unclassified), adopted after audit with two corrections: sixteen meaning-corrupting copyedits introduced by the V5.9 grammar pass were reverted, and the superseded legacy compatibility chart is archived inside §4.5 for provenance. The routing convention improves deterministic use of the supplied tables; it is not represented as independently verified official GG33 doctrine. The embedded manual remains **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
+Package version: **V6.2 All-In-One** (July 16, 2026) — V6.0 (the V5.9 compatibility-routing restructure with sixteen copyedit corruptions reverted and the superseded legacy chart archived in §4.5) plus the substantive V6.1 improvements: the compatibility-vs-ignition example in §4.5, hardened row-0 arithmetic language in §13.1, updated UI metadata, and minor sentence repairs. V6.1's regressions were declined: its re-introduced copyedit corruptions and its re-deletion of the §4.5 supersession archive. The routing convention improves deterministic use of the supplied tables; it is not represented as independently verified official GG33 doctrine. The embedded manual remains **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
 
 Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
 
@@ -94,8 +94,8 @@ Use concise headings and adapt the embedded output template; do not force a long
 ```yaml
 interface:
   display_name: "GG33 Advanced Numerology"
-  short_description: "GG33 rule engine with calibrated outputs"
-  default_prompt: "Use $gg33-advanced-numerology to analyze a birth date, event, team, or market setup with calibrated GG33 framework rules."
+  short_description: "GG33 calculations, compatibility, and calibrated analysis"
+  default_prompt: "Use $gg33-advanced-numerology to calculate or analyze a birth date, compound number, compatibility pairing, event, team, or market setup with calibrated GG33 rules."
 ```
 
 ---
@@ -296,7 +296,8 @@ if __name__ == "__main__":
 <!--
 ================================================================================
   GG33 ADVANCED NUMEROLOGY & CHINESE ASTROLOGY — System Instruction Manual
-  Version: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
+  Baseline: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
+  Overlay:  V6.2 package controls and canonical §4.5/§13 references supersede affected baseline material.
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
   Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
@@ -727,6 +728,7 @@ When current verification is required and browsing is available, execute relevan
 - A blank or omitted pairing is **unclassified**, not Neutral. The source image omits `3 → 3`; do not infer it.
 - The missing `3 → 3` category does not erase separately documented identical-number matched-cycle resonance. Compatibility classification and cycle resonance are different rule types.
 - Compatibility labels do not cancel a separately documented ignition, cycle, self-destruct, or outcome formula. State both when relevant and use the specific operational rule for that mechanism.
+- Example: `5 → 22` is Enemy in the compatibility matrix, while 5 can still ignite Master 22 under §14. Compatibility and ignition answer different questions; neither silently cancels the other.
 
 | Subject # | Friendly | Neutral | Frenemy | Enemy |
 |---:|:---|:---|:---|:---|
@@ -1277,7 +1279,7 @@ Always state confidence with **three separate layers**:
 
 | Number | Energy Name | Market Function / Notes |
 |:------:|:-----------|:------------------------|
-| **0** | The Egg, Infinite Potential, Amplifier | Everything and nothing at once; the supplied source says it acts like a hidden 9. Treat this as symbolism and amplification language, not an arithmetic reduction rule. |
+| **0** | The Egg, Infinite Potential, Amplifier | Everything and nothing at once; the supplied source says it acts like a hidden 9. This is symbolism only: digit 0 contributes zero in calculations, and 9 must never be substituted for it. |
 | **1** | Beginning, Pioneer, Leadership, Masculine Energy, Aggression, Singular Focus, Assertion, Independence | Initiation energy. **LP1 + UY1** = self-igniting Resonance Force Field with no external High Energy required. |
 | **2** | Cooperation, Peace, Duality, Diplomacy, Femininity, Passivity, Reception, Balance, Emotional Sensitivity | **No LP2 exists in GG33.** Day-number/date-number 2 still operates as peace, surrender, negotiation, reception, and sensitivity. Operationally, 20 is Hidden 11, not LP2. |
 | **3** | Creativity, Child-like Energy, Communication, Networking, Entertainment, Speech, Imagination | Luck/social expression; criminality is listed as a shadow association. **Low energy day** in market rules. |
@@ -1427,7 +1429,7 @@ Always state confidence with **three separate layers**:
 
 **Relationship nuance:** 3 is emphasized as a particularly strong pairing; 2-5-8 is a structural triangle and does not override the matrix's directional `5 → 2` Neutral label. In the relationship sequence, 9 follows 5.
 
-**Lifestyle rule:** 5s should preserve mobility. In GG33 practical advice, they often do better renting/leasing than owning anything that becomes a "ball and chain."
+**Lifestyle rule:** 5s should preserve mobility. As GG33 practical guidance, they often do better renting/leasing than owning anything that becomes a "ball and chain."
 
 **Applied rule:** 5 is a High Energy Activator/chaos spark; it ignites Masters but is rejected by strong 6 stability.
 
@@ -2544,7 +2546,7 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
 ### §23.14 LP7 as Sports Death Sentence — Tybura vs Fortune
 
-**Marcin Tybura (LP7) lost** because his LP7 is permanently "Stillness" — the opposite of what you need in a fight. His fight-night PD was **6** (the Governor), which restricts explosive action. He was double-locked: his permanent energy says "be still," and his daily energy says "don't move." His Birth Month is 11 and his Birth Day is 9 — **9 and 11 are confirmed enemies** — his own birth chart is at war with itself permanently, killing any Master Number potential.
+**Marcin Tybura (LP7) lost** because his LP7 is permanently "Stillness" — the opposite of what you need in a fight. His fight-night PD was **6** (the Governor), which restricts explosive action. He was double-locked: his permanent energy says "be still," and his daily energy says "don't move." His Birth Month is 11 and his Birth Day is 9 — **9 and 11 are confirmed enemies** — so his own birth chart is permanently at war with itself, killing any Master Number potential.
 
 His PM5 (Chaos — the ignition spark) was supposed to activate his Hidden 11 Master Year, but his LP7 (Stillness) choked it. **GG33's Choke Rule:** When Chaos (5) hits Stillness (7), the energy suffocates and dies. Because his Master Number was dead on arrival, his Triple OWN Ox alignment became a **cage instead of an amplifier**. GG33 is explicit: when a Master Number is dormant, astrological protection turns into a trap.
 
@@ -2654,7 +2656,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 - **His name had no letterology weapon.** BRENDSON RIBEIRO contains E=5 but no V=22 — no permanent ignition chain.
 - **Double Governor energy.** His LP6 (Governor) + PD6 (Governor) created double restriction. The Governor's primary function is to reject Chaos. The UM was 5 (Chaos). Double-6 was actively rejecting the explosive energy a fighter needs.
 - **Active enemy clashes with no override.** UY1 vs Birth Day 9 (1 and 9 = confirmed enemies). Rat zodiac vs Horse Year = 6 apart = direct enemies = Sick Body. While the Monkey Day (Friend, Water Trinity) partially helped, his numerological damage at 99% weight was already fatal.
-- **No mechanism to overcome any of these problems.** His PD = LP = 6 Resonance provided stability, but stability in a fight against a fighter with a permanently burning Master Number engine is not a winning position.
+- **No mechanism to overcome any of these problems.** His `PD = LP = 6` resonance provided stability, but stability against a fighter with a permanently burning Master Number engine is not a winning position.
 
 > **Core lesson:** LP7 in sports is a structural loss UNLESS the fighter has letterology permanent ignition (E=5→V=22), which overrides LP7 because it operates inside the name independently and cannot be choked, suffocated, or shut down by any external energy.
 
@@ -2676,7 +2678,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 **Why Chris Duncan lost:**
 
 - **LP 1 vs PM 9** = 1 and 9 confirmed enemies. Duncan had **zero Master Numbers** in his chart, so no Master Override Rule was available.
-- **PD 4 vs UM 5** = 4 and 5 confirmed enemies. A second enemy clash is stacking on top of the first.
+- **PD 4 vs UM 5** = 4 and 5 confirmed enemies. A second enemy clash stacks on top of the first.
 - **PY 6 (Governor)** restricts explosive action. **PD 4 (Restriction)** blocks movement. Restricted and governed simultaneously.
 - **Rooster in Cat Month** = 6 positions apart = direct enemy clash = Sick Body. The Monkey Day is not a friend to the Rooster in the Metal Trinity (only Ox and Snake are). Nothing healed his Sick Body.
 - **Zero Master Numbers anywhere** = no mechanism to override any of these problems.
