@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V6.2
+# GG33 Advanced Numerology — All-In-One Skill V6.4
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V6.2 All-In-One** (July 16, 2026) — V6.0 (the V5.9 compatibility-routing restructure with sixteen copyedit corruptions reverted and the superseded legacy chart archived in §4.5) plus the substantive V6.1 improvements: the compatibility-vs-ignition example in §4.5, hardened row-0 arithmetic language in §13.1, updated UI metadata, and minor sentence repairs. V6.1's regressions were declined: its re-introduced copyedit corruptions and its re-deletion of the §4.5 supersession archive. The routing convention improves deterministic use of the supplied tables; it is not represented as independently verified official GG33 doctrine. The embedded manual remains **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
+Package version: **V6.4 All-In-One** (July 16, 2026) — V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
 
 Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
 
@@ -80,6 +80,7 @@ Use concise headings and adapt the embedded output template; do not force a long
 - If a public-source claim conflicts with the manual, label it as a source conflict instead of silently merging.
 - Do not convert embedded case-study statements, source-hierarchy labels, or historical examples into verified current facts unless those facts are checked in the current response.
 - Do not convert calculator edge-case conventions into documented GG33 doctrine. If the helper reports an ambiguity or an undefined edge case, surface that limitation in the answer.
+- Recompute case-study arithmetic before reusing a precedent. If a case-study value conflicts with §4, §6, §20, or the deterministic helper, the recomputed value controls; do not preserve the narrative mechanism or conclusion by force.
 - Do not infer a 3-to-3 compatibility category: the supplied matrix leaves it unclassified. Do not infer Number 32's meaning or compatibility key: that source row is obscured. Number 0 also has no supplied compatibility key.
 - Do not route compounds through generic digit reduction when §13.2 does not provide an explicit usable `Root / Status`.
 - Do not revive the superseded `Best With` compatibility column for classification (it is archived in §4.5's supersession record for provenance only), and do not symmetrize the two directional mismatches in §4.5.
@@ -297,7 +298,7 @@ if __name__ == "__main__":
 ================================================================================
   GG33 ADVANCED NUMEROLOGY & CHINESE ASTROLOGY — System Instruction Manual
   Baseline: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
-  Overlay:  V6.2 package controls and canonical §4.5/§13 references supersede affected baseline material.
+  Overlay:  V6.4 package controls and canonical §4.5/§13 references supersede affected baseline material.
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
   Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
@@ -637,7 +638,7 @@ When current verification is required and browsing is available, execute relevan
 </warning>
 
 **Special Numbers:**
-- **20** = Hidden 11 (GG33 proprietary discovery; see §14.8)
+- **20** = Hidden 11 (**manual-rule only**; see §14.8). Do not describe it as an independently verified discovery unless a current primary source is actually checked.
 - **11 and 22 detailed profiles** are consolidated in §14.8–§14.9
 - **28** = Wealth indicator (28/1 or 10/1). Treat any specific billionaire-percentage claim as a GG33/internal claim unless independently verified before use.
 - **No Life Path 2** exists in the GG33 system
@@ -658,9 +659,9 @@ When current verification is required and browsing is available, execute relevan
 
 **✅ CORRECT example:**
 - Born July 12, 1994
-- Analyzing 2026 (last birthday before today = July 12, 2025)
+- Analyzing March 17, 2026 (last birthday before the event = July 12, 2025)
 - `7 + 1 + 2 + 2 + 0 + 2 + 5 = 19 → 1 + 9 = 10 → 1 + 0 = 1`
-- → **Personal Year 1**, valid until July 12, 2026
+- → **Personal Year 1**, active from July 12, 2025 through July 11, 2026; it changes on July 12, 2026
 
 </example>
 
@@ -685,16 +686,16 @@ When current verification is required and browsing is available, execute relevan
 
 ### §4.4 Number 9 — Critical GG33 Corrections
 
-**Mainstream numerology is wrong about Number 9. The GG33 corrections are:**
+**Within this manual, use these GG33-specific rules and associations instead of importing generic numerology:**
 
-| ❌ Mainstream claim | ✅ GG33 correction |
-|---------------------|---------------------|
-| "The humanitarian" | NOT the humanitarian |
-| Highly successful | High correlation with drug addiction (Kurt Cobain, Elvis, MGK) |
-| Selfless | Egotistic tendency; many drift without achievement |
-| Best of all numbers | GG33 observes more successful 7s and 3s than 9s |
-| "Includes all other numbers" | Number 9 does NOT include all other numbers |
-| Superior manifestation | Number 9 does NOT have superior manifestation ability |
+| Generic/mainstream claim | This manual's GG33 rule or association |
+|--------------------------|----------------------------------------|
+| "The humanitarian" | Do not use "humanitarian" as the strict advanced/manual label; disclose the public-source conflict recorded in the source-audit section when external fidelity matters. |
+| Highly successful | The manual associates 9 with drug-addiction themes. Treat this as an unverified framework association, not an empirical correlation or diagnosis. |
+| Selfless | The manual associates 9 with egotistic tendencies and lack of direction. |
+| Best of all numbers | The manual claims greater success among 7s and 3s than 9s; treat this as an unverified comparative claim. |
+| "Includes all other numbers" | Number 9 does not include all other numbers in this framework. |
+| Superior manifestation | Number 9 does not have superior manifestation ability in this framework. |
 
 </subsection>
 
@@ -904,15 +905,15 @@ The 33 is the most influential and powerful frequency in the entire numerical sy
 - **Meaning:** New beginnings, independence, leadership, aggressive forward motion. The individual is in a foundational year.
 
 **C. Personal Month (PM):**
-- **Rule:** PM changes *only* on the birth day of each month (the 12th, in this example).
-- **Math:** Current PY + Current Calendar Month — but ONLY if the calendar day has passed the birth day. If not, use the previous calendar month.
+- **Rule:** PM changes on the birth day of each month (the 12th in this example). Use the current calendar month number as one component when the event day has reached or passed the birth day; otherwise use the previous month number.
+- **Math:** Current PY + cycle month number (1–12 as one component).
 - `1 (PY) + 3 (March) = 4 Personal Month`
 - Because March 17 has already passed the 12th, we use March (3), not February (2).
 - **Timeline:** The individual entered this 4 Personal Month exactly five days ago.
 - **Meaning:** Strict structure, hard work, discipline, playing by the rules.
 
-**D. Personal Day (PD) — Mainstream formula:**
-- **Math:** Personal Month + Current Calendar Day
+**D. Personal Day (PD) — Package formula:**
+- **Math:** Personal Month + calendar-day components. Preserve calendar day 11 or 22; split every other day into digits.
 - Example for March 17: `PM 4 + 1 + 7 = 12 → 1 + 2 = 3`
 
 **E. Universal Year (UY):**
@@ -921,11 +922,11 @@ The 33 is the most influential and powerful frequency in the entire numerical sy
 - **Result: Universal Year 1**
 
 **F. Universal Month (UM):**
-- **Math:** UY + Current Calendar Month
+- **Math:** UY + current calendar month number (1–12 as one component)
 - `1 (UY) + 3 (March) = 4 Universal Month`
 
 **G. Universal Day (UD):**
-- **Math:** Current Calendar Month + Current Calendar Day + Current Calendar Year
+- **Math:** Current calendar month number (1–12 as one component) + calendar-day components + calendar-year digits. Preserve calendar day 11 or 22; split every other day into digits.
 - Example for March 17, 2026: `3 + 1 + 7 + 2 + 0 + 2 + 6 = 21 → 2 + 1 = 3 Universal Day`
 - ⚠️ Never reduce master numbers when calculating UD.
 
@@ -1478,7 +1479,7 @@ Always state confidence with **three separate layers**:
 - GG33 associates 7 with higher disease vulnerability, including cancer/leukemia-type themes. This is a GG33-framework claim only; never present it as a medical fact or medical advice.
 
 **Wealth/technology:**
-- Historically not a wealth number, but in the modern technology age 7 can become financially powerful through tech, AI, data, software, intelligence, and digital systems.
+- Historically described within this framework as not a wealth number; in the modern technology age, 7 can become financially powerful through tech, AI, data, software, intelligence, and digital systems.
 
 **Relationship nuance:** 11 is emphasized as the strongest pairing; 5 may work well when 7 receives enough space; 1-4-7 is a structural triangle.
 
@@ -2123,31 +2124,33 @@ These neutralizations allow Masters to function normally and drive prices upward
 ### §20.1 Personal Year Formula
 
 <formula id="§20.1.personal_year">
-🔑 **Formula:** Personal Year = Birth Month + Birth Day + Previous Calendar Year (until the same date as the birthdate, then use the current year).
+🔑 **Formula:** Personal Year = Birth Month components + Birth Day components + year of the last birthday. For an event before that year's birthday, use `event year - 1`; on or after the birthday, use the event year.
 </formula>
 
 <warning id="§20.1.critical">
-⚠️ **CRITICAL:** Always use the specific calendar year of the EVENT being analyzed.
+⚠️ **CRITICAL:** Do not use either the event year or the previous year mechanically. The birthday boundary determines the year component.
 </warning>
 
 **Example:** Birth Date April 26
 - PY for dates **before** April 26, 2026: `0+4+2+6+2+0+2+5 = 21 = 3` → PY 3
-- PY for dates **after** April 26, 2026: `0+4+2+6+2+0+2+6 = 22` → PY 22
+- PY for dates **on or after** April 26, 2026: `0+4+2+6+2+0+2+6 = 22` → PY 22
 
 > This mathematical precision completely changes outcome predictions — miscalculating by one year can invert the entire analysis.
 
 </subsection>
 
-<subsection id="§20.2" title="What to Always Calculate">
+<subsection id="§20.2" title="Full-Analysis Calculation Checklist">
 
-### §20.2 What to Always Calculate — Every Entity, Every Analysis
+### §20.2 Full-Analysis Calculation Checklist
+
+For full event, sports, market, or multi-entity analyses, calculate the relevant items below for each entity. For simple calculation-only or personal questions, follow the top-level workflow and omit irrelevant layers.
 
 1. Personal Year
 2. Personal Month
 3. Personal Day
-4. Daily, Monthly, and Yearly Chinese Zodiac animal (use 7catyear.com for verification)
-5. Letterology (first letter, vowels): name energy is permanent and active every day, as well as the whole name
-6. Zodiac animal relationships: Friend / Enemy / Own status for Year, Month, and Day for all entities
+4. Daily, Monthly, and Yearly Chinese Zodiac animal when relevant; verify transition-sensitive dates with current sources. Treat `7catyear.com` as a Tier 2 utility, not official proof by itself.
+5. Letterology when relevant (first letter, vowels, and whole name); treat its energy claims as framework rules.
+6. Zodiac animal relationships when relevant: Friend / Enemy / Own status for Year, Month, and Day.
 
 </subsection>
 
@@ -2185,7 +2188,7 @@ These neutralizations allow Masters to function normally and drive prices upward
 
 <error number="5">Misinterpreting UD9 as always a drop — with PY8 fuel, UD9 signals "Completion of downward cycle" → Parabolic Up launch.</error>
 
-<error number="6">Calculating Personal Year using the PREVIOUS calendar year instead of the specific year of the event being analyzed.</error>
+<error number="6">Using either the event year or the previous year mechanically for Personal Year. Use the year of the last birthday: event year on or after the birthday; `event year - 1` before the birthday (§4.3, §20.1).</error>
 
 <error number="7">Over-weighting Chinese Astrology Friend alignments above the 99% internal numerological priority (astrology provides floor/ceiling only).</error>
 
@@ -2342,9 +2345,9 @@ When the Body's PY6 "Governor" and PD9 "Completion" directives are present along
 
 ### §23.2 LP1 = UY1 Self-Igniting Resonance
 
-**Why Fighter A won:** Achieves a within-framework dominant, self-igniting Resonance Force Field by perfectly synchronizing his **LP 1 with UY 1** — a supreme 99% numerological alignment that requires no external high-energy ignition to overpower restrictions. Fighter A's PM5 (Chaos) acts as the exact High Energy Activator required to internally ignite his PD33 (PM5 + Calendar Day 28, per the §6 PD formula) into an active Master Resonance, allowing him to feed on that chaos for a parabolic manifestation of victory. This dominant numerology is structurally locked in by his Rat sign operating inside a Dragon Arena (4 positions apart), creating an unbreakable "Water Trinity" Trine Ally Force Field.
+**Case-study correction:** Fighter A's usable within-framework support factors are the **LP 1 = UY 1** self-igniting resonance and the separate Rat-in-Dragon-arena friend/trine alignment. The former claim that `PM5 + Calendar Day 28 = PD33` is arithmetically invalid under §6 and the deterministic helper: day 28 splits to `2 + 8`, so `5 + 2 + 8 = 15 → 6`. This case therefore does not establish PD33 or Master ignition from that input; do not reuse that mechanism as precedent.
 
-**Why Fighter B lost:** Insurmountable self-destruct mechanisms within his chart. His Birth Day 9 suffers a fatal internal clash with his PD11, triggering the explicit "9 and 11 = CONFIRMED enemies" rule that permanently neutralizes any dormant Master Number potential. This is compounded by an external "1 vs 9" confirmed enemy clash between UY1 and his Birth Day 9, alongside a direct "Sick Body" astrological penalty (Monkey sign in hostile Tiger Month, 6 positions apart), leaving him completely defenseless against Fighter A's flawlessly ignited Master Resonance.
+**Why Fighter B was rated negatively within the case-study framework:** His Birth Day 9 versus PD11 is listed as an internal 9-vs-11 clash; UY1 versus Birth Day 9 adds an external enemy pairing; and Monkey versus Tiger Month adds the manual's "Sick Body" factor. Treat these as framework factors, not verified real-world causation, and weigh them against Fighter A's recomputed LP1 = UY1 resonance and arena support rather than the invalid PD33 mechanism.
 
 </case_study>
 
@@ -2971,7 +2974,7 @@ Ranked the fighters by the wrong thing. Looked at Azamat's name and saw the lett
 
 **WHY CHARLES RADTKE WON:**
 
-- **Quadruple-8 Money foundation.** Charles has an **LP 8**. His full name `Charles Radtke = 8`. The **Kaseya Center has an LP 8**. **Miami is currently in PY 8**. That is **four 8s stacked together** — in his Life Path, in his name, in the arena, and in the host city. In GG33, 8 is the number of Money and Power.
+- **Quadruple-8 Money foundation.** Charles has an **LP 8**. His full name is `Charles Radtke = 8`. The **Kaseya Center has an LP 8**. **Miami is currently in PY 8**. That is **four 8s stacked together** — in his Life Path, in his name, in the arena, and in the host city. In GG33, 8 is the number of Money and Power.
 - **Number 8 does not need ignition.** This is the key point: **Number 8 is NOT a Master Number.** Master Numbers (11, 22, 33) need ignition to work, and a UD 7 shuts them down. But **8 does not need ignition.** It just works. A UD 7 cannot drain or suffocate Number 8, because 8 is not running on external energy — it is **permanent and structural**.
 - **PM 11 and PD 22 were never the real weapon.** While Charles's Master Numbers (PM 11, PD 22) did get rejected by UD 7, those Masters were never his real weapon. His real weapon was the **quadruple-8 Money foundation** sitting underneath, which UD 7 has no power over.
 - **PY 7 is not an automatic sports death when permanent LP + Name energy is strong.** The PY 7 sports-danger rule is real but not absolute. Case studies **§23.12 (Thomas Etcheverry)** and **§23.21 (Thomas Petersen)** show that when a fighter carries permanent Money or Master energy built into his Life Path and his name, the temporary PY 7 **cannot drain it.** Permanent energy beats temporary energy. Charles had permanent LP 8 + permanent Name 8 — his PY 7 could not touch that.
