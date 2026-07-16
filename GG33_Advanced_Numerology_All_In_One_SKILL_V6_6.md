@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V6.5
+# GG33 Advanced Numerology — All-In-One Skill V6.6
 
 ## Purpose
 
@@ -11,7 +11,7 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V6.5 All-In-One** (July 16, 2026) — V6.4 plus the canonical Letterology letter-value reference (§4.6): the full A–Z ordinal table with single-digit sum values, the Master Letters K (11) and V (22), the documented name-sum convention (sum single-digit values, preserve master totals 11/20/22/33), and explicit edge-case disclosures (K/V sum boundary, T vs Hidden 11, non-letter characters, diacritics), machine-verified against every name calculation documented in this manual. V6.4 was V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
+Package version: **V6.6 All-In-One** (July 16, 2026) — V6.5 plus the never-reduce-masters clarification (user-confirmed): the Master Letters K and V contribute their full ordinals 11 and 22 in all name sums (§4.6), a §4.2 scope note states exactly where Master Numbers are never reduced and why the documented §4.1 birth-month digit method is not a reduction, and the §23.17/§23.26 intermediate totals are restated at full Master-Letter value — every documented final value is unchanged and re-verified by machine. V6.5 added the canonical A–Z Letterology reference (§4.6) with the name-sum method and edge-case disclosures, machine-verified against every name calculation documented in this manual. V6.4 was V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
 
 Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
 
@@ -298,7 +298,7 @@ if __name__ == "__main__":
 ================================================================================
   GG33 ADVANCED NUMEROLOGY & CHINESE ASTROLOGY — System Instruction Manual
   Baseline: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
-  Overlay:  V6.5 package controls and canonical §4.5/§4.6/§13 references supersede affected baseline material.
+  Overlay:  V6.6 package controls and canonical §4.5/§4.6/§13 references supersede affected baseline material.
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
   Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
@@ -637,6 +637,8 @@ When current verification is required and browsing is available, execute relevan
 ⚠️ **44, 55, 66, and higher are NOT master numbers.** Reduce these normally.
 </warning>
 
+**Scope of never-reduce:** Master Numbers are never reduced wherever they appear as values or totals — birth-day components 11/22 (§4.1), cycle totals (PY/PM/PD/UY/UM/UD), month numbers used as single components in PM/UM/UD math (November = 11), Letterology Master Letters (K = 11, V = 22; §4.6), and name totals. One documented boundary: the §4.1 Life Path method enters the **birth month** as digits per the documented §11.1 example (`11/22/1985 → 1 + 1 + 22 + 1 + 9 + 8 + 5 = 47 → 11`) — that is the documented digit method for the birth-month field, not a reduction of a Master Number total; do not "correct" it to month-as-11 without a documented rule (dc.6).
+
 **Special Numbers:**
 - **20** = Hidden 11 (**manual-rule only**; see §14.8). Do not describe it as an independently verified discovery unless a current primary source is actually checked.
 - **11 and 22 detailed profiles** are consolidated in §14.8–§14.9
@@ -770,7 +772,7 @@ When current verification is required and browsing is available, execute relevan
 ### §4.6 Letterology Letter Values (A–Z) & Name Calculation
 
 <rule id="§4.6.letter_values" priority="key">
-🔑 **Canonical letter-value reference.** Values are the letter's alphabet position (ordinal), reduced to a single digit for sums. **K (11th) and V (22nd) are the Master Letters**: their full ordinals drive pattern/ignition rules (§14.6, §23.13), while documented name sums use single-digit values throughout. This table is derived from, and machine-verified against, every name calculation documented in this manual.
+🔑 **Canonical letter-value reference.** Values are the letter's alphabet position (ordinal), reduced to a single digit for sums — **except the Master Letters K (11th) and V (22nd), which are never reduced (§4.2) and contribute their full ordinals 11 and 22 in every sum and every pattern/ignition rule** (§14.6, §23.13). This table is derived from, and machine-verified against, every name calculation documented in this manual; every documented final value holds under the never-reduce convention.
 </rule>
 
 | Letter | Ordinal | Sum value | Letter | Ordinal | Sum value |
@@ -783,24 +785,24 @@ When current verification is required and browsing is available, execute relevan
 | F | 6 | 6 | S | 19 | 1 |
 | G | 7 | 7 | T | 20 | 2 |
 | H | 8 | 8 | U | 21 | 3 |
-| I | 9 | 9 | **V** | **22 (Master)** | 4 |
+| I | 9 | 9 | **V** | **22 (Master)** | **22 — never reduced** |
 | J | 10 | 1 | W | 23 | 5 |
-| **K** | **11 (Master)** | 2 | X | 24 | 6 |
+| **K** | **11 (Master)** | **11 — never reduced** | X | 24 | 6 |
 | L | 12 | 3 | Y | 25 | 7 |
 | M | 13 | 4 | Z | 26 | 8 |
 
 **Name-sum method (the documented convention):**
 1. Uppercase the name; use letters only. Spaces, hyphens, apostrophes, and other non-letter characters contribute nothing.
-2. Sum the **single-digit Sum values** of every letter (K contributes 2; V contributes 4 — as in every documented sum, e.g., TOFIQ MUSAYEV = 56 and CHARLES RADTKE = 53).
-3. Reduce the total by digit-summing, **preserving master totals 11, 20 (Hidden 11), 22, and 33** (e.g., MANDEL = 22 stays 22; TOFIQ MUSAYEV = 56 → 11 stays 11).
+2. Sum the letter values: single digits for every letter **except the Master Letters K and V, which contribute their full 11 and 22 — Master Numbers are never reduced, wherever they appear** (e.g., TOFIQ MUSAYEV = 74 and CHARLES RADTKE = 62).
+3. Reduce the total by digit-summing, **preserving master totals 11, 20 (Hidden 11), 22, and 33** (e.g., MANDEL = 22 stays 22; TOFIQ MUSAYEV = 74 → 11 stays 11).
 4. Per §23.26 Rule #2: check the **full-name sum first**, then each individual whole name — a Master total at either level is a permanent name-level Master.
 5. **Pattern detection is a separate step:** scan the letters for the Master Letters K (=11) and V (=22) and the 5-letters (E, N, W) for ignition chains. The documented ignition pattern is a 5-letter igniting V=22 (§14.6); per §23.13, `5 ignites 22`, NOT `5 ignites 11`.
 
-**Verified reproductions (this table + method):** THOMAS = 22; PAULO = 20 (Hidden 11); PAULO COSTA = 33; JAI = 11; MANDEL = 22; AZAMAT = 17 → 8; MURZAKANOV = 43 → 7; YAKHYAEV = 35 → 8; CHARLES RADTKE = 53 → 8; FRANCISCO PRADO = 70 → 7; RENATO MOICANO = 62 → 8; TOFIQ MUSAYEV = 56 → 11; letters C=3, E=5, I=9, L=3, N=5, O=6, U=3; master letters K=11 and V=22.
+**Verified reproductions (this table + method):** THOMAS = 22; PAULO = 20 (Hidden 11); PAULO COSTA = 33; JAI = 11; MANDEL = 22; AZAMAT = 17 → 8; MURZAKANOV = 70 → 7; YAKHYAEV = 62 → 8; CHARLES RADTKE = 62 → 8; FRANCISCO PRADO = 70 → 7; RENATO MOICANO = 62 → 8; TOFIQ MUSAYEV = 74 → 11; letters C=3, E=5, I=9, L=3, N=5, O=6, U=3; Master Letters K=11 and V=22 at full value.
 
 **Edge-case disclosures (do not improvise beyond these):**
-- **K/V in sums vs patterns:** contributing the full ordinals 11/22 to a sum instead of 2/4 converges with the documented convention on every documented name (the values differ by multiples of 9), but can diverge when a path lands exactly on a master total — e.g., K + V = 2 + 4 = **6** under the documented convention, not 11 + 22 = 33. Only cycle-level rules (e.g., §14.2's `Hidden 11 + Calendar Day 22 = 33`) combine master values at full weight; no documented letter-sum does. If a sum sits on such a boundary, state the convention used.
-- **T is not a Hidden-11 letter.** T's ordinal is 20, but no rule in this manual grants letter-level Hidden-11 status to T (or special status to S=19 or J=10 beyond their reduced values); in every documented sum T contributes 2. Do not invent such a rule; if a future source documents one, integrate it with a source-status tag (dc.6).
+- **K/V never-reduce convention (package doctrine, user-confirmed July 16, 2026):** Master Numbers are never reduced, so K contributes 11 and V contributes 22 in every sum. Every documented final value is unchanged versus a reduced computation (totals shift only by multiples of 9, since 11 ≡ 2 and 22 ≡ 4 mod 9). Where the two computations would diverge — a total landing exactly on a Master Number in one path — the never-reduce convention governs: e.g., K + V = 11 + 22 = **33**, consistent with §14.2's `11 + 22 = 33`. Do not use reduced K/V values (2/4) in any sum.
+- **T is not a Hidden-11 letter.** T's ordinal is 20 — Hidden 11 in cycle totals (§14.8) but not a Master Number — and no rule in this manual grants letter-level Hidden-11 status to T (or special status to S=19 or J=10 beyond their reduced values). In every documented sum T contributes 2; T = 20 would break the documented THOMAS = 22 (it would yield 40 → 4). Do not invent such a rule; if a future source documents one, integrate it with a source-status tag (dc.6).
 - **Diacritics and non-Latin scripts are undocumented.** The manual's examples cover plain A–Z names only. If a name contains accented or non-Latin characters, disclose the limitation instead of silently transliterating.
 </subsection>
 
@@ -2647,7 +2649,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 
 **Ignacio looked great on paper but had a fatal flaw — his LP7.** In GG33, LP7 means permanent Stillness. In a fight, you need explosive physical energy, and LP7 is the opposite. His ignited Master Month 11 and Money Year 8 were like a powerful engine inside a car with no wheels. His LP7 trapped all that Master energy instead of releasing it. His triple Own Ox environment (Ox Day, Ox Arena, Ox State) became a prison.
 
-**Tofiq had something Ignacio didn't — a permanently powered engine built into his name.** The letters in "**MUSAYEV**" contain both **E (=5**, Chaos/High Energy) and **V (=22**, Master Builder). This combination creates a Master Number ignition that is **always on**, regardless of his PY/PM/PD numbers. His full name (TOFIQ MUSAYEV) also reduces to 56 → 11 — another Master Number. So Tofiq walks around with a permanent **double-Master engine** running at the name level. On fight night, UD5 poured even more fuel onto his already-lit fire.
+**Tofiq had something Ignacio didn't — a permanently powered engine built into his name.** The letters in "**MUSAYEV**" contain both **E (=5**, Chaos/High Energy) and **V (=22**, Master Builder). This combination creates a Master Number ignition that is **always on**, regardless of his PY/PM/PD numbers. His full name (TOFIQ MUSAYEV) also reduces to 74 → 11 — another Master Number (letter values per §4.6, Master Letters at full value). So Tofiq walks around with a permanent **double-Master engine** running at the name level. On fight night, UD5 poured even more fuel onto his already-lit fire.
 
 **The triple Ox energy helped Tofiq, not Ignacio.** This is counterintuitive because Ignacio IS the Ox. But GG33 says environmental energy flows toward the fighter whose zodiac is a confirmed FRIEND of that energy, not automatically to the one who owns it. **Snake, Ox, and Rooster form the Metal Trinity** (friends, 4 apart). So the triple Ox environment sent its energy toward Tofiq the Snake as a Metal Trinity ally. Meanwhile, Ignacio's own Ox energy just reinforced his cage.
 
@@ -2971,7 +2973,7 @@ Cross-entity numerological resonance with the city ALWAYS outweighs standalone a
 
 - **Life Path 7 = structural loss in sports.** The GG33 manual is extremely clear: in sports, **LP 7 is a structural loss.** Every fighter who lost because of "Stillness" in the documented cases had an LP of 7. LP 7 means the fighter's permanent identity is stillness — the opposite of what a fight requires.
 - **Does NOT have the YAKHYAEV escape hatch.** There is one documented way an LP7 fighter can win: the **YAKHYAEV pattern (§23.18)**. That fighter won because his last name contained BOTH the letter V (=22, a Master Number) AND the letters of his last name added up to 8 (Money) at the same time — the Master and the Money fused inside the **same single word**.
-  - Azamat does NOT have this. `MURZAKANOV = 7`, not 8 (the sum reduces to 7 whether the master letters K/V are preserved — 70 → 7 — or reduced — 43 → 7). The V=22 is in MURZAKANOV, but the 8 is in his first name (`AZAMAT = 8`) — a **separate word**.
+  - Azamat does NOT have this. `MURZAKANOV = 7`, not 8 (70 → 7 with Master Letters K/V at full value per §4.6). The V=22 is in MURZAKANOV, but the 8 is in his first name (`AZAMAT = 8`) — a **separate word**.
   - The Master and the Money are in **two different names, not fused in one**. This only looks similar on the surface. It is **not the documented winning pattern**.
 - **LP 7 + UD 7 = double-stillness.** LP 7 is itself a form of Stillness. Combined with UD 7, this created a double-stillness condition that **choked his own name letters from within**. The manual explicitly says UD 7 becomes *"a suffocating blanket"* when the fighter's own Body (their Life Path) is already severe. LP 7 is a severe Body. Azamat's own permanent identity killed his own name letters before they could do anything.
 - **Shallow astrological alignment.** Azamat (Snake) only had Florida as an Own State match — one alignment against Paulo's two Friend alignments plus the Own-Day amplification.
