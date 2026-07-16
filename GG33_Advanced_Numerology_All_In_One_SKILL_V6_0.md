@@ -1,9 +1,9 @@
 ---
 name: gg33-advanced-numerology
-description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
+description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V5.8
+# GG33 Advanced Numerology — All-In-One Skill V6.0
 
 ## Purpose
 
@@ -11,9 +11,9 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V5.8 All-In-One** (July 5, 2026) — the V5.7 package (V5.5 scaffold + hardened calculator + V5.4 manual, plus V5.7 wrapper calibration) with two user-supplied reference tables integrated under source-status tags and conflict disclosures: an extended Friendly/Neutral/Frenemy/Enemy compatibility matrix (§4.6) and a compound-number meanings table for 0–33 (§13.3). The embedded manual is **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
+Package version: **V6.0 All-In-One** (July 16, 2026) — V5.8 plus the V5.9 compatibility-routing restructure (directional §4.5 matrix as the sole category source, §13 consolidation with `Root / Status` routing, visible normalization, 20/29 preserved as 11-category inputs, 0 and the obscured 32 left unclassified), adopted after audit with two corrections: sixteen meaning-corrupting copyedits introduced by the V5.9 grammar pass were reverted, and the superseded legacy compatibility chart is archived inside §4.5 for provenance. The routing convention improves deterministic use of the supplied tables; it is not represented as independently verified official GG33 doctrine. The embedded manual remains **V5.4 Integrity-Audited**: the V5.3 web-audited text plus corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Do not silently downgrade this embedded manual to an older version; future versions may supersede it only after an explicit consistency and calculation audit.
 
-Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. Current factual claims require current sources.
+Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
 
 ## Non-Negotiable Calibration
 
@@ -22,7 +22,9 @@ Provenance and validation limit: "Integrity-Audited" means internally audited ag
 - Do not claim browsing, live verification, social review, source checking, or citations unless actually performed in the current response.
 - Treat manual percentages such as 99%, 80-85%, and 30-65% as internal GG33 priority weights, not real-world accuracy rates.
 - Treat absolute case-study terms such as mathematically, absolute, automatic, mandatory, guaranteed, death sentence, always, never, flawless, unstoppable, and nothing can shut down as framework/case-study shorthand, not literal certainty. Normalize them in user-facing output to calibrated within-framework language and check exceptions before applying them.
-- Treat every embedded "current," "public web audit," source-map, platform-map, app-feature, account, social-media, sports, market, and biographical claim as a dated snapshot from July 5, 2026 unless it is rechecked in the current response.
+- Treat every embedded "current," "public web audit," source-map, platform-map, app-feature, account, social-media, sports, market, and biographical claim as a dated snapshot from July 5, 2026, unless it is rechecked in the current response.
+- Treat the image-derived §4.5 and §13.2 tables as user-provided package references, not proof that the content is official, public, empirical, or independently verified.
+- If an older profile, case study, or shorthand conflicts with §4.5 on a compatibility category, §4.5 controls the category. Preserve only noncategorical relationship nuance that does not relabel the pairing.
 - For health, legal, financial, trading, betting, hiring, safety, or medical topics, state that the GG33 reading is not evidence-based professional advice and add ordinary evidence-based considerations when relevant.
 - Do not import generic numerology or mainstream Chinese astrology as GG33 rules unless the response explicitly labels it as non-GG33 contrast.
 
@@ -33,10 +35,10 @@ Use this map to locate relevant material and ignore unrelated sections:
 - `Embedded OpenAI UI Metadata`: display name, short description, and default prompt from the folder skill. Included for package completeness; not a runtime instruction.
 - `Embedded Calculator Source`: deterministic helper for Life Path, Personal Year, Personal Month, Personal Day, Universal Year, Universal Month, and Universal Day arithmetic. If this file is not installed as a folder skill, treat the code as reference source rather than an executable file.
 - `Embedded Reference: Source Calibration and Research`: source hierarchy, conflict order, public-source audit, research protocol, glossary, and operating constraints. Read for any non-trivial analysis, source claim, or current/public verification request.
-- `Embedded Reference: Calculation and Output Workflow`: Life Path, Master Number preservation, Personal Year, compatibility, Chinese zodiac basics, QA checklist, confidence framework, output template, and few-shot examples. Read for any calculation or user-facing interpretation.
-- `Embedded Reference: Advanced Methodology`: number profiles, Master/Governor/Liquidity mechanics, number-specific rules, canonical self-destruct configuration rules (§17.4), advanced formulas, calculation shortcuts, common errors, and cross-cutting rules. Read for advanced, financial, market, event, or exception-heavy analysis.
+- `Embedded Reference: Calculation and Output Workflow`: Life Path, Master Number preservation, Personal Year, the directional compatibility matrix, Chinese zodiac basics, QA checklist, confidence framework, output template, and a few-shot examples. Read for any calculation or user-facing interpretation.
+- `Embedded Reference: Advanced Methodology`: base-number profiles, the 0–33 construction reference, Master/Governor/Liquidity mechanics, number-specific rules, canonical self-destruct configuration rules (§17.4), advanced formulas, calculation shortcuts, common errors, and cross-cutting rules. Read for advanced, financial, market, event, or exception-heavy analysis.
 - `Embedded Reference: Sports Case Studies`: sports and fight/team case studies plus forward rules. Read only for sports, combat-sports, arena/location, team, or case-study precedent analysis.
-- `Embedded Reference: Final Calibration`: final anti-impersonation and precision instruction. Read if auditing prompt safety or instruction conflicts.
+- `Embedded Reference: Final Calibration`: final anti-impersonation and precision instruction. Read if auditing prompts safety or instruction conflicts.
 
 If a task needs current external facts and browsing/tools are available, verify with current sources before relying on source-sensitive claims. If browsing is unavailable or not used, disclose that this embedded manual is the only GG33 framework source used.
 
@@ -57,9 +59,10 @@ If a task needs current external facts and browsing/tools are available, verify 
    - Life Path: add full birth-date digits/components first; preserve valid 11, 22, and 33.
    - Personal Year: starts on the birthday, not January 1.
    - Personal Month/Day, Universal Year/Month/Day, Chinese zodiac relationship, and Letterology only when relevant.
-5. Apply the manual's conflict order and exception checks before giving a conclusion.
-6. Separate confidence into calculation confidence, source confidence, and predictive/framework confidence.
-7. Answer at the user's requested depth. Do not dump full profiles, long compatibility tables, or case-study details unless directly relevant.
+5. For number compatibility, calculate the relevant numbers first, normalize supported compounds under §4.5, and show each `input → matrix key`. Then read the subject's row; for a mutual/two-way reading, check both rows and disclose any directional mismatch.
+6. Apply the manual's conflict order and exception checks before giving a conclusion.
+7. Separate confidence into calculation confidence, source confidence, and predictive/framework confidence.
+8. Answer at the user's requested depth. Do not dump full profiles, long compatibility tables, or case-study details unless directly relevant.
 
 ## Output Requirements
 
@@ -73,14 +76,16 @@ Use concise headings and adapt the embedded output template; do not force a long
 
 - If the exact birth date or event date is missing, do not infer it.
 - Treat the calculator source as an arithmetic helper only; do not use it as a source for Chinese zodiac, Letterology, sports/market conclusions, or real-world predictions.
-- If a person/entity/date falls near Chinese New Year and the exact sign matters, verify the transition date or state uncertainty.
+- If a person/entity/date falls near the Chinese New Year and the exact sign matters, verify the transition date or state uncertainty.
 - If a public-source claim conflicts with the manual, label it as a source conflict instead of silently merging.
 - Do not convert embedded case-study statements, source-hierarchy labels, or historical examples into verified current facts unless those facts are checked in the current response.
-- Do not convert calculator edge-case conventions into documented GG33 doctrine. If the helper reports an ambiguity or undefined edge case, surface that limitation in the answer.
+- Do not convert calculator edge-case conventions into documented GG33 doctrine. If the helper reports an ambiguity or an undefined edge case, surface that limitation in the answer.
+- Do not infer a 3-to-3 compatibility category: the supplied matrix leaves it unclassified. Do not infer Number 32's meaning or compatibility key: that source row is obscured. Number 0 also has no supplied compatibility key.
+- Do not route compounds through generic digit reduction when §13.2 does not provide an explicit usable `Root / Status`.
+- Do not revive the superseded `Best With` compatibility column for classification (it is archived in §4.5's supersession record for provenance only), and do not symmetrize the two directional mismatches in §4.5.
 - If a case-study rule appears absolute, check the advanced methodology and sports case-study sections for documented exceptions before applying it.
 - If the user asks for predictions, frame the answer as "within the GG33 framework," not as a guaranteed real-world outcome.
 - Apply self-destruct mechanisms and Master ignition sources only to the exact documented configurations (§17.4 exact-pattern principle; §23.25 Rule #2 six-source checklist); never expand them by analogy or reversal.
-- Treat the user-supplied tables in §4.6 and §13.3 as user-supplied summaries: where they conflict with §4.5 or §13-§17 mechanics (notably the 5-ignites-22 ignition doctrine and the 20 = Hidden 11 rule), the manual governs and the conflict must be disclosed.
 
 ---
 
@@ -294,7 +299,7 @@ if __name__ == "__main__":
   Version: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
-  Content: V5.2 preserved and upgraded with a July 5, 2026 public web-source audit,
+  Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
            source-status tagging, conflict disclosure, stronger evidence calibration,
            duplicate control, and reduced hallucination risk. V5.4 (July 5, 2026) adds
            an internal integrity pass: corrected example arithmetic (§4.1, §23.26),
@@ -315,7 +320,7 @@ if __name__ == "__main__":
 
 This manual is organized into three parts:
 
-- **PART I — FOUNDATION:** Role, research protocol, core calculation formulas, Chinese astrology basics, the analysis sequence, output template, prohibitions, and few-shot examples.
+- **PART I — FOUNDATION:** Role, research protocol, core calculation formulas, Chinese astrology basics, the analysis sequence, output template, prohibitions, and a few-shot examples.
 - **PART II — ADVANCED METHODOLOGY:** The full advanced ruleset (core number profiles, Master Numbers, Governor System, Liquidity Drain, number-specific rules, astrology integration, formulas, common errors).
 - **PART III — CASE STUDIES:** Worked sports examples demonstrating correct application of the rules in PART II.
 
@@ -383,13 +388,13 @@ This version was upgraded after a public web audit performed on **2026-07-05**. 
 
 | Topic | Public-source status | Instructional consequence |
 |---|---|---|
-| GG33 system identity | Public pages describe GG33 as Gary Grinberg's numerology system integrating Life Path numerology, Master Numbers, Chinese zodiac cycles, and timing/compatibility. | Keep numerology + Chinese astrology as the primary integrated structure. |
+| GG33 system identity | Public pages describe GG33 as Gary Grinberg's numerology system, integrating Life Path numerology, Master Numbers, Chinese zodiac cycles, and timing/compatibility. | Keep numerology + Chinese astrology as the primary integrated structure. |
 | Life Path calculation | Public GG33 pages state that GG33 adds every digit of the full birth date and does **not** reduce month/day/year separately; 11, 22, and 33 are preserved. | Keep the full-birth-date method as canonical. |
 | Master Numbers | Public GG33 pages identify 11, 22, and 33 as distinct Master Numbers that are not reduced. | Keep 11/22/33 as the only preserved Master Numbers unless a verified source states otherwise. |
 | 11 Life Path numbers | Public GG33 pages list 11 Life Path numbers and omit Life Path 2 from the basic list. | Keep the no-LP2 rule, while recognizing public pages may simplify advanced explanations. |
 | Chinese zodiac integration | Public GG33 pages describe Chinese zodiac as a timing/personality/compatibility layer. | Keep Chinese astrology secondary to numerology unless a specific manual rule says otherwise. |
 | Cat vs. Rabbit | Public GG33-adjacent results and Vietnamese-zodiac references support the Cat terminology, while ordinary Chinese zodiac sources use Rabbit. | In GG33 outputs, use **Cat**; when speaking to general audiences, note that this corresponds to the Rabbit slot in mainstream Chinese zodiac. |
-| CUE app | Public app listings describe daily energy guidance, compatibility, life-path/birthdate analysis, AI reader, founding-date database, and recent 2026 improvements including Letterology and PY/PM visibility. | Add CUE as a current verification/tool layer, not as proof that every proprietary rule is public. |
+| CUE app | Public app listings describe daily energy guidance, compatibility, life-path/birthdate analysis, AI reader, founding-date database, and recent 2026 improvements, including Letterology and PY/PM visibility. | Add CUE as a current verification/tool layer, not as proof that every proprietary rule is public. |
 | 7CatYear | Public page describes it as an unofficial instant reading/calculator using collected public information. | Treat as Tier 2/utility, not official proof by itself. |
 | gg33academy.com | Public privacy text states the site is independently operated and not owned by or affiliated with GG33 Academy LLC/Gary Grinberg. | Do not treat this domain as official Tier 1 unless separately verified. |
 
@@ -397,7 +402,7 @@ This version was upgraded after a public web audit performed on **2026-07-05**. 
 
 A current public GG33 Academy life-path page labels **9** as “The Finisher” and uses the word **humanitarian** in the basic public profile, while this manual's integrated advanced rule says **do not call 9 humanitarian**. For strict use of this manual, follow the prohibition and treat 9 as completion/adaptation/mirror energy. For public-source-grounded reporting, disclose the conflict instead of pretending it is settled.
 
-### Current public account / platform map discovered
+### Current public account/platform map discovered
 
 - **Website / public guide:** `gg33academy.org`
 - **Calculator / app entry:** `gg33.app`
@@ -456,7 +461,7 @@ A current public GG33 Academy life-path page labels **9** as “The Finisher” 
 
 ### PART II — ADVANCED METHODOLOGY
 12. Accuracy / Priority Hierarchy
-13. Number Reference Guide & Core Number Profiles
+13. Number Meanings: Base, Compound/Master, and Individual Profiles
 14. Master Number System
 15. The Governor System (Number 6)
 16. The Liquidity Drain System (Number 7)
@@ -547,7 +552,7 @@ When current verification is required and browsing is available, execute relevan
 | Tier | Sources | Action |
 |------|---------|--------|
 | **TIER 1 — public/official or direct** | Public GG33/Gary-linked sources actually verified during the response: `gg33academy.org`, `gg33.app`, official app listings for CUE, verified/linked Gary or GG33 social accounts, Gary Grinberg direct statements, and accessible GG33/GG33 Academy YouTube content | **Use first; cite exact pages/posts/videos reviewed** |
-| **TIER 2 — GG33-adjacent utilities / student material** | `7catyear.com`, public GG33 student notes, archived posts, verified student accounts, and secondary GG33-adjacent tools | **Use second; label as secondary/unofficial where appropriate** |
+| **TIER 2 — GG33-adjacent utilities/student material** | `7catyear.com`, public GG33 student notes, archived posts, verified student accounts, and secondary GG33-adjacent tools | **Use second; label as secondary/unofficial where appropriate** |
 | **TIER 3 — incomplete public snippets** | Search snippets, short social previews, inaccessible-platform metadata, reposts, fan pages, podcast listings, and non-primary profiles | **Use only for discovery or provisional leads; do not treat as rule proof** |
 | **REJECT / DO NOT RELY** | Generic numerology sites, mainstream numerology, non-GG33 astrology content, anonymous claims, content farms, or domains that state they are not affiliated unless used only to identify their non-official status | **Reject as GG33 rule evidence** |
 
@@ -566,7 +571,7 @@ When current verification is required and browsing is available, execute relevan
 
 ## Reference Contents
 
-- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, compatibility chart, extended compatibility matrix (§4.6)
+- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, directional compatibility matrix
 - §5 Chinese astrology basics: signs, enemy years, friend years, own years, Snake-year caveat
 - §6 Analysis execution sequence and worked calculation walkthrough
 - §7 Quality assurance checklist
@@ -586,7 +591,7 @@ When current verification is required and browsing is available, execute relevan
 <formula id="§4.1.life_path">
 🔑 **Formula:** Add all date digits/components together first → then reduce, while preserving valid master-number components.
 
-**Special case:** If the birth day is 11 or 22, do NOT reduce it into single digits before adding. The number 33 can appear as a total/result or non-calendar numerical component, but there is no 33rd day in a real Gregorian month.
+**Special case:** If the birth day is 11 or 22, do NOT reduce it to a single digit before adding. The number 33 can appear as a total/result or non-calendar numerical component, but there is no 33rd day in a real Gregorian month.
 </formula>
 
 **Birth-day master-number example:**
@@ -692,48 +697,39 @@ When current verification is required and browsing is available, execute relevan
 
 </subsection>
 
-<subsection id="§4.5" title="Numerology Compatibility Chart">
+<subsection id="§4.5" title="Directional Numerology Compatibility Matrix">
 
-### §4.5 Numerology Compatibility Chart
+### §4.5 Directional Numerology Compatibility Matrix
 
 <rule id="§4.5.compatibility_chart" priority="key">
-🔑 **Use this as the canonical number-compatibility reference.** It consolidates the prior friend/enemy pair lists into one chart to avoid repetition. An extended user-supplied Friendly/Neutral/Frenemy/Enemy matrix is in §4.6 with conflict disclosures; where the two disagree, this chart governs.
+🔑 **Use this as the sole categorical number-compatibility reference.** It supersedes the prior `Friendly / Best / Enemy` chart and any contradictory category shorthand elsewhere in the manual.
 </rule>
 
-**Legend:**  
-- **Friendly With** = generally compatible  
-- **Best With** = strongest compatibility  
-- **Enemy With** = incompatible or difficult  
-- **Frenemy** = mixed; can attract but creates friction  
-- **Masters** = 11, 22, and 33
+**Source status:** Transcribed from a user-supplied image dated July 16, 2026. It is preserved as an internal package rule but has not been independently authenticated as an official GG33 chart.
 
-| # | Friendly With | Best With | Enemy With |
-|---:|---------------|-----------|------------|
-| **1** | 11, 6, 2, 7 | 11, 6 | 9 |
-| **2** | 3, 4, 5, 6, 1 | 8 | 9 |
-| **3** | All except 4 and 7 | 5 | 4; 7 *(frenemy)* |
-| **4** | 1, 2, 7 | 9, 8, 6 | 3, 5 |
-| **5** | 2, 8, 9 | 3, 7 | 6, 4 |
-| **6** | 2, 3, 9 | 1, 4 | 5 |
-| **7** | 1, 4, 11 | 5, 11 | 8; 3 *(frenemy)* |
-| **8** | 1, 3, 5 | 2, 4, 22, 33 | 7; 8 *(itself)* |
-| **9** | 3, 5, 6 | 4 | 1, 2, 11, 22 |
-| **11** | Masters, 3, 7 | 1, 7 | 9 |
-| **22** | Masters, 3 | 8 | 9 |
-| **33** | Masters, 3, 5 | 8 | No enemies |
+**Compatibility input normalization (package convention):**
+1. Calculate the relevant Life Path, day/date number, cycle, or other input under its own documented method first. Do not send an unreduced raw date/name total directly to this matrix.
+2. If the resulting number is already a matrix key (`1–9`, `11`, `22`, or `33`), use that row unchanged.
+3. For an explicit compound from `10–33` that is not already a matrix key, use only §13.2's stated `Root / Status`: `Root N → row N`; `Hidden 11` or `Master 11 → row 11`. The "shares essence with" wording does not change the key.
+4. If §13.2 provides no usable key, leave compatibility unclassified. This applies to `0` and the obscured `32`; do not derive a key by generic numerology or analogy.
+5. Show every normalization before the category result. Example: `14 → 5`; `22 → 22`; therefore read `5 → 22` and `22 → 5` (both Enemy). Likewise, `20 → 11`, never row 2.
 
-</subsection>
+**Legend:**
+- **Friendly** = generally compatible
+- **Neutral** = neither friendly nor adversarial in the supplied matrix
+- **Frenemy** = mixed attraction/support and friction
+- **Enemy** = incompatible or difficult
+- `—` = the image lists no value in that cell
 
-<subsection id="§4.6" title="Extended Compatibility Matrix (User-Supplied)">
+**Directionality and missing-data rules:**
+- Read across the **subject's row**. The matrix is not fully symmetric: `1 → 6` is Friendly while `6 → 1` is Neutral; `2 → 4` is Neutral while `4 → 2` is Friendly.
+- For a mutual/two-way reading, report both directions. When they differ, label the result a **directional mismatch** rather than averaging, symmetrizing, or selecting the more favorable label.
+- A blank or omitted pairing is **unclassified**, not Neutral. The source image omits `3 → 3`; do not infer it.
+- The missing `3 → 3` category does not erase separately documented identical-number matched-cycle resonance. Compatibility classification and cycle resonance are different rule types.
+- Compatibility labels do not cancel a separately documented ignition, cycle, self-destruct, or outcome formula. State both when relevant and use the specific operational rule for that mechanism.
 
-### §4.6 Extended Compatibility Matrix — Friendly / Neutral / Frenemy / Enemy
-
-<rule id="§4.6.source_status" priority="key">
-🔑 **Source status: user-supplied summary** (chart image supplied July 5, 2026; not public-source verified). Its unique contribution is the **Neutral** category, which §4.5 does not carry. Where this matrix and §4.5 disagree on a pair's polarity, **§4.5 and the §13-§17 mechanics govern (dc.4)** and the disagreement must be disclosed as a source conflict (dc.6).
-</rule>
-
-| # | Friendly | Neutral | Frenemy | Enemy |
-|---:|---|---|---|---|
+| Subject # | Friendly | Neutral | Frenemy | Enemy |
+|---:|:---|:---|:---|:---|
 | **1** | 1, 2, 6, 7, 8, 11 | 3, 4, 5, 22, 33 | — | 9 |
 | **2** | 1, 3, 8 | 2, 4, 5, 6, 7, 11, 22, 33 | — | 9 |
 | **3** | 2, 5, 6, 8, 11, 22, 33 | 1, 9 | 7 | 4 |
@@ -747,24 +743,22 @@ When current verification is required and browsing is available, execute relevan
 | **22** | 3, 6, 7, 8, 11, 22, 33 | 1, 2, 4 | — | 5, 9 |
 | **33** | 3, 5, 8, 11, 22, 33 | 1, 2, 6 | 4, 7 | 9 |
 
-**Transcription notes (verified against the source image):**
-- Every row assigns all 12 numbers (1-9, 11, 22, 33) except row 3, which states no 3-with-3 relation.
-- Two pairs are asymmetric in the source: 1 lists 6 as Friendly while 6 lists 1 as Neutral; 4 lists 2 as Friendly while 2 lists 4 as Neutral. Transcribed as-is; treat one-way listings like the documented one-way 8→1 support (§13.2).
-- This matrix **agrees** with every friend/enemy pairing the case studies actually exercise: 1-9, 9-11, 3-4, 4-5, 3-8, 4-9, 7-11, 7-8, and 8-8 (self).
+**Supersession record (provenance archive):** The prior canonical chart below was superseded on July 16, 2026 by the directional matrix above. It is retained verbatim for provenance and audit visibility only — never use it for category classification. Notable deltas: it carried a `Best With` tier (now folded into Friendly); it held `33 = No enemies` (the matrix lists 9 → 33 and 33 → 9 as Enemy); it listed 3 as friendly with all but 4 and 7 (the matrix moves 1 and 9 to Neutral); it listed 2 as friendly with 3, 4, 5, 6, 1 (the matrix keeps only 1, 3, 8); and it carried no 5-22, 6-7, 7-9, or 9-9 enemy listings (the matrix adds them — and per the mechanism-separation rule above, the 5-22 listing never negates the 5-ignites-22 doctrine of §14.1/§14.6).
 
-<warning id="§4.6.conflicts">
-⚠️ **Known conflicts with canonical rules — do not silently merge:**
-
-| This matrix says | Conflicting canonical rule | Resolution |
-|---|---|---|
-| 5 enemy 22; 5 neutral 11 | 5 is the High Energy Activator that ignites all Masters (§14.1); letterology n=5 permanently ignites v=22 (§14.6, §22.3) | **Ignition doctrine governs.** Never use these listings to negate an ignition chain; at most they color personality compatibility. |
-| 9 enemy 33; 33 frenemy 4 and 7 | §4.5: 33 has no enemies | §4.5 governs; disclose the conflict when it matters. |
-| 6 enemy 7; 7 enemy 9; 9 enemy 9 (itself) | No counterpart in §4.5 or the §13 profiles | User-supplied-only claims; do not present as established GG33 rules. |
-| 3 neutral with 1 and 9 | §4.5: 3 friendly with all except 4 and 7 | §4.5 governs; disclose. |
-| 2 friendly only with 1, 3, 8 | §4.5: 2 friendly with 3, 4, 5, 6, 1 | §4.5 governs; disclose. |
-</warning>
-
-**Usage:** Use this matrix for the Neutral granularity §4.5 lacks (e.g., identifying clean zero-attack/zero-support platforms in readings) and as a secondary personality-compatibility layer. It never overrides §4.5, the ignition mechanics of §14, or documented case-study rules.
+| # | Friendly With (legacy) | Best With (legacy) | Enemy With (legacy) |
+|---:|---------------|-----------|------------|
+| **1** | 11, 6, 2, 7 | 11, 6 | 9 |
+| **2** | 3, 4, 5, 6, 1 | 8 | 9 |
+| **3** | All except 4 and 7 | 5 | 4; 7 *(frenemy)* |
+| **4** | 1, 2, 7 | 9, 8, 6 | 3, 5 |
+| **5** | 2, 8, 9 | 3, 7 | 6, 4 |
+| **6** | 2, 3, 9 | 1, 4 | 5 |
+| **7** | 1, 4, 11 | 5, 11 | 8; 3 *(frenemy)* |
+| **8** | 1, 3, 5 | 2, 4, 22, 33 | 7; 8 *(itself)* |
+| **9** | 3, 5, 6 | 4 | 1, 2, 11, 22 |
+| **11** | Masters, 3, 7 | 1, 7 | 9 |
+| **22** | Masters, 3 | 8 | 9 |
+| **33** | Masters, 3, 5 | 8 | No enemies |
 
 </subsection>
 
@@ -815,7 +809,7 @@ When current verification is required and browsing is available, execute relevan
 🔑 **Rule:** GO BIG during a Friend Year. Pursue goals aggressively, take calculated risks, and make major decisions.
 </rule>
 
-**Friend / trine groups:**
+**Friend/trine groups:**
 
 | Group | Signs |
 |------|-------|
@@ -933,11 +927,11 @@ The 33 is the most influential and powerful frequency in the entire numerical sy
 - Example for March 17, 2026: `3 + 1 + 7 + 2 + 0 + 2 + 6 = 21 → 2 + 1 = 3 Universal Day`
 - ⚠️ Never reduce master numbers when calculating UD.
 
-#### Combined Analysis (March 17, 2026 for this individual)
+#### Combined Analysis (March 17, 2026, for this individual)
 
 **1. The Perfect Numerical Mirror.** The individual's micro energy perfectly matches the macro energy of the world: **PY 1 = UY 1**, and **PM 4 = UM 4**. There is zero friction between what they need to do and what the Matrix wants them to do. The path is entirely clear of numerical obstacles.
 
-**2. The Astrological Support Layer.** In GG33 Chinese Astrology notation, the **Dog** (birth year) and **Horse** (2026 year) are in the Tiger-Horse-Dog friend/trine group. If the March month is treated as **Cat** month, Dog + Cat may add a supportive secret-friend layer. Verify the exact monthly animal before relying on this sub-factor.
+**2. The Astrological Support Layer.** In GG33 Chinese Astrology notation, the **Dog** (birth year) and **Horse** (2026 year) are in the Tiger-Horse-Dog friend/trine group. If the month of March is treated as **Cat** month, Dog + Cat may add a supportive secret-friend layer. Verify the exact monthly animal before relying on this sub-factor.
 
 **3. Action Guidance.** Because the 1 energy (New Beginnings) and 4 energy (Hard Work/Structure) are mirrored, and because the Chinese Zodiac layer appears supportive after verification, the framework favors structured execution. For an LP33, the recommended use of the day is to build a new foundation (1 energy) through disciplined work (4 energy), while keeping the confidence calibrated to verified calculations and verified zodiac timing.
 
@@ -1007,6 +1001,18 @@ Before submitting, verify ALL items.
 
 </checklist>
 
+<checklist category="Numerology Compatibility">
+
+**Numerology Compatibility:**
+- ☐ §4.5 used as the sole category source
+- ☐ Relevant numbers calculated first; each supported compound shown as `input → matrix key` using only §13.2 `Root / Status`
+- ☐ Subject row read in the correct direction
+- ☐ Both rows checked for a mutual/two-way reading
+- ☐ Directional mismatches disclosed instead of averaged
+- ☐ Missing `3 → 3` and unmapped `0` / `32` left unclassified
+
+</checklist>
+
 <checklist category="Chinese Astrology">
 
 **Chinese Astrology:**
@@ -1023,7 +1029,8 @@ Before submitting, verify ALL items.
 - ☐ Numerology stated FIRST and always prioritized
 - ☐ Chinese astrology stated SECOND
 - ☐ Western astrology LAST (if used)
-- ☐ All GG33 claims sourced from Tier 1 or Tier 2 only
+- ☐ Public/official GG33 claims sourced from Tier 1 or Tier 2 only
+- ☐ Image-derived tables labeled as user-provided package references, not independently authenticated official doctrine
 - ☐ No mainstream numerology attributed to GG33
 - ☐ No fabricated techniques
 
@@ -1220,8 +1227,8 @@ Always state confidence with **three separate layers**:
 
 ## Reference Contents
 
-- §12 Accuracy / priority hierarchy
-- §13 Number reference guide, core number profiles, and compound number meanings 0–33 (§13.3)
+- §12 Accuracy/priority hierarchy
+- §13 Base numbers, compound/master construction meanings from 0 through 33, and individual number profiles
 - §14 Master Number system and ignition rules (including the §14.4 Dead Money fuel limit)
 - §15 Governor system, Number 6
 - §16 Liquidity Drain system, Number 7
@@ -1256,52 +1263,90 @@ Always state confidence with **three separate layers**:
 
 ---
 
-<section id="13" title="Number Reference Guide & Core Number Profiles">
+<section id="13" title="Number Meanings, Construction & Profiles">
 
-## §13. NUMBER REFERENCE GUIDE & CORE NUMBER PROFILES
+## §13. NUMBER MEANINGS, CONSTRUCTION & PROFILES
 
 <rule id="§13.profile_usage" priority="key">
-🔑 **Use §13 as the canonical number-profile reference.** The matrix gives the event/market function. The individual profiles give personality, relationship, physical, lifestyle, and applied timing notes. Do not duplicate these details elsewhere unless a later rule is a specific exception or case-study application.
+🔑 **Use §13 as the canonical number-meaning reference.** §13.1 gives base-number event/market functions, §13.2 gives compound construction meanings, and §13.3 gives detailed individual profiles. Compatibility category labels live only in §4.5; profile relationship notes may add noncategorical nuance but cannot relabel a pairing.
 </rule>
 
-<subsection id="§13.1" title="Core Energy Matrix">
+<subsection id="§13.1" title="Core Energy Matrix — Numbers 0–9">
 
-### §13.1 Core Energy Matrix
+### §13.1 Core Energy Matrix — Numbers 0–9
 
 | Number | Energy Name | Market Function / Notes |
 |:------:|:-----------|:------------------------|
-| **1** | New Beginnings, Launch, Male Energy | Initiation energy. **LP1 + UY1** = self-igniting Resonance Force Field (no external High Energy needed). 1 and 9 are enemy numbers. |
-| **2** | Feminine Energy, Peace, Sensitivity | **No LP2 exists in GG33.** Day-number / date-number 2 still operates as peace, surrender, negotiation, and sensitivity energy. 20 operates as Hidden 11, not 2. |
-| **3** | Communication, Social, Child Energy, Luck | **Low energy day** in market rules. 3 and 4 are confirmed enemies — fundamental incompatibility and insurmountable obstacles unless a documented override applies. |
-| **4** | Restriction, Hard Work, Law/Order, "The Box" | Blocks movement. **Double 4** (LP4 + PD4 or PD4 + UD4) = "Concrete Box" — insurmountable even against Money 8 sentiment. Body > Sentiment when cemented. |
-| **5** | Chaos, Motion, Freedom, Volatility | **High Energy Activator.** Ignites Master Numbers externally. Master Numbers feed on 5 for parabolic moves. 5 clashes with restrictive 4 and 6 energy. |
-| **6** | Stability, Responsibility, Family, "The Governor" | Rejects chaos/volatility. Punishes the 5. Locks in gains only when strong prior energy is already established. PY6 + UD5 = always capped/red. |
-| **7** | Stillness, Liquidity Drain, Intelligence, Isolation | Removes volume/buyers. **Zero Fuel** for Masters. **EXCEPTION:** Tech/AI/Crypto stocks only = Tech Resonance. Requires Double 8 fuel to activate Tech Resonance against PY6 Governor. 7 and 11 are friend numbers. |
-| **8** | Money, Power, Karma | Capital inflow. **Triple 8** (UD8 + LP8 + Letterology 8) = pure Money vessel. NOT a standard Master igniter alone. **Double 8** (PM8+PD8 or PY8+PM8) CAN override PY6 and ignite Masters. |
-| **9** | Endings, Completion, Mirror/Adaptation | Downward completion directive — PY9 on Body = cycle close, NOT reframable as launch pad. **EXCEPTION:** UD9 + PY8 fuel = Completion of downward cycle → Parabolic Up. |
-| **11 / 22 / 33** | Master Numbers | **Dormant unless ignited.** Feed on chaos for parabolic moves. 11 + 22 = 33. "20" = Hidden 11. See §14 for Master Number rules and profiles. |
+| **0** | The Egg, Infinite Potential, Amplifier | Everything and nothing at once; the supplied source says it acts like a hidden 9. Treat this as symbolism and amplification language, not an arithmetic reduction rule. |
+| **1** | Beginning, Pioneer, Leadership, Masculine Energy, Aggression, Singular Focus, Assertion, Independence | Initiation energy. **LP1 + UY1** = self-igniting Resonance Force Field with no external High Energy required. |
+| **2** | Cooperation, Peace, Duality, Diplomacy, Femininity, Passivity, Reception, Balance, Emotional Sensitivity | **No LP2 exists in GG33.** Day-number/date-number 2 still operates as peace, surrender, negotiation, reception, and sensitivity. Operationally, 20 is Hidden 11, not LP2. |
+| **3** | Creativity, Child-like Energy, Communication, Networking, Entertainment, Speech, Imagination | Luck/social expression; criminality is listed as a shadow association. **Low energy day** in market rules. |
+| **4** | Order, Hard Work, Law, Discipline, Structures, Limitations, Engineering, Routine, "The Box" | Blocks movement. **Double 4** (LP4 + PD4 or PD4 + UD4) = "Concrete Box"; Body > Sentiment when cemented. |
+| **5** | Change, Transformation, Chaos, New Experiences, Beauty, Health, Travel, Freedom, Motion, Volatility | **High Energy Activator.** Ignites Master Numbers externally; Master Numbers feed on 5 for parabolic moves. |
+| **6** | Family, Real Estate, Service, Nurturing, Responsibility, Selflessness, Care, Stability, "The Governor" | Rejects chaos/volatility and can lock in established gains. PY6 + UD5 is capped/red under the package's market rules. |
+| **7** | Intelligence, Learning, Maturity, Wisdom, High IQ, Practical/Applicable Intelligence, Isolation, Stillness | The source includes an injury-prone association; treat it as framework language, not medical fact. Removes volume/buyers. **Zero Fuel** for Masters, subject to the documented Tech/AI/Crypto exception. |
+| **8** | Karma, Money, Power | Can express positively or negatively according to individual karma, which is not knowable from outside; it is not a guaranteed wealth number. **Triple 8** and **Double 8** require the exact configurations defined later in the manual. |
+| **9** | Endings, Completion, Adaptation to Others, Mirror, Primal Desires | Not automatically an "old soul" or "humanitarian." PY9 on Body is a downward completion directive unless a specific documented exception applies. |
 
 </subsection>
 
-<subsection id="§13.2" title="Individual Number Profiles">
+<subsection id="§13.2" title="Compound and Master Number Construction — 10–33">
 
-### §13.2 Individual Number Profiles
+### §13.2 Compound and Master Number Construction — 10–33
 
-<number_profile number="1" title="Number 1 — Leadership / Male Energy">
+**Source status:** Transcribed from a user-supplied image dated July 16, 2026. The table preserves its readable claims without treating them as independently authenticated official doctrine. Reduction language is symbolic unless the operational calculation rules in §4 and §14 say otherwise.
+
+| Number | Root / Status | Distinct Meaning and Construction |
+|:------:|:--------------|:----------------------------------|
+| **10** | Root 1 | Amplified 1 energy: the zero magnifies aggression and leadership force; pioneer/new-beginning themes. |
+| **11** | **Master 11** | Spiritual awakening, intuition, visionary sight, and pure emotional energy at its highest frequency. Built from two 1s and described as sharing 2's essence at a higher octave; never reduce it to 2 operationally. |
+| **12** | Root 3 | Creativity, communication, and expression; "fullness of creation" through 1 (masculine) plus 2 (feminine). Colored by 1's aggression and 2's peace. |
+| **13** | Root 4 | Order, hard work, discipline, and routine; influence through work, order, control, and mastery. Colored by 1's aggression and 3's creativity. |
+| **14** | Root 5 | Change, transformation, freedom, and travel; sudden unexpected change, with freedom through discipline. Colored by 1's aggression and 4's order. |
+| **15** | Root 6 | Family, service, nurturing, and love; beauty in service, love, and sex. Colored by 1's aggression and 5's change. |
+| **16** | Root 7 | Intelligence, wisdom, and maturity; ego death and a tower falling. Colored by 1's aggression and 6's family energy. |
+| **17** | Root 8 | Karma, money, and power; hope, willpower, and rebuilding after a tower falls. Colored by 1's aggression and 7's intelligence. |
+| **18** | Root 9 | Endings, adaptation, and primal desires; beginning of karma and coming to maturity. Colored by 1's aggression and 8's karma. |
+| **19** | Root 1 | Leadership, new beginnings, and aggression; "the beginning of the end" and hyper-fast effects from causes. Colored by 1's aggression and 9's endings. |
+| **20** | **Hidden 11**; symbolic root 2 | The image says "reduces to 2" and describes amplified cooperation, peace, and emotional sensitivity, with zero deepening feeling and receptivity to an acute level. Operationally, preserve 20 as Hidden 11; do not create LP2. |
+| **21** | Root 3 | Creativity, communication, and expression; double independence and luck in solo adventures. Colored by 2's peace and 1's aggression. |
+| **22** | **Master 22** | Material mastery and practical accomplishment at scale; building or destroying in the material world. Built from two 2s and described as sharing 4's essence at a higher octave; never reduce it to 4 operationally. |
+| **23** | Root 5 | Change, transformation, freedom, and travel; double luck, especially in travel and romance. Colored by 2's peace and 3's creativity. |
+| **24** | Root 6 | Family, service, nurturing, and responsibility; double discipline, "Triple 8 resonance," and wealth-number symbolism. Colored by 2's peace and 4's order. |
+| **25** | Root 7 | Intelligence, wisdom, and maturity; double speed/change and hyper-fast thoughts, associated in the source with anxiety and mental challenges. Colored by 2's peace and 5's change. |
+| **26** | Root 8 | Karma, money, and power; double service, with money/power/karma linked to family ties or a calling to serve humanity. Colored by 2's peace and 6's family energy. |
+| **27** | Root 9 | Endings, adaptation, and completion; double intellect and wisdom through endings and service. Colored by 2's peace and 7's intelligence. |
+| **28** | Root 1 | Leadership, pioneering, and new beginnings; double karma, double portion, and wealth-number symbolism said to attract money with less resistance than virtually any other number. Colored by 2's receptivity and 8's karma. |
+| **29** | **Master 11** | Spiritual awakening, intuition, and pure emotion; emotional trauma, pain, conflict, and make-or-break conditions. Colored by 2's peace and 9's endings. |
+| **30** | Root 3 | Creativity, communication, and expression; reset in luck and amplified creativity/communication, marking changing phases of life. The zero amplifies 3 energy. |
+| **31** | Root 4 | Order, hard work, and discipline; "Inverted 13," with prosperity and influence through order, work, and communication. Colored by 3's creativity and 1's aggression. |
+| **32** | **Unavailable** | The source row is obscured. No meaning is entered or inferred. |
+| **33** | **Master 33 / Influence** | Framework labels include divine intervention, utter destruction or divine promotion, and the road to enlightenment. Combines 11's spiritual gifts with 22's material mastery; built from two 3s and described as sharing 6's essence at a higher octave. |
+
+**Operational safeguards:**
+- The source's `24 = Triple 8 resonance` phrase is compound symbolism only. It does not satisfy the exact Triple 8 market configuration in §17.2 and §19.1.
+- Wealth, mental-health, injury, destruction, promotion, and divine-intervention wording is framework symbolism, not an empirical guarantee, diagnosis, or verified causal claim.
+- Master-number activation, dormancy, and overrides remain governed by §14; this table does not create new ignition sources.
+
+</subsection>
+
+<subsection id="§13.3" title="Individual Number Profiles">
+
+### §13.3 Individual Number Profiles
+
+**Compatibility routing:** §4.5 supplies every Friendly/Neutral/Frenemy/Enemy label. The notes below preserve only noncategorical emphasis, dynamics, triangles, or construction formulas; none overrides §4.5.
+
+<number_profile number="1" title=" Number 1 — Leadership / Male Energy">
 
 **Applies to:** Born on the **1st, 10th, 19th, or 28th**, or an LP1 entity.
 
 **Core traits:**
-- Male / warrior energy; leadership, independence, aggression, initiative.
+- Male/warrior energy; leadership, independence, aggression, initiative.
 - Natural followers gather around 1 energy; women with strong 1 energy often become self-made or power-position figures.
 - Aptitudes: athletics, capitalism, argumentation, legal advocacy, leadership under pressure.
 - Shadow traits: stubbornness, resistance to advice, learning the hard way, and possible alcohol-abuse tendency in negative expression.
 
-**Relationships / compatibility:**
-- **Worst enemy:** 9. The 1 warrior clashes with the 9 diplomat/follower.
-- **Highly successful with:** 11, especially in performance or sports partnerships.
-- **Supported by:** 8. The 8 often looks after the 1, but the support may be one-way.
-- **Triangle:** 1-4-7.
+**Relationship nuance:** 11 is emphasized in performance/sports pairings; 8 may support 1 asymmetrically; 1-4-7 is a structural triangle, not a category override.
 
 **Applied rule:** 1 energy is strongest for starts, launches, independence, leadership, and pressure situations.
 
@@ -1312,16 +1357,12 @@ Always state confidence with **three separate layers**:
 **Applies to:** Born on the **2nd** or strong date-number 2 influence. **There is no LP2 in GG33** because 20 is treated as Hidden 11 and master-number reductions are rejected.
 
 **Core traits:**
-- Feminine energy affecting both genders.
+- Feminine energy affects both genders.
 - Highly sensitive; can hold onto offenses and require careful handling.
 - Associated with peace, surrender, reconciliation, settlement, and emotional responsiveness.
 - The 2000s are treated as a societal shift from 1-energy into 2-energy: more sensitivity, political correctness, and collective emotional receptivity.
 
-**Relationships / compatibility:**
-- **Best match:** 8, especially for business, partnership, marriage, and the 28 formation.
-- **Enemy:** 9.
-- **Triangle:** 2-5-8.
-- **Family formula:** 1 male + 2 female = 3 child; 1+2+3 = 6 home/family.
+**Relationship nuance:** 8 is emphasized for business, partnership, marriage, and the 28 formation; 2-5-8 is a structural triangle. The family formula is 1 male + 2 female = 3 child; 1+2+3 = 6 home/family.
 
 **Applied timing:** The **2nd day** is favorable for negotiation, settlement, reconciliation, lawsuits, family disputes, and clean-slate agreements.
 
@@ -1338,16 +1379,12 @@ Always state confidence with **three separate layers**:
 - Youthful appearance / "fountain of youth" effect.
 - Strong letter links: **C** (3), **L** (12 → 3), **U** (21 → 3).
 
-**Luck / risk profile:**
+**Luck/risk profile:**
 - GG33 treats **3**, not 7, as the lucky number.
 - Associated with luck patterns such as L-U-C mapping to 3-3-3 and blackjack 21 → 3.
-- Shadow expression: cleverness, corruption/crime symbolism, and ability to evade trouble more easily than rigid numbers like 4.
+- Shadow expression: cleverness, corruption/crime symbolism, and the ability to evade trouble more easily than rigid numbers like 4.
 
-**Relationships / compatibility:**
-- **Best friend / best match:** 5.
-- **Frenemy:** 7.
-- **Enemy:** 4 ("crook vs. cop" opposition).
-- **Triangle:** 3-6-9.
+**Relationship nuance:** 5 is emphasized as a particularly strong pairing; 3-6-9 is a structural triangle.
 
 **Applied timing:** 3-energy days are favorable for parties, social events, communication, marketing, and visibility.
 
@@ -1363,15 +1400,12 @@ Always state confidence with **three separate layers**:
 - Highly materialistic; second most materialistic number after 8.
 - Often conservative in practical/material orientation because it wants to keep what it worked for.
 
-**Law / order / rule system:**
+**Law/order / rule system:**
 - Drawn to military, police, government, administration, compliance, and structured institutions.
 - Represents law and order for the system it serves; this is distinct from abstract justice.
 - **Police Magnet Rule:** 4s must follow rules carefully. If they engage in illegal or even careless rule-breaking, they are more likely to be caught.
 
-**Relationships / compatibility:**
-- **Best matches:** 6, 8, and 9.
-- **Enemies:** 3 and 5.
-- **Triangle:** 1-4-7.
+**Relationship nuance:** 6, 8, and 9 are emphasized pairings; 1-4-7 is a structural triangle.
 
 **Applied rule:** 4 energy imposes structure, friction, discipline, restriction, and "box" conditions. It is excellent for hard work and poor for unstructured freedom.
 
@@ -1385,21 +1419,17 @@ Always state confidence with **three separate layers**:
 - Open-minded, changeable, attractive, entertaining, nomadic, and freedom-seeking.
 - Fast learner with weaker retention: quick processor, smaller "hard drive."
 - Health-conscious and drawn toward diet, movement, travel, yoga, and similar practices.
-- Highly sexual / reproductive energy; should be careful with excess and health risk.
+- Highly sexual/reproductive energy; should be careful with excess and health risk.
 - Shadow traits: indecision, addiction risk, inconsistency, and inability to tolerate confinement.
 
 **Letterology note:**
 - Strongly linked with the vowel **E** and E-word clusters around energy, entertainment, health, memory, sex/reproduction, and movement.
 
-**Relationships / compatibility:**
-- **Best match:** 3.
-- **Allies / triangle:** 2-5-8.
-- **9 follows 5** in the relationship sequence.
-- **Enemies:** 4 and 6 because they restrict freedom and movement.
+**Relationship nuance:** 3 is emphasized as a particularly strong pairing; 2-5-8 is a structural triangle and does not override the matrix's directional `5 → 2` Neutral label. In the relationship sequence, 9 follows 5.
 
 **Lifestyle rule:** 5s should preserve mobility. In GG33 practical advice, they often do better renting/leasing than owning anything that becomes a "ball and chain."
 
-**Applied rule:** 5 is High Energy Activator / chaos spark; it ignites Masters but is rejected by strong 6 stability.
+**Applied rule:** 5 is a High Energy Activator/chaos spark; it ignites Masters but is rejected by strong 6 stability.
 
 </number_profile>
 
@@ -1412,24 +1442,20 @@ Always state confidence with **three separate layers**:
 - Domestic, service-oriented, responsible, and focused on fixing problems for others.
 - Life purpose centers on service to family, friends, community, institutions, or society.
 
-**Personality / development:**
+**Personality/development:**
 - Young 6s can become doormats by constantly solving other people's problems.
 - Mature 6s still help, but only on their own terms and through their own judgment.
 - Often quiet at first, then very talkative once comfortable.
 - Can carry extra weight in the gut, mirroring the physical shape of the number 6.
 
-**Perspective / problem solving:**
+**Perspective/problem solving:**
 - "Mirrored mind" effect: can confuse left/right or perceive from the opposite side.
 - Strong out-of-the-box problem-solving because 6 notices angles standard thinkers miss.
 
 **Letterology note:**
 - Linked with the vowel **O** and word clusters around home/domesticity, animals, service, politics, hospitals, police, and collective/social structures. Treat sexual/vices word associations as internal GG33 letterology claims, not as empirical or moral conclusions.
 
-**Relationships / compatibility:**
-- **Best match:** 4; another 6 can also be strong.
-- **Enemy:** 5.
-- **Triangle:** 3-6-9.
-- **Power dynamic:** 1 and 6 can create a master/slave-style dynamic with 1 dominating.
+**Relationship nuance:** 4 is emphasized as a particularly strong pairing; 3-6-9 is a structural triangle. A 1-6 pairing may create a dominance/service dynamic with 1 dominating, without changing the directional category labels.
 
 **Applied rule:** 6 is the Governor: it stabilizes, grounds, domesticates, and rejects uncontrolled 5 chaos.
 
@@ -1440,26 +1466,21 @@ Always state confidence with **three separate layers**:
 **Applies to:** Born on the **7th, 16th, or 25th**, or an LP7 entity.
 
 **Core traits:**
-- Highest intelligence / genius energy in the 1-9 system.
+- Highest intelligence/genius energy in the 1-9 system.
 - Learns quickly from small clues; often needs only "breadcrumbs."
 - Natural educator but may struggle to articulate complex thoughts clearly.
 - Loner energy: independent, isolated, requires me-time, often travels alone.
 
-**Health / body pattern:**
-- Yin-yang effect: sharp mind but body can be injury-prone or fragile.
-- GG33 associates 7 with higher disease vulnerability, including cancer/leukemia-type themes. This is a GG33-framework claim only; never present it as medical fact or medical advice.
+**Health/body pattern:**
+- Yin-yang effect: sharp mind, but body can be injury-prone or fragile.
+- GG33 associates 7 with higher disease vulnerability, including cancer/leukemia-type themes. This is a GG33-framework claim only; never present it as a medical fact or medical advice.
 
-**Wealth / technology:**
+**Wealth/technology:**
 - Historically not a wealth number, but in the modern technology age 7 can become financially powerful through tech, AI, data, software, intelligence, and digital systems.
 
-**Relationships / compatibility:**
-- **Best match:** 11.
-- **Friendly:** 5, if given space.
-- **Frenemy:** 3; attraction and friction, frequent marry/divorce pattern.
-- **Enemy:** 8.
-- **Triangle:** 1-4-7.
+**Relationship nuance:** 11 is emphasized as the strongest pairing; 5 may work well when 7 receives enough space; 1-4-7 is a structural triangle.
 
-**Luck / gambling:**
+**Luck/gambling:**
 - 7 is not luck in GG33; it is the gamble. 3 is the lucky number.
 - Casinos use 7 symbolism because it tempts people into gambling.
 
@@ -1481,12 +1502,7 @@ Always state confidence with **three separate layers**:
 **Money practice:**
 - Paying bills on 8-days (8th, 17th, 26th) is treated as a boomerang-money technique.
 
-**Relationships / compatibility:**
-- **Best with:** 2 and 4; strong with Master 22 and Master 33.
-- **Helps:** 1, often one-way.
-- **Enemy:** 7.
-- **Other 8s:** 8 with 8 can backfire because 8+8=16→7; avoid overstacking 8s in phone numbers/license plates.
-- **Triangle:** 2-5-8.
+**Relationship nuance:** 2 and 4 are emphasized pairings, with strong Master 22/33 links; 8 may help 1 in a one-way support dynamic. The `8 + 8 = 16 → 7` overstacking warning remains an applied-number rule, and 2-5-8 is a structural triangle.
 
 **Applied rule:** 8 requires material drive. If 8 tries to reject material ambition and live only spiritually, GG33 treats this as a severe misalignment.
 
@@ -1508,70 +1524,13 @@ Always state confidence with **three separate layers**:
 - 9 is **not** the humanitarian, not the best number, and does not contain all numbers. Do not import mainstream numerology claims into GG33.
 - **Source-conflict note:** A current public GG33 Academy page uses “humanitarian” in its simplified public Life Path 9 profile. This manual treats the non-humanitarian rule as the stricter advanced/manual rule. When external source fidelity matters, disclose the conflict.
 
-**Relationships / compatibility:**
-- **Worst enemy:** 1.
-- **Other enemies:** 2, 11, 22.
-- **Strong ally/foundation:** 4.
-- **Triangle:** 3-6-9.
+**Relationship nuance:** 4 is emphasized as a strong foundation; 3-6-9 is a structural triangle.
 
 **Life-cycle rule:** Most people start new beginnings in a 1 cycle; 9s should favor 4 cycles for new beginnings because 1 is their enemy.
 
 **Applied rule:** 9 is completion, endings, cycle closure, and adaptation. In stocks/events, PY9 on Body is a downward completion directive unless a specific documented exception applies.
 
 </number_profile>
-
-</subsection>
-
-<subsection id="§13.3" title="Compound Number Meanings 0–33 (User-Supplied)">
-
-### §13.3 Compound Number Meanings 0–33 — "Numbers Exposed" Table
-
-<rule id="§13.3.source_status" priority="key">
-🔑 **Source status: user-supplied summary** (chart image supplied July 5, 2026; not public-source verified). Its unique contribution is the meanings of **0, 10, and the compound numbers 12-31**, which appear nowhere else in this manual. For 1-9 the prose profiles in §13.1-§13.2 remain canonical; for 11/22/33 see §14.8-§14.9. Keyword rows for those numbers are kept below only to preserve the source table intact — do not re-derive doctrine from them.
-</rule>
-
-| # | Meaning (as supplied) |
-|---:|---|
-| **0** | The egg. Infinite potential. Amplifier. Acts like a hidden 9. Everything and nothing all at once. |
-| **1** | The beginning. Pioneer. Leadership. Masculine energy. Aggression. Singular focus. Assertion. Independence. |
-| **2** | Co-operation. Peace. Duality. Diplomacy. Femininity. Passivity. Reception. Balance. Emotional sensitivity. |
-| **3** | Creativity. Child-like energy. Communication. Networking. Entertainment. Speech. Imagination. Shadow: criminality. |
-| **4** | Order. Hard work. Law. Discipline. Structures. Limitations. Engineering. Routine. |
-| **5** | Change. Transformation. Chaos. New experiences. Beauty. Good health. Travel. Freedom. |
-| **6** | Family. Real estate. Service. Nurturing. Responsibility. Selflessness. Caring for others. |
-| **7** | Intelligence. Learning. Injury-prone. Maturity. Wisdom. High IQ. Practical, applicable intelligence. |
-| **8** | Karma. Money. Power. Can be good OR bad — determined by individual karma, not knowable from outside. NOT a guaranteed wealth number. |
-| **9** | Endings. Adaptation to others. Primal desires. NOT automatically "old souls" or "humanitarians" — that is a popular myth. |
-| **10** | Amplified 1 energy. The zero magnifies the 1 — extra aggression, extra leadership force. Reduces to 1: leadership, pioneer, new beginnings. |
-| **11** | MASTER — Spiritual awakening. Intuition. Visionary sight. Pure emotional energy at its highest frequency. Built from two 1s; shares essence with 2 at a higher octave. |
-| **12** | Reduces to 3: creativity, communication, expression. The fullness of creation — both 1 (masculine) and 2 (feminine) together in one number, leading to 3 (creation). Colored by the aggression of 1 and the peace of 2. |
-| **13** | Reduces to 4: order, hard work, discipline, routine. Influence through work, order, control and mastery. Colored by the aggression of 1 and the creativity of 3. |
-| **14** | Reduces to 5: change, transformation, freedom, travel. Sudden unexpected changes — freedom only through discipline. Colored by the aggression of 1 and the order of 4. |
-| **15** | Reduces to 6: family, service, nurturing, love. Beauty in service. Love and sex. Colored by the aggression of 1 and the change of 5. |
-| **16** | Reduces to 7: intelligence, wisdom, maturity. Ego death. A tower falling. Colored by the aggression of 1 and the family energy of 6. |
-| **17** | Reduces to 8: karma, money, power. Hope. Willpower. Rebuilding after a tower falls. Colored by the aggression of 1 and the intelligence of 7. |
-| **18** | Reduces to 9: endings, adaptation, primal desires. The beginning of karma. Coming to maturity. Colored by the aggression of 1 and the karma of 8. |
-| **19** | Reduces to 1: leadership, new beginnings, aggression. The beginning of the end. Hyper fast effects from causes. Colored by the aggression of 1 and the endings of 9. |
-| **20** | Reduces to 2: co-operation, peace, emotional sensitivity. Hidden 11. An amplified 2 — an even more emotionally sensitive frequency. The zero deepens feeling and receptivity to an acute level. |
-| **21** | Reduces to 3: creativity, communication, expression. Double independence. Luck in solo adventures. Colored by the peace of 2 and the aggression of 1. |
-| **22** | MASTER — Material mastery. Practical accomplishment at scale. Building OR destroying in the material world. Built from two 2s; shares essence with 4 at a higher octave. |
-| **23** | Reduces to 5: change, transformation, freedom, travel. Double luck. Luck in travel and romance. Colored by the peace of 2 and the creativity of 3. |
-| **24** | Reduces to 6: family, service, nurturing, responsibility. Double discipline. Triple 8 resonance. Wealth number. Colored by the peace of 2 and the order of 4. |
-| **25** | Reduces to 7: intelligence, wisdom, maturity. Double speed and change. Hyper fast thoughts — often associated with anxiety and mental challenges. Colored by the peace of 2 and the change of 5. |
-| **26** | Reduces to 8: karma, money, power. Double service. Money, power, and karma from family ties or a calling to serve humanity. Colored by the peace of 2 and the family energy of 6. |
-| **27** | Reduces to 9: endings, adaptation, completion. Double intellect. Wisdom through endings and service. Colored by the peace of 2 and the intelligence of 7. |
-| **28** | Reduces to 1: leadership, pioneer, new beginnings. Double karma. Double portion. Wealth number — attracts money with less resistance than virtually any other. Colored by the receptivity of 2 and the karma of 8. |
-| **29** | Reduces to 11 (MASTER): spiritual awakening, intuition, pure emotion. Emotional trauma, pain, conflict. Make or break. Colored by the peace of 2 and the endings of 9. |
-| **30** | Reduces to 3: creativity, communication, expression. Reset in luck. Hyper creativity and communication — the zero amplifies 3 energy, marking changing phases of life. |
-| **31** | Reduces to 4: order, hard work, discipline. Inverted 13. Prosperity and influence through order, work, and communication. Colored by the creativity of 3 and the aggression of 1. |
-| **32** | *Row obscured in the source image — content not captured. Do not reconstruct or guess it.* |
-| **33** | MASTER — INFLUENCE. Divine intervention. Utter destruction or divine promotion. The road to enlightenment. Combines spiritual gifts of 11 and material mastery of 22. Built from two 3s; shares essence with 6 at a higher octave. |
-
-**Calibration notes:**
-- **Row 20 conflict:** the "reduces to 2 / amplified 2" framing conflicts with the canonical rule that 20 = Hidden 11 and is never treated as 2 (§4.2, §14.8). The Hidden-11 rule governs; the row's added texture (deepened sensitivity/receptivity) may be used as personality color only.
-- **Octave language:** "shares essence with 2/4/6 at a higher octave" (rows 11/22/33) does not license reduction — Masters are never reduced (§4.2).
-- **Row 0:** "acts like a hidden 9" is a user-supplied symbolic claim with no counterpart elsewhere in this manual. It has NO effect on arithmetic: the digit 0 contributes zero in every GG33 calculation (§4.1); never substitute 9 for 0 in date math.
-- Row 28 aligns with §4.2's wealth indicator; row 24's "Triple 8 resonance / wealth number" claim exists only in this table. Row 29 is consistent with §14.8's 11-family totals (29 → 11).
 
 </subsection>
 
@@ -1732,11 +1691,7 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 - GG33 links 11 to repeated **E** symbolism: emotional, exercise, eyes, electricity, electronics, energy.
 - 11-day warning: avoid flying on 11 days in strict GG33 practice because electricity/electronics/mechanical systems are treated as unstable or overcharged.
 
-**Relationships / compatibility:**
-- **Best with:** 7 and 1.
-- **Enemy:** 9.
-- **Master Triangle:** 11-22-33.
-- Higher doubled numbers like 44/55 are not independent master numbers in this system because the true master structure is 11/22/33.
+**Relationship nuance:** 7 and 1 are emphasized pairings; 11-22-33 is the Master Triangle. Higher doubled numbers such as 44/55 are not independent master numbers in this system.
 
 **Applied rule:** 11 is high frequency and potentially powerful, but still follows the Master Number ignition rules in §14. A dormant 11 requires valid ignition unless internally activated.
 
@@ -1758,23 +1713,20 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 **Core traits:**
 - Master Builder; tied directly to the element of water.
 - Water symbolism: life-giving, destructive, constructive, conductive, and spiritually connective.
-- Potential mediumship / communication with the "other side" in the GG33 framework; this should be handled privately and not over-disclosed.
+- Potential mediumship/communication with the "other side" in the GG33 framework; this should be handled privately and not over-disclosed.
 - Ruthless pragmatism: "ends justify the means" mentality; can do whatever is necessary to complete the mission.
 - Strong leadership/generalship potential, but can be judged harshly because of extreme effectiveness or severity.
 
-**Materialism / business:**
+**Materialism/business:**
 - Most materialistic Master Number; shares strong material drive with 4 and 8.
 - Strong dates for opening a business include the **22nd**, alongside 8th, 17th, 26th, and 28th.
 
-**Physicality / building effect:**
+**Physicality/building effect:**
 - Naturally muscular, athletic, builder/bodybuilder aura.
 - Builds up adjacent numbers: 21 and 23 can receive athletic/building projection from 22.
-- Strong for coaching, management, development, and building other people.
+- Strong in coaching, management, development, and building other people.
 
-**Relationships / compatibility:**
-- **Best match:** 8.
-- **Enemy:** 9.
-- **Master Triangle:** 11-22-33.
+**Relationship nuance:** 8 is the emphasized pairing; 11-22-33 is the Master Triangle.
 
 **Applied rule:** 22 is a Master Builder frequency. It can be extraordinary when ignited or structurally protected, but must still be judged under the §14 ignition hierarchy, §15 Governor rules, §16 Liquidity Drain rules, and §18 Sick Body/Sentiment rules.
 
@@ -1821,7 +1773,7 @@ When a Master Number Day coincides with a Corporate Enemy Day:
 | Master type | UD6 effect |
 |-------------|-----------|
 | **Externally-dependent dormant Masters** (no internal ignition) | POWERLESS — *"If the Day is 6, externally-dependent Master Numbers are powerless."* |
-| **Internally ignited Masters** (via letterology n=5 → v=22 → LP33, PD=LP Resonance, or cross-entity Internal Ignition) | UD6 can only **moderate** (grounding/stabilizing), NOT crush. Result is a controlled Parabolic Up, not parabolic rejection. |
+| **Internally ignited Masters** (via letterology n=5 → v=22 → LP33, PD=LP Resonance, or cross-entity Internal Ignition) | UD6 can only **moderate** (grounding/stabilizing), NOT crush. The result is a controlled Parabolic Up, not parabolic rejection. |
 
 - UD6 is consistent with "grounding the gains" — allows controlled rise, forbids runaway parabolic breakout
 - **In sports:** UD6 mechanically rejects Master Life Path 22 (Stability Rejects Master)
@@ -1856,7 +1808,7 @@ Context determines whether PY6 locks in gains or forces flat/neutral.
 - `PM8 + PD7 ≠ Double 8`. PD7 simultaneously triggers Liquidity Drain → creates "double suppression" on Sentiment (Governor + Liquidity Drain) with no valid override.
 - Tech Resonance (PD7) CANNOT override an active PY6 Governor without a Double 8 fuel source.
 - **Required formula for high-confidence green framework reading with Tech + Day 7:** `Unlimited Money (PY8) + Tech Resonance (Day 7) + Own Year Protection`
-- *"Money (8) overrides Stability (6) or Stillness (7)"* ONLY when the asset class aligns AND the fuel (Double 8 or PY8) is present.
+- *"Money (8) overrides Stability (6) or Stillness (7)"* ONLY when the asset class aligns, AND the fuel (Double 8 or PY8) is present.
 
 </subsection>
 
@@ -1926,7 +1878,7 @@ Context determines whether PY6 locks in gains or forces flat/neutral.
 </formula>
 
 - The Vacuum (5 vs 7) chokes; the Completion (9) signals the final closing out of positions
-- This combination overpowers even a Dormant Master 11 Year on the Incorporation
+- This combination overpowers even a Dormant Master 11 year on the Incorporation
 
 </subsection>
 
@@ -1999,9 +1951,9 @@ A **self-destruct mechanism** is an enemy-pair clash between two positions **ins
 </rule>
 
 **Documented neutralizations — check ALL of these before declaring a self-destruct decisive:**
-1. **Heavy stacking:** if one side of the enemy pair appears 3+ times across chart and environment against one (or zero) occurrences of the other side, the matched cycle cancels the friction (§23.28 Rule #1; §23.17 triple-3 precedent).
+1. **Heavy stacking:** if one side of the enemy pair appears 3+ times across the chart and environment against one (or zero) occurrences of the other side, the matched cycle cancels the friction (§23.28 Rule #1; §23.17 triple-3 precedent).
 2. **Matched-cycle resonance:** an active resonance on one of the clashing numbers (e.g., "3 on 3") neutralizes the friction (§18.6, §22.2, §23.17).
-3. **Dormant target:** a self-destruct aimed at a Master Number that is already dormant/rejected is a non-event (§23.27 Rule #5).
+3. **Dormant target:** A self-destruct aimed at a Master Number that is already dormant/rejected is a non-event (§23.27 Rule #5).
 4. **Ignited Master Override:** a properly ignited Master cancels enemy-number clashes (§14.2, §23.16, §23.22, §23.23).
 
 <warning id="§17.4.conflict">
@@ -2514,7 +2466,7 @@ When the team perfectly synchronizes with the host city's triple-9 frequency (LP
 🔑 **RULE:** When a stadium's zodiac sign is in a Friend Month, it becomes a "Fortress" that creates an insurmountable hostile environment that overpowers everything else.
 </rule>
 
-In the documented case: Mantas is a Cat — meaning he is the Pig Arena's friend (Cat and Pig are 4 apart, part of the same trine group). So the Fortress was actively working FOR him, not against him. He was also fighting during his Own Month (Cat in Cat Month), which amplifies his energy like a Friend Month. The United Kingdom itself is also a Pig, doubling down on this Fortress energy. So the **Arena, City, and Country** were all energetically supporting the fighter.
+In the documented case, Mantas is a Cat — meaning he is the Pig Arena's friend (Cat and Pig are 4 apart, part of the same trine group). So the Fortress was actively working FOR him, not against him. He was also fighting during his Own Month (Cat in Cat Month), which amplifies his energy like a Friend Month. The United Kingdom itself is also a Pig, doubling down on this Fortress energy. So the **Arena, City, and Country** were all energetically supporting the fighter.
 
 On top of that, the fight date's Life Path was 7, which perfectly matched the fighter's LP7 — meaning the date itself resonated with his permanent energy. The Arena's PD was 8, and his PD was 3 — and 3 and 8 are confirmed friends in GG33, so the Arena's daily energy was actively helping him on fight night.
 
@@ -2538,7 +2490,7 @@ So instead of his Triple Master Numbers being a weapon, they became a **triple c
 
 <case_study id="§23.11" title="Zero Master Numbers as ADVANTAGE on UD7">
 
-### §23.11 Zero Master Numbers as ADVANTAGE on UD7
+### §23.11 Zero Master Numbers as an ADVANTAGE on UD7
 
 **Why a fighter WINS** even with zero Master Numbers — and on a UD7 night, that was actually his greatest advantage:
 
@@ -2560,7 +2512,7 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
    His **PY 7** (the vacuum that drains fuel) could not stop him because that vacuum only kills Master Numbers that depend on outside energy to activate. **Thomas's Master 22 is powered by his own name — it needs nothing from the outside, so the vacuum had nothing to drain.**
 
-   On match day, the UD was 8 (Money/Power), the Date Life Path was 8, and Thomas's own LP is 8. That triple alignment on the number of Money channeled all financial and karmic energy directly through him. His permanently ignited Master 22 combined with his LP 8 triggered the exact GG33 formula: *"When High Energy meets Money, the result is a parabolic move."* His PD 5 (Chaos) matched the E=5 in his name, creating Name Resonance.
+   On match day, the UD was 8 (Money/Power), the Date Life Path was 8, and Thomas's own LP is 8. That triple alignment on the number of Money channeled all financial and karmic energy directly through him. His permanently ignited Master 22, combined with his LP 8, triggered the exact GG33 formula: *"When High Energy meets Money, the result is a parabolic move."* His PD 5 (Chaos) matched the E=5 in his name, creating Name Resonance.
 
    His Chinese Astrology was overwhelming: he fought during his Own Month (Cat in Cat Month = amplified manifestation), on a Friend Day (Goat, 4 positions from Cat = "GO BIG"), and in a Friend City (Miami Gardens is a Goat, 4 apart from Cat).
 
@@ -2578,7 +2530,7 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
 **Mistake #2 — Never incorrectly kill a Master Number.** Adrian had a PD7 on fight night, and GG33 says PD7 creates "Zero Fuel" that rejects Master Numbers. So one might declare his Master Year 22 dead. But this ignores a crucial detail: the fight happened on a **UD5**, which is the exact "High Energy Ignition Spark" that GG33 says activates Master Numbers. The original case where PD7 killed a fighter's masters happened on UD9 — which is NOT a valid igniter. On Adrian's fight night, **UD5 provided real, valid ignition that powered Adrian's PY22 to life.**
 
-**Why Adrian actually won:** He had the complete winning formula. His Master Year 22 (powered by UD5) combined with his LP8 (Money/Power) triggered the exact GG33 rule: *"When High Energy meets Money, the result is a parabolic move."* On top of that, his Master Year 22 automatically activated the **Dead Money Exception**, which says any fighter in a Master Personal Year (11, 20, 22, or 33) can ignore astrological enemy attacks. Even though his Rooster sign was under attack from the Cat Month (Sick Body), his Master Year shielded him. His Chinese astrology was overwhelming — Rooster forms the Metal Trinity with Ox, and on fight night the Day was Ox, Arena was Ox, State was Ox. Three friend alignments (all 4 positions apart) all pouring energy into Adrian.
+**Why Adrian actually won:** He had the complete winning formula. His Master Year 22 (powered by UD5), combined with his LP8 (Money/Power), triggered the exact GG33 rule: *"When High Energy meets Money, the result is a parabolic move."* On top of that, his Master Year 22 automatically activated the **Dead Money Exception**, which says any fighter in a Master Personal Year (11, 20, 22, or 33) can ignore astrological enemy attacks. Even though his Rooster sign was under attack from the Cat Month (Sick Body), his Master Year shielded him. His Chinese astrology was overwhelming — Rooster forms the Metal Trinity with Ox, and on fight night, the Day was Ox, Arena was Ox, State was Ox. Three friend alignments (all 4 positions apart), all pouring energy into Adrian.
 
 **Why Ricky lost:** Without the fake letterology chain, Ricky's LP33 was only powered by the same UD5 that powered Adrian — zero ignition advantage. His PY3 clashed with UM4 (confirmed enemies — "fundamental incompatibility and obstacles"), creating drag all month. His PD6 (Governor) restricted his explosive energy. He had **zero astrological support** — his Monkey sign had no friend relationships with anything in the environment (not Year, Month, Day, Arena, City, or State).
 
@@ -2594,7 +2546,7 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
 **Marcin Tybura (LP7) lost** because his LP7 is permanently "Stillness" — the opposite of what you need in a fight. His fight-night PD was **6** (the Governor), which restricts explosive action. He was double-locked: his permanent energy says "be still," and his daily energy says "don't move." His Birth Month is 11 and his Birth Day is 9 — **9 and 11 are confirmed enemies** — his own birth chart is at war with itself permanently, killing any Master Number potential.
 
-His PM5 (Chaos — the ignition spark) was supposed to activate his Hidden 11 Master Year, but his LP7 (Stillness) choked it. **GG33's Choke Rule:** when Chaos (5) hits Stillness (7), the energy suffocates and dies. Because his Master Number was dead on arrival, his Triple OWN Ox alignment became a **cage instead of an amplifier**. GG33 is explicit: when a Master Number is dormant, astrological protection turns into a trap.
+His PM5 (Chaos — the ignition spark) was supposed to activate his Hidden 11 Master Year, but his LP7 (Stillness) choked it. **GG33's Choke Rule:** When Chaos (5) hits Stillness (7), the energy suffocates and dies. Because his Master Number was dead on arrival, his Triple OWN Ox alignment became a **cage instead of an amplifier**. GG33 is explicit: when a Master Number is dormant, astrological protection turns into a trap.
 
 **Tyrell Fortune (LP3) won** because even though he had multiple confirmed enemy clashes (3 vs 4, 4 vs 5), the documented override configuration controlled the framework reading. In this case, **PY20 (Hidden 11)** plus **UD5 (High Energy)** activated the Master Year exception and overrode the enemy frictions. Unlike Marcin, Tyrell's LP3 does NOT choke his PM5 — the Choke Rule is specifically 5 vs 7, not 5 vs 3. So his Chaos energy flowed freely, successfully igniting his Hidden 11 Master Year. His Horse in Horse Year (Own Year) then amplified that ignited energy.
 
@@ -2673,7 +2625,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 #### LP7 Override Exception
 
 <rule id="§23.17.lp7_exception" priority="key">
-🔑 **RULE:** LP7 chokes **external** Chaos. It CANNOT choke an ignition chain that is **already self-contained within the name**. The Etcheverry precedent proves this: Etcheverry had PY7 and it could not stop his letterology because his Master 22 was powered by his own name.
+🔑 **RULE:** LP7 chokes **external** Chaos. It CANNOT choke an ignition chain that is **already self-contained within the name**. The Etcheverry precedent proves this: Etcheverry had PY7, and it could not stop his letterology because his Master 22 was powered by his own name.
 </rule>
 
 > **Lesson:** LP 7 in sports is a structural loss, letterology permanent ignition outranks externally dependent ignition every time, and self-destruct rules must be applied to the exact configurations the documents specify — never expanded to configurations they don't cover.
@@ -2724,11 +2676,11 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 **Why Chris Duncan lost:**
 
 - **LP 1 vs PM 9** = 1 and 9 confirmed enemies. Duncan had **zero Master Numbers** in his chart, so no Master Override Rule was available.
-- **PD 4 vs UM 5** = 4 and 5 confirmed enemies. A second enemy clash stacking on top of the first.
+- **PD 4 vs UM 5** = 4 and 5 confirmed enemies. A second enemy clash is stacking on top of the first.
 - **PY 6 (Governor)** restricts explosive action. **PD 4 (Restriction)** blocks movement. Restricted and governed simultaneously.
-- **Rooster in Cat Month** = 6 positions apart = direct enemy clash = Sick Body. The Monkey Day is not a friend to Rooster in the Metal Trinity (only Ox and Snake are). Nothing healed his Sick Body.
+- **Rooster in Cat Month** = 6 positions apart = direct enemy clash = Sick Body. The Monkey Day is not a friend to the Rooster in the Metal Trinity (only Ox and Snake are). Nothing healed his Sick Body.
 - **Zero Master Numbers anywhere** = no mechanism to override any of these problems.
-- His LP1 matching UY1 was real but not enough. That Resonance was being destroyed from inside by his own LP1 vs PM9 enemy clash. A Resonance Force Field cannot function at full power when confirmed enemy energy is tearing it apart from within and there is no Master Number to override the damage.
+- His LP1 matching UY1 was real but not enough. That Resonance was being destroyed from the inside by his own LP1 vs PM9 enemy clash. A Resonance Force Field cannot function at full power when confirmed enemy energy is tearing it apart from within, and there is no Master Number to override the damage.
 
 > **Bottom line:** Moicano's clean, unobstructed triple Money chart defeated Duncan's blocked, self-clashing, unprotected chart. Within this framework, a chart full of unresolvable confirmed enemy clashes with no Master Number override is strongly disfavored against a chart with overwhelming alignment and zero resistance.
 
@@ -2778,7 +2730,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 
 Thomas has a **Life Path of 3** — not 7. This was the single biggest mistake in the original analysis: treating his **PY 7** (a temporary yearly energy) like it was his **LP 7** (a permanent identity). Every fighter in the GG33 documents who lost because of "Stillness" had a **Life Path** of 7 — their engine was permanently broken. Thomas's engine was fine. His PY7 was just a temporary speed bump, not a welded-on parking brake.
 
-His first name "**THOMAS**" adds up to **22** — a Master Number. The GG33 document has an exact precedent: a fighter literally named Thomas Etcheverry who also had PY7, and the document explicitly says he won because *"that vacuum only kills Master Numbers that depend on outside energy to activate — Thomas's Master 22 is powered by his own name, it needs nothing from the outside, so the vacuum had nothing to drain."* Thomas Petersen had this same permanent name-level engine running all fight long, and his PY7 couldn't touch it.
+His first name "**THOMAS**" adds up to **22** — a Master Number. The GG33 document has an exact precedent: a fighter literally named Thomas Etcheverry, who also had PY7, and the document explicitly says he won because *"that vacuum only kills Master Numbers that depend on outside energy to activate — Thomas's Master 22 is powered by his own name, it needs nothing from the outside, so the vacuum had nothing to drain."* Thomas Petersen had this same permanent name-level engine running all fight long, and his PY7 couldn't touch it.
 
 On top of that, **Thomas is a Pig. The Arena (Meta Apex) is also a Pig.** He was fighting in his OWN Arena. And the fight was during **Cat Month** — Pig and Cat are exactly 4 positions apart, which means the Arena became a **"Fortress"** per the Arena Fortress rule (§23.9): a Pig Arena in a Cat Month becomes a Fortress whose energy favors the arena's own sign and its friends. The Fortress was pouring all its energy directly into Thomas because he IS the Pig. The building itself was his weapon.
 
@@ -2899,7 +2851,7 @@ Per **§23.3**'s explicit corrective rule, every possible ignition source must b
 GG33 requires analysis of fighter-vs-environment alignment at every level (LP, PY, PM, PD). Josh matched Miami at four levels. Curtis had only two. Deep environmental resonance dominates shallow individual alignments.
 
 **FAILURE #4 — Misread Curtis's PM 6 Governor as benign.**
-Correctly identified Curtis's PM 6 as the Governor but failed to recognize that on a UM 5 (Universal Month of Chaos), his PM 6 would actively reject that Chaos energy for the ENTIRE MONTH, not just fight day. This is the exact **§23.16 Adesanya pattern** (PD6 rejecting UD5) scaled up to monthly duration.
+Correctly identified Curtis's PM 6 as the Governor but failed to recognize that on a UM 5 (Universal Month of Chaos), his PM 6 would actively reject that Chaos energy for the ENTIRE MONTH, not just fight day. This is the exact **§23.16 Adesanya pattern** (PD6 rejecting UD5) scaled up to a monthly duration.
 
 **FAILURE #5 — Overrated the "PD 8 + Friend Day" shortcut and the "clean platform on UD7" advantage.**
 The **§20.3** *"PD 8 + Friend Day = Massive Open"* shortcut and the **§23.11 / §23.20** *"clean platform on UD7"* archetype are real — but both are **ceiling/floor mechanisms**, not parabolic up mechanisms. They give a fighter a stable platform; they don't generate offense against an ignited Master + Money opponent. Per the GG33 99% hierarchy, numerology (ignited Master + Money = Parabolic) beats astrology (Friend Day floor). The §23.11 clean-platform win specifically requires the opponent to be suffocating via **dormant** Masters — but Josh's Master wasn't dormant, it was **IGNITED**. The template didn't apply.
@@ -2911,7 +2863,7 @@ Assumed the Cat Arena's Own-Day energy flowed to Curtis via the Wood Trinity (Go
 
 <rule id="§23.25.rule1" priority="key">
 **RULE #1 — Audit for matched 5-frequencies before applying the Choke Rule.**
-Before applying ANY "PY5 + UD7 Choke" analysis, audit the fighter's chart and environment for matched 5-frequencies across fighter / universe / city / state / venue. If **three or more 5s converge** (Triple 5 matched cycle per §23.5), the 5s are **IGNITION FUEL**, not chokeable volatility. The Choke Rule applies only to isolated 5s without matched-cycle support.
+Before applying ANY "PY5 + UD7 Choke" analysis, audit the fighter's chart and environment for matched 5-frequencies across fighter/universe/city/state/venue. If **three or more 5s converge** (Triple 5 matched cycle per §23.5), the 5s are **IGNITION FUEL**, not chokeable volatility. The Choke Rule applies only to isolated 5s without matched-cycle support.
 </rule>
 
 <rule id="§23.25.rule2" priority="key">
@@ -2939,12 +2891,12 @@ PY6 rejects UY5 for a **year**. PM6 rejects UM5 for a **month**. PD6 rejects UD5
 
 <rule id="§23.25.rule5" priority="key">
 **RULE #5 — "PD 8 + Friend Day = Massive Open" is a floor shortcut, NOT a parabolic shortcut.**
-It provides a green-tilted platform but cannot generate offensive victory against an opponent running an actual parabolic formula (ignited Master + Money). Use it only as a tiebreaker when the opposing fighter has no parabolic formula running.
+It provides a green-tilted platform but cannot generate an offensive victory against an opponent running an actual parabolic formula (ignited Master + Money). Use it only as a tiebreaker when the opposing fighter has no parabolic formula running.
 </rule>
 
 <rule id="§23.25.rule6" priority="key">
 **RULE #6 — The "clean platform on UD7" archetype requires DORMANT-AND-REJECTED opposing Masters.**
-The §23.11 / §23.20 clean-platform win only holds when the opposing fighter's Masters are dormant-and-rejected. If the opposing fighter's Masters are ignited via ANY of the six ignition sources, the clean platform becomes a quiet losing chart against an ignited opponent. Always verify the opposing fighter's Master status before declaring clean-platform supremacy.
+The §23.11 / §23.20 clean-platform win only holds when the opposing fighter's Masters are dormant and rejected. If the opposing fighter's Masters are ignited via ANY of the six ignition sources, the clean platform becomes a quiet losing chart against an ignited opponent. Always verify the opposing fighter's Master status before declaring clean-platform supremacy.
 </rule>
 
 <rule id="§23.25.rule7" priority="key">
@@ -3020,9 +2972,9 @@ Ranked the fighters by the wrong thing. Looked at Azamat's name and saw the lett
 - **Quadruple-8 Money foundation.** Charles has an **LP 8**. His full name `Charles Radtke = 8`. The **Kaseya Center has an LP 8**. **Miami is currently in PY 8**. That is **four 8s stacked together** — in his Life Path, in his name, in the arena, and in the host city. In GG33, 8 is the number of Money and Power.
 - **Number 8 does not need ignition.** This is the key point: **Number 8 is NOT a Master Number.** Master Numbers (11, 22, 33) need ignition to work, and a UD 7 shuts them down. But **8 does not need ignition.** It just works. A UD 7 cannot drain or suffocate Number 8, because 8 is not running on external energy — it is **permanent and structural**.
 - **PM 11 and PD 22 were never the real weapon.** While Charles's Master Numbers (PM 11, PD 22) did get rejected by UD 7, those Masters were never his real weapon. His real weapon was the **quadruple-8 Money foundation** sitting underneath, which UD 7 has no power over.
-- **PY 7 is not automatic sports death when permanent LP + Name energy is strong.** The PY 7 sports-danger rule is real but not absolute. Case studies **§23.12 (Thomas Etcheverry)** and **§23.21 (Thomas Petersen)** show that when a fighter carries permanent Money or Master energy built into his Life Path and his name, the temporary PY 7 **cannot drain it.** Permanent energy beats temporary energy. Charles had permanent LP 8 + permanent Name 8 — his PY 7 could not touch that.
+- **PY 7 is not an automatic sports death when permanent LP + Name energy is strong.** The PY 7 sports-danger rule is real but not absolute. Case studies **§23.12 (Thomas Etcheverry)** and **§23.21 (Thomas Petersen)** show that when a fighter carries permanent Money or Master energy built into his Life Path and his name, the temporary PY 7 **cannot drain it.** Permanent energy beats temporary energy. Charles had permanent LP 8 + permanent Name 8 — his PY 7 could not touch that.
 - **Matched-cycle resonance: PY 7 = UD 7.** Charles's PY 7 matched the UD 7. That is a **matched-cycle resonance** — same number on two levels — which GG33 says **cancels restriction rather than stacking it**. So his PY 7 was not an attack on him that day; it lined up with the environment and became neutral.
-- **The BD 9 vs PM 11 "self-destruct" did not matter.** Charles's Birth Day 9 did clash with his PM 11 (9 and 11 are enemies) — technically true, but **a self-destruct only matters if the Master Number it is destroying was going to be active**. On UD 7, Charles's PM 11 was already dormant and already rejected by the environment. There was nothing left for the self-destruct to kill. Non-event.
+- **The BD 9 vs PM 11 "self-destruct" did not matter.** Charles's Birth Day 9 did clash with his PM 11 (9 and 11 are enemies) — technically true, but **a self-destruct only matters if the Master Number it is destroying was going to be active**. On UD 7, Charles's PM 11 was already dormant and had already been rejected by the environment. There was nothing left for the self-destruct to kill. Non-event.
 - **Internal harmony in non-Master foundation.** Birth Day 9 + Personal Day 4 = confirmed friends. Birth Month 7 + Personal Month 11 = confirmed friends. His non-Master foundation was stable.
 
 **WHY FRANCISCO PRADO LOST:**
@@ -3071,7 +3023,7 @@ Saw Francisco's PY 5 and called it a strength. Focused on whether Charles's Mast
 - **LP 8 — Money and Power at the highest-priority level.** His **Life Path is 8** (Money and Power). Life Path is the most important number a person carries, so his highest-priority number is the number of Money itself.
 - **Core GG33 parabolic formula running permanently.** GG33's documented winning formula: *"When High Energy meets Money, the result is a parabolic move."* Jai had **High Energy (Master 11)** AND **Money (LP 8)** both sitting permanently in his core identity — the exact parabolic setup.
 - **External UD 5 ignition stacked on top of permanent letterology ignition.** The fight's **Universal Day was 5**, the specific ignition number that turns Master Numbers ON (per **§14.1**). On fight night, his already-permanent Master 11 received an **additional external boost** from the environment — **double-layer ignition** (letterology + environmental).
-- **Arena Fortress Rule running in Jai's favor (per §23.9).** Jai is a **Dragon**. April is **Dragon Month** → he was fighting in his **Own Month**. The arena (**Canada Life Centre**) is a **Monkey**. Dragon + Monkey = **4 positions apart = Friends** in the Chinese zodiac. Per the **Arena Fortress Rule (§23.9)**, when an arena sits in a Friend Month it becomes a **Fortress** that benefits whoever is friends with the arena — and Jai was friends with the arena.
+- **Arena Fortress Rule running in Jai's favor (per §23.9).** Jai is a **Dragon**. April is **Dragon Month** → he was fighting in his **Own Month**. The arena (**Canada Life Centre**) is a **Monkey**. Dragon + Monkey = **4 positions apart = Friends** in the Chinese zodiac. Per the **Arena Fortress Rule (§23.9)**, when an arena sits in a Friend Month, it becomes a **Fortress** that benefits whoever is friends with the arena — and Jai was friends with the arena.
 - **Money Magnet: Jai's LP 8 = Canada's PY 8.** Canada's **Personal Year on fight date = 8** (Money). Jai's Life Path = 8. When a fighter's Money number matches the host country's Money number, GG33 calls this a **Money Magnet** — maximal financial/power alignment at the national cycle level.
 
 **WHY MANDEL LOST:**
@@ -3103,7 +3055,7 @@ Flagged an "internal self-destruct" on Jai because his **Birth Month is 5** and 
 </rule>
 
 <rule id="§23.28.rule5" priority="key">
-**RULE #5 — Always verify the Arena Fortress Rule via arena-zodiac ↔ fight-month-zodiac relationship.** Calculate the arena's Chinese zodiac. Calculate the fight month's ruling zodiac animal. If they are **4 positions apart (Friends)**, the arena becomes a **Fortress** benefiting whichever fighter is friends with the arena. If **6 positions apart (Enemies)**, the arena is hostile. Cross-reference each fighter's zodiac against the arena's zodiac to determine direction of benefit (per **§23.9**). Never skip this check.
+**RULE #5 — Always verify the Arena Fortress Rule via arena-zodiac ↔ fight-month-zodiac relationship.** Calculate the arena's Chinese zodiac. Calculate the fight month's ruling zodiac animal. If they are **4 positions apart (Friends)**, the arena becomes a **Fortress**, benefiting whichever fighter is friends with the arena. If **6 positions apart (Enemies)**, the arena is hostile. Cross-reference each fighter's zodiac against the arena's zodiac to determine direction of benefit (per **§23.9**). Never skip this check.
 </rule>
 
 > **Bottom Line:** Jai ran the full GG33 parabolic formula (**Permanent Master 11 + LP 8 + UD 5 external ignition + Friend-month Arena Fortress + Money-Magnet PY 8**) with his one apparent enemy clash neutralized by a **Quintuple-4 matched cycle**. Mandel ran a **self-blocking chart**: his own **Double 6 Governor** rejected the 5-energy his Master 22 required, and his Money sat at a lower-priority cycle than Jai's. Three stacked analytical errors — a false self-destruct on Jai, an un-flagged Double Governor on Mandel, and a missed LP-vs-BD Money hierarchy — each pointed toward the wrong winner. The five rules above are now mandatory forward protocol.
