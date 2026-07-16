@@ -3,7 +3,7 @@ name: gg33-advanced-numerology
 description: Use this single-file skill when the user asks for GG33, Gary Grinberg-associated numerology, Life Path, Personal Year/Month/Day, compound-number references from 0 through 33, directional number compatibility, Master Numbers, Letterology, Chinese zodiac integration, GG33 sports/event/market framework analysis, or asks to audit, apply, or explain the embedded GG33 rule manual. Treat all outputs as calibrated framework interpretations unless live sources are actually checked and cited.
 ---
 
-# GG33 Advanced Numerology — All-In-One Skill V6.6
+# GG33 Advanced Numerology — All-In-One Skill V6.8
 
 ## Purpose
 
@@ -11,9 +11,9 @@ Use this file as a self-contained GG33-framework rule engine. It contains the op
 
 This all-in-one file is convenient for portability and handoff. It is less context-efficient than a folder-based skill (SKILL.md plus references/) because a single file loads as one large document. If using this file alone, use the section map to focus attention and ignore unrelated sections; do not treat it as progressive disclosure.
 
-Package version: **V6.6 All-In-One** (July 16, 2026) — V6.5 plus the never-reduce-masters clarification (user-confirmed): the Master Letters K and V contribute their full ordinals 11 and 22 in all name sums (§4.6), a §4.2 scope note states exactly where Master Numbers are never reduced and why the documented §4.1 birth-month digit method is not a reduction, and the §23.17/§23.26 intermediate totals are restated at full Master-Letter value — every documented final value is unchanged and re-verified by machine. V6.5 added the canonical A–Z Letterology reference (§4.6) with the name-sum method and edge-case disclosures, machine-verified against every name calculation documented in this manual. V6.4 was V6.2 plus the substantive V6.3 corrections, adopted after independent verification: the §23.2 PD33 mechanism is marked arithmetically invalid under the §6 PD formula (5 + 2 + 8 = 15 → 6, confirmed against the deterministic helper), the §20.1 Personal Year formula and warning no longer contradict each other at the birthday boundary, §20.2 no longer instructs verification through a Tier 2 utility, §6's cycle formulas now document component handling exactly as the calculator implements it, §4.4's number-9 material is restated as calibrated framework associations, and a new gate requires recomputing case-study arithmetic before reusing precedents. V6.3's regressions were declined: its re-deletion of the §4.5 supersession archive (restored) and one re-introduced copyedit corruption (reverted). The embedded reference content is a **V5.4 Integrity-Audited baseline** plus package controls and canonical overlays in §4.5 and §13; those overlays supersede affected baseline compatibility and number-reference material. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
+Package version: **V6.8 All-In-One** (July 16, 2026) — the V6.7 Precision Audit adopted after independent verification (the universal Master-component invariant, §4.2 Hidden-11 scope rule, §14.6 canonical letterology map and full-name procedure, and extended calculator all passed machine testing: 9/9 date cases and 13/13 name cases including the cited SECRET example), with four corrections: the §8 output template's master-reduction trap re-fixed and extended to birth month 11, the §4.5 supersession archive restored, one re-introduced copyedit corruption reverted, and a citation verification status added for the fetch-blocked gg33academy.org pages. The embedded reference content is a **V5.4 Integrity-Audited baseline** plus V6.8 package controls and canonical overlays in §4.2, §4.5, §13, and §14.6; those overlays supersede affected baseline Master-preservation, compatibility, number-reference, and Letterology calculation material. V6.7 retains the established arithmetic and adds an explicit scope boundary for `20 = Hidden 11`, a legacy case-study recalculation gate, and tighter source-confidence wording. The V5.4 baseline includes corrected example arithmetic (§4.1, §23.26), canonical self-destruct configuration rules (§17.4), a Dead Money Exception fuel limit (§14.4), UD 20 igniter consistency, a Secret Friends definition (§18.5), reconciled cross-section contradictions, and removal of fabricated internal quotations. Package controls improve internal consistency but do not independently verify official GG33 doctrine. Future revisions may supersede this package only after an explicit consistency and calculation audit.
 
-Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. Current factual claims require current sources.
+Provenance and validation limit: "Integrity-Audited" means internally audited against this bundled GG33 manual for calculation consistency, contradiction reduction, and source-claim discipline. It does not mean all external GG33, biographical, sports, market, social-media, or event claims have been independently verified in the current response. The July 16, 2026 tables were transcribed from two user-supplied images and are authoritative only inside this package's rule hierarchy; their official GG33 provenance has not been independently authenticated. The V6.7 universal Master-component invariant is a **user-specified package rule**. Public GG33 pages verify that 11, 22, and 33 are not reduced, but their public Life Path instructions describe digit-by-digit birth-date addition; the broader V6.7 component-preservation scope has not been independently verified as official GG33 doctrine. The separate `20 = Hidden 11` convention is manual-rule only and follows the scope boundary in §4.2. Current factual claims require current sources.
 
 ## Non-Negotiable Calibration
 
@@ -24,6 +24,8 @@ Provenance and validation limit: "Integrity-Audited" means internally audited ag
 - Treat absolute case-study terms such as mathematically, absolute, automatic, mandatory, guaranteed, death sentence, always, never, flawless, unstoppable, and nothing can shut down as framework/case-study shorthand, not literal certainty. Normalize them in user-facing output to calibrated within-framework language and check exceptions before applying them.
 - Treat every embedded "current," "public web audit," source-map, platform-map, app-feature, account, social-media, sports, market, and biographical claim as a dated snapshot from July 5, 2026, unless it is rechecked in the current response.
 - Treat the image-derived §4.5 and §13.2 tables as user-provided package references, not proof that the content is official, public, empirical, or independently verified.
+- Apply the V6.7 Master-component invariant everywhere: if a defined input component, intermediate result, or final result is exactly `11`, `22`, or `33`, retain that number and never replace it with `2`, `4`, or `6`. Continue adding any remaining components. Do not search larger values for Master-number substrings: `2022` is a year to process under its documented formula, not a standalone `22`.
+- Apply the §4.2 Hidden-11 scope rule: `20` is a manual-specific special result or standalone interpretation, not a Master Number or universally protected component. Inside component formulas, ordinary `20` inputs follow the formula (`T=20→2`; calendar or birth day `20→2+0`); never search a larger value for a `20` substring.
 - If an older profile, case study, or shorthand conflicts with §4.5 on a compatibility category, §4.5 controls the category. Preserve only noncategorical relationship nuance that does not relabel the pairing.
 - For health, legal, financial, trading, betting, hiring, safety, or medical topics, state that the GG33 reading is not evidence-based professional advice and add ordinary evidence-based considerations when relevant.
 - Do not import generic numerology or mainstream Chinese astrology as GG33 rules unless the response explicitly labels it as non-GG33 contrast.
@@ -33,10 +35,10 @@ Provenance and validation limit: "Integrity-Audited" means internally audited ag
 Use this map to locate relevant material and ignore unrelated sections:
 
 - `Embedded OpenAI UI Metadata`: display name, short description, and default prompt from the folder skill. Included for package completeness; not a runtime instruction.
-- `Embedded Calculator Source`: deterministic helper for Life Path, Personal Year, Personal Month, Personal Day, Universal Year, Universal Month, and Universal Day arithmetic. If this file is not installed as a folder skill, treat the code as reference source rather than an executable file.
+- `Embedded Calculator Source`: deterministic helper for Life Path, Personal Year, Personal Month, Personal Day, Universal Year, Universal Month, Universal Day, and §14.6 full-name Letterology arithmetic. If this file is not installed as a folder skill, treat the code as reference source rather than an executable file.
 - `Embedded Reference: Source Calibration and Research`: source hierarchy, conflict order, public-source audit, research protocol, glossary, and operating constraints. Read for any non-trivial analysis, source claim, or current/public verification request.
 - `Embedded Reference: Calculation and Output Workflow`: Life Path, Master Number preservation, Personal Year, the directional compatibility matrix, Chinese zodiac basics, QA checklist, confidence framework, output template, and a few-shot examples. Read for any calculation or user-facing interpretation.
-- `Embedded Reference: Advanced Methodology`: base-number profiles, the 0–33 construction reference, Master/Governor/Liquidity mechanics, number-specific rules, canonical self-destruct configuration rules (§17.4), advanced formulas, calculation shortcuts, common errors, and cross-cutting rules. Read for advanced, financial, market, event, or exception-heavy analysis.
+- `Embedded Reference: Advanced Methodology`: base-number profiles, the 0–33 construction reference, Master/Governor/Liquidity mechanics, the canonical Letterology map (§14.6), number-specific rules, canonical self-destruct configuration rules (§17.4), advanced formulas, calculation shortcuts, common errors, and cross-cutting rules. Read for name, advanced, financial, market, event, or exception-heavy analysis.
 - `Embedded Reference: Sports Case Studies`: sports and fight/team case studies plus forward rules. Read only for sports, combat-sports, arena/location, team, or case-study precedent analysis.
 - `Embedded Reference: Final Calibration`: final anti-impersonation and precision instruction. Read if auditing prompts safety or instruction conflicts.
 
@@ -55,9 +57,10 @@ If a task needs current external facts and browsing/tools are available, verify 
 2. Gather required inputs. Ask only for missing critical data, usually birth date, event date, location/year for Chinese zodiac transitions, entity names, and the specific question.
 3. Use the section map above to focus on the relevant embedded material and ignore unrelated sections.
 4. Calculate before interpreting:
-   - Prefer the deterministic calculator logic in `Embedded Calculator Source` for core arithmetic when executable tooling is available.
-   - Life Path: add full birth-date digits/components first; preserve valid 11, 22, and 33.
+   - Prefer the deterministic calculator logic in `Embedded Calculator Source` for core date arithmetic and §14.6 name sums when executable tooling is available.
+   - Life Path and cycles: preserve every exact Master component under §4.2, including birth month `11`, birth/calendar day `11` or `22`, and an exact Master intermediate/final result.
    - Personal Year: starts on the birthday, not January 1.
+   - Letterology: use the exact analyzed spelling and §14.6 Master-preserving positional map; calculate each name token and the complete name separately.
    - Personal Month/Day, Universal Year/Month/Day, Chinese zodiac relationship, and Letterology only when relevant.
 5. For number compatibility, calculate the relevant numbers first, normalize supported compounds under §4.5, and show each `input → matrix key`. Then read the subject's row; for a mutual/two-way reading, check both rows and disclose any directional mismatch.
 6. Apply the manual's conflict order and exception checks before giving a conclusion.
@@ -68,6 +71,8 @@ If a task needs current external facts and browsing/tools are available, verify 
 
 For short calculation requests, give calculation steps, result, source status if relevant, and a brief limitation.
 
+For name calculations, show the exact normalized spelling, per-letter equation, raw total, reduction path/result, and any separate `K=11` or `V=22` individual-letter observation.
+
 For full analyses, include methodology, calculations, findings by priority, sources actually reviewed or a no-live-source disclosure, calculation/source/framework confidence, limitations, and practical guidance.
 
 Use concise headings and adapt the embedded output template; do not force a long report for a simple question.
@@ -75,12 +80,14 @@ Use concise headings and adapt the embedded output template; do not force a long
 ## Anti-Hallucination Gates
 
 - If the exact birth date or event date is missing, do not infer it.
-- Treat the calculator source as an arithmetic helper only; do not use it as a source for Chinese zodiac, Letterology, sports/market conclusions, or real-world predictions.
+- Treat the calculator source as an arithmetic helper only. It may calculate the §14.6 name sum and identify `K`/`V` occurrences, but it does not supply Letterology interpretations, Chinese zodiac results, sports/market conclusions, or real-world predictions.
 - If a person/entity/date falls near the Chinese New Year and the exact sign matters, verify the transition date or state uncertainty.
 - If a public-source claim conflicts with the manual, label it as a source conflict instead of silently merging.
 - Do not convert embedded case-study statements, source-hierarchy labels, or historical examples into verified current facts unless those facts are checked in the current response.
 - Do not convert calculator edge-case conventions into documented GG33 doctrine. If the helper reports an ambiguity or an undefined edge case, surface that limitation in the answer.
-- Recompute case-study arithmetic before reusing a precedent. If a case-study value conflicts with §4, §6, §20, or the deterministic helper, the recomputed value controls; do not preserve the narrative mechanism or conclusion by force.
+- Recompute case-study arithmetic before reusing a precedent. This is mandatory for any legacy example involving birth month `11`, a name containing `K` or `V`, or a stated date/name total affected by the V6.7 overlays. If exact DOB or spelling is unavailable, do not reuse the numeric result as precedent; retain only an independently supported qualitative lesson and label it **case-study inference**. If a case-study value conflicts with §4, §6, §20, or the deterministic helper, the recomputed value controls; do not preserve the narrative mechanism or conclusion by force.
+- For every Letterology name sum, use only §14.6: reduce ordinary alphabet positions, but preserve the exact Master letters `K=11` and `V=22` inside token and whole-name arithmetic. Their individual-letter meanings are interpreted separately, but their numeric Master values remain in every sum.
+- Use the exact Latin-letter spelling being analyzed and disclose it. Ignore only spaces and the supported separators `- ' . ,`; do not silently transliterate accented or non-Latin characters, add or remove name components, or switch between legal, public, ring, stage, or company names.
 - Do not infer a 3-to-3 compatibility category: the supplied matrix leaves it unclassified. Do not infer Number 32's meaning or compatibility key: that source row is obscured. Number 0 also has no supplied compatibility key.
 - Do not route compounds through generic digit reduction when §13.2 does not provide an explicit usable `Root / Status`.
 - Do not revive the superseded `Best With` compatibility column for classification (it is archived in §4.5's supersession record for provenance only), and do not symmetrize the two directional mismatches in §4.5.
@@ -95,8 +102,8 @@ Use concise headings and adapt the embedded output template; do not force a long
 ```yaml
 interface:
   display_name: "GG33 Advanced Numerology"
-  short_description: "GG33 calculations, compatibility, and calibrated analysis"
-  default_prompt: "Use $gg33-advanced-numerology to calculate or analyze a birth date, compound number, compatibility pairing, event, team, or market setup with calibrated GG33 rules."
+  short_description: "GG33 date, name, compatibility, and calibrated analysis"
+  default_prompt: "Use $gg33-advanced-numerology to calculate or analyze a birth date, name or word, compound number, compatibility pairing, event, team, or market setup with calibrated GG33 rules."
 ```
 
 ---
@@ -107,9 +114,9 @@ interface:
 #!/usr/bin/env python3
 """Deterministic GG33 arithmetic helper.
 
-This script handles only explicit arithmetic/date-cycle rules from the bundled
-manual. It does not compute Chinese zodiac signs, source status, predictions,
-or interpretations.
+This script handles only explicit arithmetic/date-cycle rules and the §14.6
+full-name letter-sum method from the bundled manual. It does not compute Chinese
+zodiac signs, source status, predictions, or interpretations.
 """
 
 from __future__ import annotations
@@ -122,7 +129,15 @@ from dataclasses import asdict, dataclass
 from typing import Iterable
 
 
-PRESERVED_RESULTS = {11, 20, 22, 33}
+MASTER_NUMBERS = {11, 22, 33}
+HIDDEN_11_RESULT = 20
+TERMINAL_RESULTS = MASTER_NUMBERS | {HIDDEN_11_RESULT}
+ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+FULL_NAME_VALUES = {
+    letter: position if position in MASTER_NUMBERS else ((position - 1) % 9) + 1
+    for position, letter in enumerate(ALPHABET, start=1)
+}
+LETTER_LEVEL_MASTER_VALUES = {"K": 11, "V": 22}
 
 
 @dataclass
@@ -150,17 +165,22 @@ def digits(value: int, width: int | None = None) -> list[int]:
     return [int(ch) for ch in text]
 
 
+def component_digits(value: int, width: int | None = None) -> list[int]:
+    """Preserve an exact Master component; otherwise split it into digits."""
+    return [value] if value in MASTER_NUMBERS else digits(value, width)
+
+
 def birth_date_components(date: dt.date) -> list[int]:
-    """Life Path/PY components: split month/year; preserve birth day 11 or 22."""
-    components = digits(date.month, 2)
-    components.extend([date.day] if date.day in {11, 22} else digits(date.day, 2))
-    components.extend(digits(date.year, 4))
+    """Life Path components with exact Master month/day/year preservation."""
+    components = component_digits(date.month, 2)
+    components.extend(component_digits(date.day, 2))
+    components.extend(component_digits(date.year, 4))
     return components
 
 
 def calendar_day_components(day: int) -> list[int]:
-    """Event-day components: preserve calendar day 11 or 22, else split digits."""
-    return [day] if day in {11, 22} else digits(day)
+    """Event-day components: preserve exact Masters, otherwise split digits."""
+    return component_digits(day)
 
 
 def reduce_gg33(components: Iterable[int]) -> Reduction:
@@ -169,13 +189,13 @@ def reduce_gg33(components: Iterable[int]) -> Reduction:
     current = total
     steps: list[str] = []
 
-    while current >= 10 and current not in PRESERVED_RESULTS:
+    while current >= 10 and current not in TERMINAL_RESULTS:
         parts = digits(current)
         nxt = sum(parts)
         steps.append(f"{current} -> {'+'.join(str(p) for p in parts)} = {nxt}")
         current = nxt
 
-    if current == 20:
+    if current == HIDDEN_11_RESULT:
         label = "20 (Hidden 11)"
     elif current in {11, 22, 33}:
         label = f"{current} (Master Number)"
@@ -185,14 +205,117 @@ def reduce_gg33(components: Iterable[int]) -> Reduction:
     return Reduction(items, total, steps, current, label)
 
 
+def parse_name_tokens(value: str) -> list[str]:
+    """Normalize an exact Latin-letter name without inventing transliterations."""
+    text = value.strip().upper()
+    if not text:
+        raise ValueError("Name is empty.")
+
+    unsupported = sorted(
+        {
+            ch
+            for ch in text
+            if ch not in FULL_NAME_VALUES
+            and not ch.isspace()
+            and ch not in "-'.,"
+        }
+    )
+    if unsupported:
+        shown = ", ".join(repr(ch) for ch in unsupported)
+        raise ValueError(
+            f"Unsupported name character(s): {shown}. "
+            "Provide the exact A-Z spelling/transliteration to analyze."
+        )
+
+    tokens: list[str] = []
+    current: list[str] = []
+    for ch in text:
+        if ch in FULL_NAME_VALUES:
+            current.append(ch)
+        elif ch in "-'.":
+            continue
+        elif current:
+            tokens.append("".join(current))
+            current = []
+    if current:
+        tokens.append("".join(current))
+    if not tokens:
+        raise ValueError("Name contains no A-Z letters.")
+    return tokens
+
+
+def letterology_name_sum(value: str) -> dict:
+    """Calculate the canonical §14.6 whole-name sum and separate K/V readings."""
+    tokens = parse_name_tokens(value)
+    token_reports: list[dict] = []
+    all_letters: list[str] = []
+    letter_level_masters: list[dict] = []
+
+    for token_number, token in enumerate(tokens, start=1):
+        letters = list(token)
+        values = [FULL_NAME_VALUES[letter] for letter in letters]
+        reduction = reduce_gg33(values)
+        token_reports.append(
+            {
+                "token": token,
+                "equation": " + ".join(
+                    f"{letter}({FULL_NAME_VALUES[letter]})" for letter in letters
+                )
+                + f" = {reduction.total}",
+                "reduction": asdict(reduction),
+            }
+        )
+        all_letters.extend(letters)
+
+        for letter_index, letter in enumerate(letters, start=1):
+            if letter in LETTER_LEVEL_MASTER_VALUES:
+                letter_level_masters.append(
+                    {
+                        "token_number": token_number,
+                        "token": token,
+                        "letter_index": letter_index,
+                        "letter": letter,
+                        "individual_letter_energy": LETTER_LEVEL_MASTER_VALUES[letter],
+                        "full_name_sum_value": FULL_NAME_VALUES[letter],
+                    }
+                )
+
+    full_values = [FULL_NAME_VALUES[letter] for letter in all_letters]
+    full_reduction = reduce_gg33(full_values)
+    return {
+        "input_name": value,
+        "normalized_tokens": tokens,
+        "mapping": (
+            "A/J/S=1; B/T=2; C/L/U=3; D/M=4; E/N/W=5; F/O/X=6; "
+            "G/P/Y=7; H/Q/Z=8; I/R=9; K=11; V=22"
+        ),
+        "tokens": token_reports,
+        "full_name": {
+            "equation": " + ".join(
+                f"{letter}({FULL_NAME_VALUES[letter]})" for letter in all_letters
+            )
+            + f" = {full_reduction.total}",
+            **asdict(full_reduction),
+        },
+        "letter_level_masters": letter_level_masters,
+        "notes": [
+            "Whole-name arithmetic is case-insensitive and preserves K=11 and V=22 in every token and full-name sum.",
+            "K and V are also reported as individual-letter Master readings; interpretation is separate, but their numeric Master values remain preserved.",
+            "20 is Hidden 11 only when it is the complete token or full-name result; alphabet position T=20 maps to 2.",
+            "Spaces and commas delimit tokens; hyphens, apostrophes, and periods have no value inside a token.",
+            "Unsupported characters are rejected instead of silently transliterated.",
+        ],
+    }
+
+
 def personal_year_components(birth: dt.date, event: dt.date) -> tuple[list[int], int]:
     """Build PY components directly; never construct a pseudo-date, which
     would raise for Feb-29 births when the cycle year is not a leap year."""
     birthday_reached = (event.month, event.day) >= (birth.month, birth.day)
     cycle_year = event.year if birthday_reached else event.year - 1
-    components = digits(birth.month, 2)
-    components.extend([birth.day] if birth.day in {11, 22} else digits(birth.day, 2))
-    components.extend(digits(cycle_year, 4))
+    components = component_digits(birth.month, 2)
+    components.extend(component_digits(birth.day, 2))
+    components.extend(component_digits(cycle_year, 4))
     return components, cycle_year
 
 
@@ -222,9 +345,15 @@ def compute(birth: dt.date, event: dt.date | None) -> dict:
 
     pd = reduce_gg33([pm.result, *calendar_day_components(event.day)])
 
-    uy = reduce_gg33(digits(event.year, 4))
+    uy = reduce_gg33(component_digits(event.year, 4))
     um = reduce_gg33([uy.result, event.month])
-    ud = reduce_gg33([event.month, *calendar_day_components(event.day), *digits(event.year, 4)])
+    ud = reduce_gg33(
+        [
+            event.month,
+            *calendar_day_components(event.day),
+            *component_digits(event.year, 4),
+        ]
+    )
 
     report.update(
         {
@@ -243,9 +372,9 @@ def compute(birth: dt.date, event: dt.date | None) -> dict:
             "universal_month": asdict(um),
             "universal_day": asdict(ud),
             "notes": [
-                "Birth-day 11 and 22 are preserved in Life Path and Personal Year components.",
-                "Calendar day 11 and 22 are preserved in Personal Day and Universal Day components.",
-                "20 is labeled Hidden 11 instead of reducing to 2.",
+                "Every exact 11, 22, or 33 component is preserved; this includes birth month 11 and birth/calendar day 11 or 22.",
+                "Master preservation applies to defined components and intermediate/final results, not to substrings inside larger numbers such as 2022.",
+                "A complete reduction result of 20 is labeled Hidden 11; raw components equal to 20 follow their formula instead of receiving universal Master protection.",
                 "When a Personal Year resolves to 20 (Hidden 11), Personal Month math here adds 20; the manual does not document whether 11 should be used instead — flag the ambiguity if the PM lands on a master boundary.",
                 "If the birth day does not exist in a calendar month (day 29, 30, or 31), this helper effectively rolls that month's Personal Month boundary to the 1st of the following month; the manual does not define this edge case, so flag it as a helper convention.",
                 "Chinese zodiac signs and interpretations must be verified separately from the references.",
@@ -256,18 +385,46 @@ def compute(birth: dt.date, event: dt.date | None) -> dict:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Compute explicit GG33 arithmetic fields.")
-    parser.add_argument("--birth", required=True, help="Birth date in MM/DD/YYYY or YYYY-MM-DD format.")
+    parser = argparse.ArgumentParser(
+        description="Compute explicit GG33 date arithmetic and Letterology name sums."
+    )
+    parser.add_argument("--birth", help="Birth date in MM/DD/YYYY or YYYY-MM-DD format.")
     parser.add_argument(
         "--date",
         help="Event/current date in MM/DD/YYYY or YYYY-MM-DD format. If omitted, only Life Path is computed.",
     )
+    parser.add_argument(
+        "--name",
+        action="append",
+        default=[],
+        help="Exact A-Z name spelling to calculate under §14.6. Repeat for multiple names.",
+    )
     args = parser.parse_args()
 
+    if not args.birth and not args.name:
+        parser.error("Provide --birth and/or at least one --name.")
+    if args.date and not args.birth:
+        parser.error("--date requires --birth.")
+
     try:
-        birth = parse_date(args.birth)
-        event = parse_date(args.date) if args.date else None
-        print(json.dumps(compute(birth, event), indent=2, sort_keys=True))
+        report: dict = {}
+        if args.birth:
+            birth = parse_date(args.birth)
+            event = parse_date(args.date) if args.date else None
+            date_report = compute(birth, event)
+            report = (
+                {"date_arithmetic": date_report}
+                if args.name
+                else date_report
+            )
+        if args.name:
+            name_reports = [letterology_name_sum(name) for name in args.name]
+            if args.birth:
+                report["letterology_names"] = name_reports
+            else:
+                report = {"letterology_names": name_reports}
+
+        print(json.dumps(report, indent=2, sort_keys=True))
     except Exception as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 2
@@ -298,7 +455,7 @@ if __name__ == "__main__":
 ================================================================================
   GG33 ADVANCED NUMEROLOGY & CHINESE ASTROLOGY — System Instruction Manual
   Baseline: V5.4 Integrity-Audited (V5.3 Web-Audited Optimized + Integrated Number Profiles)
-  Overlay:  V6.6 package controls and canonical §4.5/§4.6/§13 references supersede affected baseline material.
+  Overlay:  V6.8 package controls and canonical §4.2/§4.5/§13/§14.6 references supersede affected baseline material.
   Source:  GG33_V3_Reformatted_5.md + numerology_chart_one_by_one_short.md + 11 number-summary files
   Format:  Markdown + semantic XML tags for zero-ambiguity AI parsing.
   Content: V5.2 preserved and upgraded with a July 5, 2026, public web-source audit,
@@ -391,14 +548,18 @@ This version was upgraded after a public web audit performed on **2026-07-05**. 
 | Topic | Public-source status | Instructional consequence |
 |---|---|---|
 | GG33 system identity | Public pages describe GG33 as Gary Grinberg's numerology system, integrating Life Path numerology, Master Numbers, Chinese zodiac cycles, and timing/compatibility. | Keep numerology + Chinese astrology as the primary integrated structure. |
-| Life Path calculation | Public GG33 pages state that GG33 adds every digit of the full birth date and does **not** reduce month/day/year separately; 11, 22, and 33 are preserved. | Keep the full-birth-date method as canonical. |
-| Master Numbers | Public GG33 pages identify 11, 22, and 33 as distinct Master Numbers that are not reduced. | Keep 11/22/33 as the only preserved Master Numbers unless a verified source states otherwise. |
+| Life Path calculation | Public GG33 pages state that GG33 adds every digit of the full birth date and does **not** reduce month/day/year separately; final 11, 22, and 33 results are preserved. | **Source conflict:** V6.7 applies the user-specified broader rule that an exact Master month/day/year component is also retained. Use V6.7 for package calculations, but do not claim this broader scope is publicly verified GG33 doctrine. |
+| Master Numbers | Public GG33 pages identify 11, 22, and 33 as distinct Master Numbers that are not reduced. | Preserve 11/22/33 under the V6.7 package invariant at component, intermediate, and final layers. Label the all-components scope as user-specified where external-source fidelity matters. |
 | 11 Life Path numbers | Public GG33 pages list 11 Life Path numbers and omit Life Path 2 from the basic list. | Keep the no-LP2 rule, while recognizing public pages may simplify advanced explanations. |
 | Chinese zodiac integration | Public GG33 pages describe Chinese zodiac as a timing/personality/compatibility layer. | Keep Chinese astrology secondary to numerology unless a specific manual rule says otherwise. |
 | Cat vs. Rabbit | Public GG33-adjacent results and Vietnamese-zodiac references support the Cat terminology, while ordinary Chinese zodiac sources use Rabbit. | In GG33 outputs, use **Cat**; when speaking to general audiences, note that this corresponds to the Rabbit slot in mainstream Chinese zodiac. |
 | CUE app | Public app listings describe daily energy guidance, compatibility, life-path/birthdate analysis, AI reader, founding-date database, and recent 2026 improvements, including Letterology and PY/PM visibility. | Add CUE as a current verification/tool layer, not as proof that every proprietary rule is public. |
 | 7CatYear | Public page describes it as an unofficial instant reading/calculator using collected public information. | Treat as Tier 2/utility, not official proof by itself. |
 | gg33academy.com | Public privacy text states the site is independently operated and not owned by or affiliated with GG33 Academy LLC/Gary Grinberg. | Do not treat this domain as official Tier 1 unless separately verified. |
+
+**V6.7 source-conflict note (July 16, 2026):** The public [Master Numbers page](https://gg33academy.org/master-numbers.html) supports the general non-reduction principle, while the public [Life Path instructions](https://gg33academy.org/what-is-a-life-path-number.html) describe digit-by-digit birth-date addition. The instruction to preserve an exact Master Number *wherever it occurs as a semantic component* is therefore user-specified. The package distinguishes two claims: `11/22/33 are never reduced` is public-source supported; `birth month 11, name letter K=11, and every other exact Master component must remain intact inside larger calculations` is the V6.7 package override. The `20 = Hidden 11` convention is separate, manual-rule only, and does not place 20 in the Master set.
+
+**Citation verification status (July 16, 2026):** automated fetch attempts against the gg33academy.org pages cited in this file (the Master Numbers page, the Life Path instructions, and the §14.6 newsletter example) returned HTTP 403 from this package's audit environment, so their contents are reported on the V6.7 recheck's authority and remain unverified within this package. Treat them as reported Tier 1 claims pending an accessible recheck (dc.3, dc.6).
 
 ### Known unresolved source conflict
 
@@ -573,7 +734,7 @@ When current verification is required and browsing is available, execute relevan
 
 ## Reference Contents
 
-- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, directional compatibility matrix, letterology letter values (§4.6)
+- §4 GG33 calculation formulas: Life Path, Master Numbers, Personal Year, 9 correction, directional compatibility matrix
 - §5 Chinese astrology basics: signs, enemy years, friend years, own years, Snake-year caveat
 - §6 Analysis execution sequence and worked calculation walkthrough
 - §7 Quality assurance checklist
@@ -588,16 +749,21 @@ When current verification is required and browsing is available, execute relevan
 
 <subsection id="§4.1" title="Life Path Number">
 
-### §4.1 Life Path Number (Unique GG33 Method)
+### §4.1 Life Path Number (V6.7 Package Method)
 
 <formula id="§4.1.life_path">
-🔑 **Formula:** Add all date digits/components together first → then reduce, while preserving valid master-number components.
+🔑 **Formula:** Add all defined date components together first → then reduce, while preserving every exact Master component and every exact Master intermediate/final result.
 
-**Special case:** If the birth day is 11 or 22, do NOT reduce it to a single digit before adding. The number 33 can appear as a total/result or non-calendar numerical component, but there is no 33rd day in a real Gregorian month.
+**V6.7 component rule:** Treat birth month, birth day, and full birth year as semantic components. If a complete component is exactly `11`, `22`, or `33`, retain it unchanged; otherwise split that component into digits. Continue adding all remaining components. Do not preserve a Master-looking substring inside a larger component (`2022` is processed as the full year under the year formula, not as `20 + 22` or a standalone `22`).
+
+In real Gregorian dates, birth month `11` and birth/calendar day `11` or `22` are the ordinary Master-component cases. There is no month or day `33`.
 </formula>
 
 **Birth-day master-number example:**
 `08/22/2001 = 0 + 8 + 22 + 2 + 0 + 0 + 1 = 33` → **Life Path 33**.
+
+**Multiple Master-component example:**
+`11/22/1985 = 11 + 22 + 1 + 9 + 8 + 5 = 56 → 5 + 6 = 11` → **Life Path 11**. Neither birth month `11` nor birth day `22` is reduced.
 
 **Invalid-date warning:** Do not use impossible dates such as `08/33/YYYY` for birth-date examples.
 
@@ -614,8 +780,9 @@ When current verification is required and browsing is available, execute relevan
 **❌ WRONG examples (mainstream method — NEVER use):**
 - `09/01/2025 → (0+9) + (0+1) + (2+0+2+5) = 9 + 1 + 9 = 19 → 10 → 1` *(month/day/year reduced separately)*
 - `08/22/2001 → 8 + (2+2) + (2+0+0+1) = 8 + 4 + 3 = 15 → 6` *(separate reduction destroys the master birth day 22; GG33 correctly yields 33)*
+- `11/22/1985 → 1 + 1 + 22 + 1 + 9 + 8 + 5 = 47 → 11` *(the final result happens to match, but splitting the exact birth month 11 violates the V6.7 invariant; the canonical raw total is 56)*
 
-**Calibration note:** For dates with no master-number component or total, separate reduction lands on the same final single digit as the GG33 method (digit-sum reduction preserves the digital root — see the first wrong example above, which reaches 1 either way). The two methods **diverge exactly when master numbers are involved**, which is why the GG33 order of operations is mandatory and why a matching final digit never proves the method used was correct.
+**Calibration note:** Replacing `11`, `22`, or `33` with `2`, `4`, or `6` changes a sum by a multiple of 9, so the final single-digit root often coincides. The methods still diverge whenever a raw or intermediate total lands on a preserved Master. Therefore a matching final digit never proves that the Master-preservation method was followed.
 
 </example>
 
@@ -633,14 +800,26 @@ When current verification is required and browsing is available, execute relevan
 | 22 | 22 | ~~4~~ |
 | 33 | 33 | ~~6~~ |
 
+**Universal V6.7 invariant (user-specified package rule):**
+
+- Apply preservation at every defined layer: date/month/day/year components, cycle inputs, alphabet positions, name-token totals, cross-token full-name totals, intermediate reductions, and final results.
+- Preservation means **retain the Master's full numeric value while continuing the calculation**. Example: a token worth `22` plus another token worth `13` is `22 + 13 = 35`, not `4 + 13`.
+- Preserve only a complete semantic component or reduction result that equals `11`, `22`, or `33`. Never extract a Master substring from a larger number.
+- This all-components scope is the package rule. Public-source support confirms non-reduction of Master Numbers generally but does not independently verify every component-level application.
+
 <warning id="§4.2.non_masters">
 ⚠️ **44, 55, 66, and higher are NOT master numbers.** Reduce these normally.
 </warning>
 
-**Scope of never-reduce:** Master Numbers are never reduced wherever they appear as values or totals — birth-day components 11/22 (§4.1), cycle totals (PY/PM/PD/UY/UM/UD), month numbers used as single components in PM/UM/UD math (November = 11), Letterology Master Letters (K = 11, V = 22; §4.6), and name totals. One documented boundary: the §4.1 Life Path method enters the **birth month** as digits per the documented §11.1 example (`11/22/1985 → 1 + 1 + 22 + 1 + 9 + 8 + 5 = 47 → 11`) — that is the documented digit method for the birth-month field, not a reduction of a Master Number total; do not "correct" it to month-as-11 without a documented rule (dc.6).
+**Hidden-11 scope for 20 (manual-rule only):**
 
-**Special Numbers:**
-- **20** = Hidden 11 (**manual-rule only**; see §14.8). Do not describe it as an independently verified discovery unless a current primary source is actually checked.
+- `20` is **not** a Master Number and does not receive the universal component protection applied to `11`, `22`, and `33`.
+- Stop and label `20 (Hidden 11)` when a complete reduction, cycle, name-token, or full-name result is exactly `20`. Carry an already-computed result of `20` into a downstream formula as `20` unless a specific rule says otherwise.
+- An explicitly interpreted standalone Birth Day, date number, or chart value of `20` may use the Hidden-11 label. Inside a component-based formula, however, ordinary month/day/year value `20` follows that formula and splits to `2 + 0`. The same birth day can therefore be interpreted as `20 (Hidden 11)` on its own while contributing `2 + 0` inside Life Path or cycle arithmetic.
+- In Letterology, alphabet position `T=20` reduces to `2`; only `K=11` and `V=22` receive exact Master-position preservation. Never extract `20` from a larger value.
+
+**Other special-number notes:**
+- **20** = Hidden 11 only under the scope rule above. Do not describe it as an independently verified discovery unless a current primary source is actually checked.
 - **11 and 22 detailed profiles** are consolidated in §14.8–§14.9
 - **28** = Wealth indicator (28/1 or 10/1). Treat any specific billionaire-percentage claim as a GG33/internal claim unless independently verified before use.
 - **No Life Path 2** exists in the GG33 system
@@ -655,6 +834,8 @@ When current verification is required and browsing is available, execute relevan
 🔑 **Formula:** Birth Month + Birth Day + Year of Last Birthday.
 
 **The Personal Year starts on the birthday — NOT on January 1.**
+
+Apply §4.2 to every component: preserve an exact birth month/day or cycle-year component of `11`, `22`, or `33`; otherwise split it according to the documented formula. Modern four-digit cycle years are normally split into digits because the complete year is not itself a Master Number.
 </formula>
 
 <example status="correct" topic="personal_year_calculation">
@@ -680,7 +861,7 @@ When current verification is required and browsing is available, execute relevan
 | **8** | Money & karma | Financial matters, cause/effect |
 | **9** | Endings | Transformation and completion |
 
-**Note:** There is no PY 2, for the same reason there is no LP 2: any total that would reduce to 2 (11, 20, 29, 38, 47, …) is preserved as 11 or Hidden 11 (§14.8). Totals of 11, 20 (Hidden 11), 22, or 33 are Master Personal Years — see §14.4 for their override effects.
+**Note:** There is no PY 2. A complete Personal Year result of `20` is retained as Hidden 11, while nonterminal totals such as `29`, `38`, and `47` reduce to `11` (§14.8). PY 11, PY 20 (Hidden 11), PY 22, and PY 33 are Master/Hidden-11 Personal Years; see §14.4 for their override effects.
 
 </subsection>
 
@@ -712,7 +893,7 @@ When current verification is required and browsing is available, execute relevan
 **Source status:** Transcribed from a user-supplied image dated July 16, 2026. It is preserved as an internal package rule but has not been independently authenticated as an official GG33 chart.
 
 **Compatibility input normalization (package convention):**
-1. Calculate the relevant Life Path, day/date number, cycle, or other input under its own documented method first. Do not send an unreduced raw date/name total directly to this matrix.
+1. Calculate the relevant Life Path, day/date number, cycle, or other input under its own documented method first. For a name total, use the canonical §14.6 map and reduction procedure, then normalize the result to a supported §4.5 matrix key. Do not send an unreduced raw date/name total directly to this matrix.
 2. If the resulting number is already a matrix key (`1–9`, `11`, `22`, or `33`), use that row unchanged.
 3. For an explicit compound from `10–33` that is not already a matrix key, use only §13.2's stated `Root / Status`: `Root N → row N`; `Hidden 11` or `Master 11 → row 11`. The "shares essence with" wording does not change the key.
 4. If §13.2 provides no usable key, leave compatibility unclassified. This applies to `0` and the obscured `32`; do not derive a key by generic numerology or analogy.
@@ -765,45 +946,6 @@ When current verification is required and browsing is available, execute relevan
 | **22** | Masters, 3 | 8 | 9 |
 | **33** | Masters, 3, 5 | 8 | No enemies |
 
-</subsection>
-
-<subsection id="§4.6" title="Letterology Letter Values (A–Z) & Name Calculation">
-
-### §4.6 Letterology Letter Values (A–Z) & Name Calculation
-
-<rule id="§4.6.letter_values" priority="key">
-🔑 **Canonical letter-value reference.** Values are the letter's alphabet position (ordinal), reduced to a single digit for sums — **except the Master Letters K (11th) and V (22nd), which are never reduced (§4.2) and contribute their full ordinals 11 and 22 in every sum and every pattern/ignition rule** (§14.6, §23.13). This table is derived from, and machine-verified against, every name calculation documented in this manual; every documented final value holds under the never-reduce convention.
-</rule>
-
-| Letter | Ordinal | Sum value | Letter | Ordinal | Sum value |
-|:---:|:---:|:---:|:---:|:---:|:---:|
-| A | 1 | 1 | N | 14 | 5 |
-| B | 2 | 2 | O | 15 | 6 |
-| C | 3 | 3 | P | 16 | 7 |
-| D | 4 | 4 | Q | 17 | 8 |
-| E | 5 | 5 | R | 18 | 9 |
-| F | 6 | 6 | S | 19 | 1 |
-| G | 7 | 7 | T | 20 | 2 |
-| H | 8 | 8 | U | 21 | 3 |
-| I | 9 | 9 | **V** | **22 (Master)** | **22 — never reduced** |
-| J | 10 | 1 | W | 23 | 5 |
-| **K** | **11 (Master)** | **11 — never reduced** | X | 24 | 6 |
-| L | 12 | 3 | Y | 25 | 7 |
-| M | 13 | 4 | Z | 26 | 8 |
-
-**Name-sum method (the documented convention):**
-1. Uppercase the name; use letters only. Spaces, hyphens, apostrophes, and other non-letter characters contribute nothing.
-2. Sum the letter values: single digits for every letter **except the Master Letters K and V, which contribute their full 11 and 22 — Master Numbers are never reduced, wherever they appear** (e.g., TOFIQ MUSAYEV = 74 and CHARLES RADTKE = 62).
-3. Reduce the total by digit-summing, **preserving master totals 11, 20 (Hidden 11), 22, and 33** (e.g., MANDEL = 22 stays 22; TOFIQ MUSAYEV = 74 → 11 stays 11).
-4. Per §23.26 Rule #2: check the **full-name sum first**, then each individual whole name — a Master total at either level is a permanent name-level Master.
-5. **Pattern detection is a separate step:** scan the letters for the Master Letters K (=11) and V (=22) and the 5-letters (E, N, W) for ignition chains. The documented ignition pattern is a 5-letter igniting V=22 (§14.6); per §23.13, `5 ignites 22`, NOT `5 ignites 11`.
-
-**Verified reproductions (this table + method):** THOMAS = 22; PAULO = 20 (Hidden 11); PAULO COSTA = 33; JAI = 11; MANDEL = 22; AZAMAT = 17 → 8; MURZAKANOV = 70 → 7; YAKHYAEV = 62 → 8; CHARLES RADTKE = 62 → 8; FRANCISCO PRADO = 70 → 7; RENATO MOICANO = 62 → 8; TOFIQ MUSAYEV = 74 → 11; letters C=3, E=5, I=9, L=3, N=5, O=6, U=3; Master Letters K=11 and V=22 at full value.
-
-**Edge-case disclosures (do not improvise beyond these):**
-- **K/V never-reduce convention (package doctrine, user-confirmed July 16, 2026):** Master Numbers are never reduced, so K contributes 11 and V contributes 22 in every sum. Every documented final value is unchanged versus a reduced computation (totals shift only by multiples of 9, since 11 ≡ 2 and 22 ≡ 4 mod 9). Where the two computations would diverge — a total landing exactly on a Master Number in one path — the never-reduce convention governs: e.g., K + V = 11 + 22 = **33**, consistent with §14.2's `11 + 22 = 33`. Do not use reduced K/V values (2/4) in any sum.
-- **T is not a Hidden-11 letter.** T's ordinal is 20 — Hidden 11 in cycle totals (§14.8) but not a Master Number — and no rule in this manual grants letter-level Hidden-11 status to T (or special status to S=19 or J=10 beyond their reduced values). In every documented sum T contributes 2; T = 20 would break the documented THOMAS = 22 (it would yield 40 → 4). Do not invent such a rule; if a future source documents one, integrate it with a source-status tag (dc.6).
-- **Diacritics and non-Latin scripts are undocumented.** The manual's examples cover plain A–Z names only. If a name contains accented or non-Latin characters, disclose the limitation instead of silently transliterating.
 </subsection>
 
 </section>
@@ -931,6 +1073,8 @@ Calculate in this exact order:
 
 Below is a rule-based, step-by-step GG33 breakdown for **March 17, 2026**, based on a **July 12, 1994** birthdate. In GG33, the Life Path number is the permanent role you play in the Matrix.
 
+All arithmetic below obeys §4.2: any complete component or intermediate/final result equal to `11`, `22`, or `33` remains intact while the remaining components continue to be added.
+
 **A. Life Path:**
 - Calculation: `0 + 7 + 1 + 2 + 1 + 9 + 9 + 4 = 33`
 - **Result: Life Path 33** (Master Teacher — never reduced).
@@ -1036,9 +1180,9 @@ Before submitting, verify ALL items.
 <checklist category="Calculations">
 
 **Calculations:**
-- ☐ All digits added together FIRST (not month/day/year separately)
-- ☐ Master numbers 11, 22, 33 preserved (not reduced)
-- ☐ Number 20 recognized as Hidden 11 (if applicable)
+- ☐ All defined components added together before reducing the combined result
+- ☐ Every exact 11, 22, or 33 component/intermediate/final result preserved; no Master substrings invented inside larger values
+- ☐ Number 20 handled under the §4.2 scope rule; never treated as a universal Master component
 - ☐ Number 28 wealth indicator applied (if applicable)
 - ☐ Personal Year starts on birthday (not January 1)
 - ☐ Mathematics triple-checked
@@ -1108,7 +1252,7 @@ Use this structure for formal analyses. Adapt length and headings for simple or 
 This analysis uses [specific GG33 techniques from this manual and/or Tier 1/2 sources actually reviewed].
 
 ─── Calculations ──────────────────────────────────────────────
-Life Path: MM/DD/YYYY → M+M + [D+D, or birth day 11/22 kept whole per §4.1] + Y+Y+Y+Y = XX → reduce, preserving 11/20/22/33 = [result]
+Life Path: MM/DD/YYYY → [M+M, or birth month 11 kept whole per §4.1] + [D+D, or birth day 11/22 kept whole] + Y+Y+Y+Y = XX → reduce, preserving 11/20/22/33 = [result]
 Chinese Zodiac: [Year] = [Sign]
 [Additional calculations as relevant]
 
@@ -1155,8 +1299,8 @@ C. WESTERN ASTROLOGY (Tertiary — 30–65% internal priority weight)
 🔑 **NEVER violate these rules under any circumstances:**
 </rule>
 
-<prohibition number="1">❌ Reduce master numbers 11, 22, 33</prohibition>
-<prohibition number="2">❌ Calculate Life Path by reducing month/day/year separately</prohibition>
+<prohibition number="1">❌ Reduce an exact Master Number 11, 22, or 33 at any component, intermediate, or final layer</prohibition>
+<prohibition number="2">❌ Calculate Life Path by separately reducing non-Master month/day/year components or by splitting an exact Master component before addition</prohibition>
 <prohibition number="3">❌ Claim Life Path 2 exists in GG33</prohibition>
 <prohibition number="4">❌ Call number 9 "the humanitarian"</prohibition>
 <prohibition number="5">❌ Fabricate GG33 methodologies without source verification</prohibition>
@@ -1208,13 +1352,13 @@ Always state confidence with **three separate layers**:
 
 **Calculations:**
 - Life Path: 11/22/1985
-- Step 1 — Add date components while preserving the master birth day: `1 + 1 + 22 + 1 + 9 + 8 + 5 = 47`
-- Step 2 — Reduce: `4 + 7 = 11`
+- Step 1 — Preserve both exact Master components: `11 (birth month) + 22 (birth day) + 1 + 9 + 8 + 5 = 56`
+- Step 2 — Reduce: `5 + 6 = 11`
 - Step 3 — **Result: Life Path 11** (Master Number)
 
 **Findings:** Life Path 11 is a Master Number in the GG33 system, representing heightened intuition, spiritual insight, and leadership potential. Unlike mainstream numerology, GG33 preserves this as 11 rather than reducing it to 2.
 
-**Confidence:** High calculation confidence — basic GG33 arithmetic and master-number preservation. Source confidence depends on whether Tier 1/Tier 2 verification was actually performed in the response.
+**Confidence:** High calculation confidence under the V6.7 package method because the stated arithmetic is deterministic. Source confidence for the broader component-preservation rule is limited by the documented public-source conflict and depends on any Tier 1/Tier 2 verification actually performed in the response.
 
 </example>
 
@@ -1352,7 +1496,7 @@ Always state confidence with **three separate layers**:
 | **17** | Root 8 | Karma, money, and power; hope, willpower, and rebuilding after a tower falls. Colored by 1's aggression and 7's intelligence. |
 | **18** | Root 9 | Endings, adaptation, and primal desires; beginning of karma and coming to maturity. Colored by 1's aggression and 8's karma. |
 | **19** | Root 1 | Leadership, new beginnings, and aggression; "the beginning of the end" and hyper-fast effects from causes. Colored by 1's aggression and 9's endings. |
-| **20** | **Hidden 11**; symbolic root 2 | The image says "reduces to 2" and describes amplified cooperation, peace, and emotional sensitivity, with zero deepening feeling and receptivity to an acute level. Operationally, preserve 20 as Hidden 11; do not create LP2. |
+| **20** | **Hidden 11**; symbolic root 2 | The image says "reduces to 2" and describes amplified cooperation, peace, and emotional sensitivity, with zero deepening feeling and receptivity to an acute level. Operationally, label a complete result or explicitly interpreted standalone chart value of 20 as Hidden 11 under §4.2; do not create LP2 or universally preserve raw 20 components. |
 | **21** | Root 3 | Creativity, communication, and expression; double independence and luck in solo adventures. Colored by 2's peace and 1's aggression. |
 | **22** | **Master 22** | Material mastery and practical accomplishment at scale; building or destroying in the material world. Built from two 2s and described as sharing 4's essence at a higher octave; never reduce it to 4 operationally. |
 | **23** | Root 5 | Change, transformation, freedom, and travel; double luck, especially in travel and romance. Colored by 2's peace and 3's creativity. |
@@ -1597,7 +1741,7 @@ A dormant Master Number is **not merely inactive** — on UD6 it is POWERLESS; o
 </rule>
 
 - **High Energy igniters:** Universal Day **5, 11, 22, or 33**
-- **UD 20 = Hidden 11** and counts as a valid Master igniter (§22.1, §23.23)
+- **A computed UD result of 20 = Hidden 11** and counts as a valid Master igniter (§22.1, §23.23)
 - **NOT igniters:** UD 7, 8, or 9
 - Number 5 = "High Energy Activator / Ignition Spark" — Chaos, Motion, Volatility
 - Master Numbers do not fear Chaos (UD5) — they feed on it for parabolic moves
@@ -1641,23 +1785,23 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 
 </subsection>
 
-<subsection id="§14.4" title="Dead Money Exception (Master Year Override)">
+<subsection id="§14.4" title="Dead Money Exception (Master/Hidden-11 Year Override)">
 
-### §14.4 Dead Money Exception (Master Year Override)
+### §14.4 Dead Money Exception (Master/Hidden-11 Year Override)
 
 <rule id="§14.4.dead_money_exception" priority="key">
 🔑 **RULE:** If the Body or Sentiment is in **PY 11, 20 (Hidden 11), 22, or 33**:
 - IGNORE the "Dead Money" rule of the Enemy Month
-- Predict Strength/Green — the Master Year provides sufficient energy to override astrological attack
-- This override applies to Personal YEAR or activated Personal MONTH masters
+- Predict Strength/Green — the Master/Hidden-11 cycle provides sufficient energy to override astrological attack
+- This override applies to qualifying Personal YEAR or activated Personal MONTH results
 </rule>
 
 <warning id="§14.4.restrictions">
 ⚠️ **CRITICAL restrictions on this rule:**
-- Does **NOT** apply to Personal DAY masters alone
+- Does **NOT** apply to Personal DAY Master/Hidden-11 results alone
 - Does **NOT** apply to PY9 (which is downward completion, not a master year)
 - If Body is in Hidden 11 year (PY20): treat UD 5, 11, 22, and 33 (and UD 20 = Hidden 11, §14.1) as Green/Buy days regardless of Month/Year enemy status
-- **Documented fuel limit:** on a Zero-Fuel Universal Day (7 or 9) with stacked enemy friction, this Master-Year override can FAIL — §19.2 Formula D documents IPO PY20 + UD9 producing a parabolic drop, while §23.13 shows the same exception holding on an igniting UD5. Check the UD's fuel status before applying this override.
+- **Documented fuel limit:** on a Zero-Fuel Universal Day (7 or 9) with stacked enemy friction, this Master/Hidden-11 Year override can FAIL — §19.2 Formula D documents IPO PY20 + UD9 producing a parabolic drop, while §23.13 shows the same exception holding on an igniting UD5. Check the UD's fuel status before applying this override.
 </warning>
 
 </subsection>
@@ -1685,10 +1829,67 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 🔑 **RULE:** Letterology energy is **permanent and date-independent** — always active regardless of Universal Day.
 </rule>
 
+#### Canonical A–Z map for words and full names
+
+**Source and scope:** Rechecked July 16, 2026. A public [GG33 Academy newsletter example](https://gg33academy.org/newsletters/1799-people-heard-this-you-didnt.html) calculates `SECRET` from alphabet positions reduced letter by letter (`S=19→1`, `E=5`, `C=3`, `R=18→9`, `E=5`, `T=20→2`; total `25→7`). That public example confirms ordinary positional reduction but does not test letters at Master positions. V6.7 therefore combines the verified ordinary-letter method with the user-specified universal rule that exact Master positions remain intact: `K=11` and `V=22` in both individual-letter and full-name arithmetic. This is the package's operational method, not a claim that the K/V extension was independently verified as public GG33 doctrine. (The newsletter URL returned HTTP 403 to this package's automated audit fetch; see the citation verification status in the source-audit section.)
+
+Keep these layers separate:
+
+1. **Alphabet position:** `A=1, B=2, ... Z=26`.
+2. **Whole-name sum value:** reduce an ordinary alphabet position to one digit before addition, but retain an exact Master position. In formula form: use the position itself when it is `11`, `22`, or `33`; otherwise use `1 + ((position - 1) mod 9)`.
+3. **Individual-letter energy:** use the same numeric value. `K=11` and `V=22` stay intact in the sum and are also interpreted as individual-letter Master energies.
+
+| Letter | Alphabet position | Whole-name sum value | Individual-letter energy |
+|---|---:|---:|---:|
+| A | 1 | 1 | 1 |
+| B | 2 | 2 | 2 |
+| C | 3 | 3 | 3 |
+| D | 4 | 4 | 4 |
+| E | 5 | 5 | 5 |
+| F | 6 | 6 | 6 |
+| G | 7 | 7 | 7 |
+| H | 8 | 8 | 8 |
+| I | 9 | 9 | 9 |
+| J | 10 | 1 | 1 |
+| K | 11 | **11** | **11** |
+| L | 12 | 3 | 3 |
+| M | 13 | 4 | 4 |
+| N | 14 | 5 | 5 |
+| O | 15 | 6 | 6 |
+| P | 16 | 7 | 7 |
+| Q | 17 | 8 | 8 |
+| R | 18 | 9 | 9 |
+| S | 19 | 1 | 1 |
+| T | 20 | 2 | 2 |
+| U | 21 | 3 | 3 |
+| V | 22 | **22** | **22** |
+| W | 23 | 5 | 5 |
+| X | 24 | 6 | 6 |
+| Y | 25 | 7 | 7 |
+| Z | 26 | 8 | 8 |
+
+Compact whole-name map: `A/J/S=1`, `B/T=2`, `C/L/U=3`, `D/M=4`, `E/N/W=5`, `F/O/X=6`, `G/P/Y=7`, `H/Q/Z=8`, `I/R=9`, `K=11`, `V=22`.
+
+#### Exact full-name calculation procedure
+
+1. **Fix the analyzed spelling.** State the exact legal, public, ring, stage, company, product, city, or venue name being calculated. Do not silently add, remove, abbreviate, or replace components; calculate alternate forms separately.
+2. **Use A–Z case-insensitively.** Uppercase and lowercase display do not change a whole-name value. Do not use case-sensitive continuation values such as `A=27`, and do not add unreduced ordinal positions directly.
+3. **Handle separators only.** Spaces and commas may delimit name components. Hyphens, apostrophes, and periods have no value and do not split a compound component (`O'NEIL → ONEIL`; `ANNE-MARIE → ANNEMARIE`). For accented or non-Latin text, use an explicit user-supplied or source-published A–Z spelling/transliteration and disclose it; never invent one.
+4. **Calculate every token and the complete name.** Replace each letter with its whole-name sum value and show the equation. Preserve `K=11` and `V=22`. Token subtotals are reporting aids only: add the raw token totals to obtain the complete-name raw total, never reduced token results. A token total of `11`, `22`, or `33` remains intact while the other raw token totals are added.
+5. **Reduce only the combined non-Master result.** Repeatedly add digits until the result is `1–9`, `11`, `20`, `22`, or `33`. Preserve `11`, `22`, and `33` at letter, token, intermediate, and final layers. Stop at `20` only when the complete token or full-name result is `20`, under §4.2; alphabet position `T=20` still maps to `2`. Continuing to add other components does not count as reducing a Master: `22 + 13 = 35` is valid, while `4 + 13` is not.
+6. **Audit Master letters.** Report every `K=11` or `V=22` occurrence as an individual-letter observation in addition to retaining its full Master value in the arithmetic.
+7. **Report:** exact spelling, per-token equations, complete-name equation, raw total, reduction path/result, and separate individual-letter observations.
+
+Validation examples:
+
+- `SECRET = S(1)+E(5)+C(3)+R(9)+E(5)+T(2) = 25 → 7`.
+- `PAULO = 20`; `COSTA = 13`; complete name `PAULO COSTA = 20+13 = 33`, preserved as Master 33. Do not reduce the token subtotals before combining them.
+- `TOFIQ MUSAYEV = 31+43 = 74 → 7+4 = 11`; `V=22` is preserved in `MUSAYEV` and is also reported as an individual-letter Master.
+- `MURZAKANOV = 70 → 7`; both `K=11` and `V=22` remain intact in the raw total.
+
 - **n = 5** (Chaos / High Energy) permanently ignites **v = 22** (Master Builder/Number) at the name level, regardless of what the Universal Day is
 - **Internal chain:** `n=5 → v=22 → LP33`. Self-contained and self-sustaining — requires no external spark.
 - **Name Resonance:** when PD matches letterology energy (e.g., Body PD5 = letterology n=5), this creates alignment and amplification of internal ignition
-- Letter values for all sums and pattern checks: see the canonical §4.6 table
 - An ignited v=22 (itself a Master Number / High Energy igniter) feeds LP33 from within — UD6 Governor cannot suppress internally ignited Masters; it can only moderate the move
 - PD11 alongside LP33 creates a second simultaneous Master Resonance layer across the entity
 
@@ -1717,12 +1918,12 @@ Ignited Masters override: Enemy Month/Year, daily restriction (4), astrological 
 ### §14.8 Master Number 11 Profile
 
 <rule id="§14.8.no_reduction" priority="key">
-🔑 **RULE:** Master 11 is never reduced to 2. The number **20** aligns with Hidden 11, not LP2.
+🔑 **RULE:** Master 11 is never reduced to 2. A complete result or explicitly interpreted standalone value of **20** follows the §4.2 Hidden-11 scope rule; 20 itself is not added to the Master Number set.
 </rule>
 
 **Applies to:**
 - Born on the **11th or 29th**
-- Date sums of **11, 20, 29, 38, 47, 56**, etc., where GG33 preserves the 11/Hidden 11 structure
+- Complete date/cycle results of **11** or **20**, including totals such as **29, 38, 47, 56**, etc. that reduce to 11
 - Entities with active PY/PM/PD 11 or Hidden 11 conditions
 
 **Core traits:**
@@ -2109,7 +2310,7 @@ These neutralizations allow Masters to function normally and drive prices upward
 ### §19.1 Parabolic UP Formulas
 
 | ID | Name | Components | Mechanism |
-|:--:|:-----|:-----------|:----------|
+|:---:|:-----|:-----------|:----------|
 | **A** | Master Ignition + Money Year | UD5 ignites Master (PY 11/22/33) + PY8 fuel | Overrides all daily restrictions → Parabolic Up |
 | **B** | Triple 8 Money Magnet | UD8 + LP8 + Letterology 8 = pure Money vessel | PY6 locks in gains, prevents crash → Parabolic Up |
 | **C** | Own Year Shield + Master 22 + PY8 | Own Year (same sign = Force Field) + Master Name/LP (ignited by PY8 fuel) | Neutralizes Sick Body penalty → Parabolic Up |
@@ -2128,7 +2329,7 @@ These neutralizations allow Masters to function normally and drive prices upward
 ### §19.2 Parabolic DOWN Formulas
 
 | ID | Name | Components | Mechanism |
-|:--:|:-----|:-----------|:----------|
+|:---:|:-----|:-----------|:----------|
 | **A** | Triple Negative #1 | 5 vs 7 Choke + 3 vs 4 Enemy Friction + Direct Zodiac Clash | "Triple Negative" — mandates a severe Red-day reading within the framework |
 | **B** | Vacuum + Completion | PM5 (Chaos) + UD7 (Vacuum) + PD9 (Closing Out) | Overpowers Dormant Master 11 Year on Incorporation → Parabolic Down |
 | **C** | Dormant Master Rejection | Entity PY33 + UD7 (Zero Fuel) | Master actively rejected → "suffocation" → parabolic crash. (High Frequency + Zero Fuel = Parabolic Drop.) |
@@ -2167,6 +2368,8 @@ These neutralizations allow Masters to function normally and drive prices upward
 
 <formula id="§20.1.personal_year">
 🔑 **Formula:** Personal Year = Birth Month components + Birth Day components + year of the last birthday. For an event before that year's birthday, use `event year - 1`; on or after the birthday, use the event year.
+
+Apply the universal §4.2 invariant before addition: retain any complete component equal to `11`, `22`, or `33`; split only non-Master components according to the formula.
 </formula>
 
 <warning id="§20.1.critical">
@@ -2191,7 +2394,7 @@ For full event, sports, market, or multi-entity analyses, calculate the relevant
 2. Personal Month
 3. Personal Day
 4. Daily, Monthly, and Yearly Chinese Zodiac animal when relevant; verify transition-sensitive dates with current sources. Treat `7catyear.com` as a Tier 2 utility, not official proof by itself.
-5. Letterology when relevant (first letter, vowels, and whole name); treat its energy claims as framework rules. Use the §4.6 letter-value table and name-sum method for all letter values and name sums.
+5. Letterology when relevant: calculate each analyzed name token and the complete name with §14.6, using the exact disclosed spelling. Retain `K=11` and `V=22` in the arithmetic and also report their individual-letter meanings.
 6. Zodiac animal relationships when relevant: Friend / Enemy / Own status for Year, Month, and Day.
 
 </subsection>
@@ -2263,7 +2466,7 @@ These rules cut across multiple sections and must be internalized as a unified r
 ### §22.1 PY 7 in Sports = Suffocating Vacuum
 
 <rule id="§22.1.py7_sports" priority="key">
-🔑 **RULE:** In sports, never ignore an entity's Personal Year 7. PY7 explicitly dictates *"injury risk"* and *"money going down."* In the GG33 system, PY7 acts as a suffocating vacuum that removes the entity's fuel, rejects Universal Day 20 (Hidden 11) Master Number ignition, and turns the entity's Own Year astrological shield into a cage of negative cause-and-effect karma.
+🔑 **RULE:** In sports, never ignore an entity's Personal Year 7. PY7 explicitly dictates *"injury risk"* and *"money going down."* In the GG33 system, PY7 acts as a suffocating vacuum that removes the entity's fuel, rejects Master ignition supplied by a Universal Day result of 20 (Hidden 11), and turns the entity's Own Year astrological shield into a cage of negative cause-and-effect karma.
 </rule>
 
 **Documented exceptions:** PY7 = UD7 matched-cycle resonance cancels the restriction rather than stacking it (§23.27 Rule #4), and PY7 cannot drain **permanent** LP- or name-level energy — Etcheverry (§23.12), Petersen (§23.21), and Radtke (§23.27 Rule #3) all won in PY7 through permanent name/LP energy.
@@ -2289,7 +2492,7 @@ These rules cut across multiple sections and must be internalized as a unified r
 <rule id="§22.3.letterology_precedence" priority="key">
 🔑 **RULE:** Never underweight the GG33 "Master Override Rule" (The 10% Case) and the permanent "Letterology Ignition." An ignited Master Resonance takes strict 99% hierarchical precedence over standard structural restrictions.
 
-Specifically: a proprietary letterology of `n = 5` (Chaos / High Energy) **permanently** ignites `v = 22` (Master Builder) at the name level, creating a self-sustaining internal chain (`n=5 → v=22 → LP33`) that feeds the entity's Life Path without requiring any external spark.
+Specifically: this manual's letterology rule says `n = 5` (Chaos / High Energy) **permanently** ignites `v = 22` (Master Builder) at the name level, creating a self-sustaining internal chain (`n=5 → v=22 → LP33`) that feeds the entity's Life Path without requiring any external spark.
 </rule>
 
 </subsection>
@@ -2577,7 +2780,7 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
 **Mistake #2 — Never incorrectly kill a Master Number.** Adrian had a PD7 on fight night, and GG33 says PD7 creates "Zero Fuel" that rejects Master Numbers. So one might declare his Master Year 22 dead. But this ignores a crucial detail: the fight happened on a **UD5**, which is the exact "High Energy Ignition Spark" that GG33 says activates Master Numbers. The original case where PD7 killed a fighter's masters happened on UD9 — which is NOT a valid igniter. On Adrian's fight night, **UD5 provided real, valid ignition that powered Adrian's PY22 to life.**
 
-**Why Adrian actually won:** He had the complete winning formula. His Master Year 22 (powered by UD5), combined with his LP8 (Money/Power), triggered the exact GG33 rule: *"When High Energy meets Money, the result is a parabolic move."* On top of that, his Master Year 22 automatically activated the **Dead Money Exception**, which says any fighter in a Master Personal Year (11, 20, 22, or 33) can ignore astrological enemy attacks. Even though his Rooster sign was under attack from the Cat Month (Sick Body), his Master Year shielded him. His Chinese astrology was overwhelming — Rooster forms the Metal Trinity with Ox, and on fight night, the Day was Ox, Arena was Ox, State was Ox. Three friend alignments (all 4 positions apart), all pouring energy into Adrian.
+**Why Adrian actually won:** He had the complete winning formula. His Master Year 22 (powered by UD5), combined with his LP8 (Money/Power), triggered the exact GG33 rule: *"When High Energy meets Money, the result is a parabolic move."* On top of that, his Master Year 22 automatically activated the **Dead Money Exception**, which says any fighter in a Master/Hidden-11 Personal Year (11, 20, 22, or 33) can ignore astrological enemy attacks. Even though his Rooster sign was under attack from the Cat Month (Sick Body), his Master Year shielded him. His Chinese astrology was overwhelming — Rooster forms the Metal Trinity with Ox, and on fight night, the Day was Ox, Arena was Ox, State was Ox. Three friend alignments (all 4 positions apart), all pouring energy into Adrian.
 
 **Why Ricky lost:** Without the fake letterology chain, Ricky's LP33 was only powered by the same UD5 that powered Adrian — zero ignition advantage. His PY3 clashed with UM4 (confirmed enemies — "fundamental incompatibility and obstacles"), creating drag all month. His PD6 (Governor) restricted his explosive energy. He had **zero astrological support** — his Monkey sign had no friend relationships with anything in the environment (not Year, Month, Day, Arena, City, or State).
 
@@ -2593,9 +2796,9 @@ The UD 7 had nothing to reject or suffocate in his chart. He was operating on a 
 
 **Marcin Tybura (LP7) lost** because his LP7 is permanently "Stillness" — the opposite of what you need in a fight. His fight-night PD was **6** (the Governor), which restricts explosive action. He was double-locked: his permanent energy says "be still," and his daily energy says "don't move." His Birth Month is 11 and his Birth Day is 9 — **9 and 11 are confirmed enemies** — so his own birth chart is permanently at war with itself, killing any Master Number potential.
 
-His PM5 (Chaos — the ignition spark) was supposed to activate his Hidden 11 Master Year, but his LP7 (Stillness) choked it. **GG33's Choke Rule:** When Chaos (5) hits Stillness (7), the energy suffocates and dies. Because his Master Number was dead on arrival, his Triple OWN Ox alignment became a **cage instead of an amplifier**. GG33 is explicit: when a Master Number is dormant, astrological protection turns into a trap.
+His PM5 (Chaos — the ignition spark) was supposed to activate his Hidden-11 year, but his LP7 (Stillness) choked it. **GG33's Choke Rule:** When Chaos (5) hits Stillness (7), the energy suffocates and dies. Because his Master Number was dead on arrival, his Triple OWN Ox alignment became a **cage instead of an amplifier**. GG33 is explicit: when a Master Number is dormant, astrological protection turns into a trap.
 
-**Tyrell Fortune (LP3) won** because even though he had multiple confirmed enemy clashes (3 vs 4, 4 vs 5), the documented override configuration controlled the framework reading. In this case, **PY20 (Hidden 11)** plus **UD5 (High Energy)** activated the Master Year exception and overrode the enemy frictions. Unlike Marcin, Tyrell's LP3 does NOT choke his PM5 — the Choke Rule is specifically 5 vs 7, not 5 vs 3. So his Chaos energy flowed freely, successfully igniting his Hidden 11 Master Year. His Horse in Horse Year (Own Year) then amplified that ignited energy.
+**Tyrell Fortune (LP3) won** because even though he had multiple confirmed enemy clashes (3 vs 4, 4 vs 5), the documented override configuration controlled the framework reading. In this case, **PY20 (Hidden 11)** plus **UD5 (High Energy)** activated the Master/Hidden-11 Year exception and overrode the enemy frictions. Unlike Marcin, Tyrell's LP3 does NOT choke his PM5 — the Choke Rule is specifically 5 vs 7, not 5 vs 3. So his Chaos energy flowed freely, successfully igniting his Hidden-11 year. His Horse in Horse Year (Own Year) then amplified that ignited energy.
 
 > **Lesson:** A running engine in a plain car beats a dead engine in a luxury car every time. *(The LP7 structural-loss default has documented overrides: letterology permanent ignition — see §23.18 and §23.26 Rule #1.)*
 
@@ -2649,7 +2852,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 
 **Ignacio looked great on paper but had a fatal flaw — his LP7.** In GG33, LP7 means permanent Stillness. In a fight, you need explosive physical energy, and LP7 is the opposite. His ignited Master Month 11 and Money Year 8 were like a powerful engine inside a car with no wheels. His LP7 trapped all that Master energy instead of releasing it. His triple Own Ox environment (Ox Day, Ox Arena, Ox State) became a prison.
 
-**Tofiq had something Ignacio didn't — a permanently powered engine built into his name.** The letters in "**MUSAYEV**" contain both **E (=5**, Chaos/High Energy) and **V (=22**, Master Builder). This combination creates a Master Number ignition that is **always on**, regardless of his PY/PM/PD numbers. His full name (TOFIQ MUSAYEV) also reduces to 74 → 11 — another Master Number (letter values per §4.6, Master Letters at full value). So Tofiq walks around with a permanent **double-Master engine** running at the name level. On fight night, UD5 poured even more fuel onto his already-lit fire.
+**Tofiq had something Ignacio didn't — a permanently powered engine built into his name.** The letters in "**MUSAYEV**" contain both **E (=5**, Chaos/High Energy) and **V (=22**, Master Builder). This combination creates a Master Number ignition that is **always on**, regardless of his PY/PM/PD numbers. Preserving `V=22`, his full name is `TOFIQ MUSAYEV = 31+43 = 74 → 11` — another Master Number. So Tofiq walks around with a permanent **double-Master engine** running at the name level. On fight night, UD5 poured even more fuel onto his already-lit fire.
 
 **The triple Ox energy helped Tofiq, not Ignacio.** This is counterintuitive because Ignacio IS the Ox. But GG33 says environmental energy flows toward the fighter whose zodiac is a confirmed FRIEND of that energy, not automatically to the one who owns it. **Snake, Ox, and Rooster form the Metal Trinity** (friends, 4 apart). So the triple Ox environment sent its energy toward Tofiq the Snake as a Metal Trinity ally. Meanwhile, Ignacio's own Ox energy just reinforced his cage.
 
@@ -2664,7 +2867,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 #### Self-Destruct Application Rules (as applied in this case — the canonical rules live in §17.4)
 
 | Configuration | Self-destruct? |
-|---------------|:--:|
+|---------------|:---:|
 | PD vs Birth Day | ✅ Yes (documented pattern) |
 | Birth Month vs PM | ✅ Yes (documented pattern) |
 | PD4 vs Birth Month 3 (as claimed here) | ❌ No — the documented PD-vs-Birth-Month pattern is specifically PD3 vs Birth Month 4 (§17.1); the reversed pattern is not documented (§17.4 exact-pattern principle) |
@@ -2688,7 +2891,7 @@ His **PY8** (Money) then combined with his ignited PM11 to trigger the exact GG3
 **WHY ABDUL-RAKHMAN WON:**
 
 - **His name is a permanent weapon.** His last name **YAKHYAEV** contains **E (=5)** and **V (=22)**. Same pattern as Tofiq MUSAYEV, NAVAJO, Thomas ETCHEVERRY, and NVIDIA. This ignition is always on. Nothing can shut it down — not his Life Path, not his Personal Year, not his Personal Day, not the Universal Day.
-- **His name also contains Money.** YAKHYAEV's letter values add up to **8** (Money/Power). So his name holds both the ignited Master 22 and the number 8 (Money) inside it — triggering the GG33 formula *"When High Energy meets Money, the result is a parabolic move"* permanently.
+- **His name also contains Money.** Under §14.6, `YAKHYAEV = 62 → 8` (Money/Power), with both `K=11` and `V=22` preserved. The same `V=22` is also interpreted as an individual-letter Master energy, so the name carries both Master and whole-name 8 layers — triggering the GG33 formula *"When High Energy meets Money, the result is a parabolic move"* permanently.
 - **His LP7 did not kill his letterology.** Every LP7 fighter who lost in the documented case studies had no letterology E=5→V=22. They depended on external energy, and LP7 choked it. Abdul-Rakhman's ignition lives **inside his name** — LP7 chokes external Chaos, not internal name-level chains.
 - **The self-destructs were fake.** PD4 vs Birth Day 3 is NOT the documented 3-vs-4 self-destruct (that one is specifically `PD3 vs Birth Month 4`), and Birth Month 1 vs PM 9 is not a documented 1-vs-9 pattern. Both rejections follow the §17.4 exact-pattern principle — the specific number-and-position patterns are undocumented, even though the configuration *classes* (PD vs Birth Day; Birth Month vs PM) are documented for other number pairs.
 - **His numbers had internal harmony.** PD4 and PM9 = confirmed friends (4 and 9). PD4 matched Arena PD4 = stability. Arena LP9 friends with his PD4. All the 4 energy surrounding him amplified his PM9 and Arena LP9.
@@ -2793,7 +2996,7 @@ And then the **UD9 clashed with his LP11** — another 9 vs 11 confirmed enemy h
 
 > **Lessons:**
 > 1. Never confuse a temporary **PY7** with a permanent **LP7** — they are fundamentally different.
-> 2. Always check whether a fighter's name carries a permanent Master Number (like THOMAS = 22).
+> 2. Calculate the exact analyzed name under §14.6 and check whether a token or complete-name result carries a permanent Master Number (like THOMAS = 22).
 > 3. The Arena Fortress rule (Pig Arena + Cat Month) is one of the most powerful forces in GG33 sports methodology — when a fighter IS the Arena's own zodiac sign during a Fortress month, the building itself fights for them.
 
 </case_study>
@@ -2964,8 +3167,8 @@ Cross-entity numerological resonance with the city ALWAYS outweighs standalone a
 **WHY PAULO COSTA WON:**
 
 - **Full-name Master Number 33.** `PAULO COSTA = 33`. Per the **Thomas Petersen precedent (§23.21 — a name-level Master 22, carried by his first name THOMAS)**, when a fighter's full name or a single whole name adds up to a Master Number, that Master is **permanently active inside the name**. It cannot be shut down by any daily energy — the UD7 vacuum cannot touch it, the PY7 cannot touch it, nothing can.
-- **Stacked Hidden 11 in first name.** `PAULO = 20`, which the GG33 manual explicitly calls a **"Hidden 11"** — another Master Number. Paulo was carrying **two stacked permanent Master Numbers** in his name: 33 (full name) and 20 / Hidden 11 (first name).
-- **UD7 could not reject his Masters.** UD7 is a vacuum that rejects Master Numbers **only if those Masters depend on outside energy to turn on**. It cannot reject Masters that are permanently active inside a name from the inside.
+- **Stacked Hidden 11 in first name.** `PAULO = 20`, which the GG33 manual labels **"Hidden 11"** under §4.2. Paulo therefore carried one permanent full-name Master Number 33 plus a separate first-name Hidden-11 layer; `20` itself is not classified as another Master Number.
+- **UD7 could not reject his name-level layers.** UD7 is a vacuum that rejects Master Numbers **only if those Masters depend on outside energy to turn on**. Within this case-study rule, it cannot reject a Master or Hidden-11 layer treated as permanently active inside a name.
 - **LP vs UY enemy clash cancelled by active Master.** The **LP 9 vs UY 1** enemy clash (1 and 9 = confirmed enemies) was cancelled by his active name-level Master Number per the **§14.2 Master Override Rule** — it is NOT permanent damage.
 - **Astrological support via Wood Trinity.** Paulo (**Goat**) + **Cat Day** + **Cat Arena** (Kaseya) — Goat and Cat are 4 positions apart = friends (**Wood Trinity: Cat, Goat, Pig**). Both the day itself and the arena itself were friendly to Paulo. The Cat Arena on a Cat Day also gives Kaseya its **Own Day**, which amplifies the arena's energy — and that amplified energy flowed toward Paulo because he is the Cat's friend.
 
@@ -2973,7 +3176,7 @@ Cross-entity numerological resonance with the city ALWAYS outweighs standalone a
 
 - **Life Path 7 = structural loss in sports.** The GG33 manual is extremely clear: in sports, **LP 7 is a structural loss.** Every fighter who lost because of "Stillness" in the documented cases had an LP of 7. LP 7 means the fighter's permanent identity is stillness — the opposite of what a fight requires.
 - **Does NOT have the YAKHYAEV escape hatch.** There is one documented way an LP7 fighter can win: the **YAKHYAEV pattern (§23.18)**. That fighter won because his last name contained BOTH the letter V (=22, a Master Number) AND the letters of his last name added up to 8 (Money) at the same time — the Master and the Money fused inside the **same single word**.
-  - Azamat does NOT have this. `MURZAKANOV = 7`, not 8 (70 → 7 with Master Letters K/V at full value per §4.6). The V=22 is in MURZAKANOV, but the 8 is in his first name (`AZAMAT = 8`) — a **separate word**.
+  - Azamat does NOT have this. Under the canonical §14.6 whole-name map, `MURZAKANOV = 70 → 7`, not 8, with `K=11` and `V=22` retained in the raw total. The 8 is in his first name (`AZAMAT = 17 → 8`) — a **separate word**.
   - The Master and the Money are in **two different names, not fused in one**. This only looks similar on the surface. It is **not the documented winning pattern**.
 - **LP 7 + UD 7 = double-stillness.** LP 7 is itself a form of Stillness. Combined with UD 7, this created a double-stillness condition that **choked his own name letters from within**. The manual explicitly says UD 7 becomes *"a suffocating blanket"* when the fighter's own Body (their Life Path) is already severe. LP 7 is a severe Body. Azamat's own permanent identity killed his own name letters before they could do anything.
 - **Shallow astrological alignment.** Azamat (Snake) only had Florida as an Own State match — one alignment against Paulo's two Friend alignments plus the Own-Day amplification.
@@ -2991,7 +3194,7 @@ Ranked the fighters by the wrong thing. Looked at Azamat's name and saw the lett
 </rule>
 
 <rule id="§23.26.rule2" priority="key">
-**RULE #2 — Always check the full-name sum FIRST, then each individual name's sum.** If the full name or any single whole name equals 11, 22, or 33 (e.g., PAULO COSTA = 33; THOMAS = 22; JAI = 11; MANDEL = 22), the fighter carries a **permanent name-level Master Number** — one of the strongest possible weapons in the GG33 system. This check takes absolute priority over scanning for individual letter patterns.
+**RULE #2 — When Letterology is relevant, calculate the complete name and each individual name token with the canonical §14.6 method.** If the complete name or any single token resolves to 11, 22, or 33 (e.g., PAULO COSTA = 33; THOMAS = 22; JAI = 11; MANDEL = 22), the fighter carries a **permanent name-level Master Number** within this framework. Show the exact spelling, equation, raw total, and reduction.
 </rule>
 
 <rule id="§23.26.rule3" priority="key">
@@ -3016,7 +3219,7 @@ Ranked the fighters by the wrong thing. Looked at Azamat's name and saw the lett
 
 **WHY CHARLES RADTKE WON:**
 
-- **Quadruple-8 Money foundation.** Charles has an **LP 8**. His full name is `Charles Radtke = 8`. The **Kaseya Center has an LP 8**. **Miami is currently in PY 8**. That is **four 8s stacked together** — in his Life Path, in his name, in the arena, and in the host city. In GG33, 8 is the number of Money and Power.
+- **Quadruple-8 Money foundation.** Charles has an **LP 8**. Under §14.6, his full name is `CHARLES RADTKE = 62 → 8`, with `K=11` preserved. The **Kaseya Center has an LP 8**. **Miami is currently in PY 8**. That is **four 8s stacked together** — in his Life Path, in his name, in the arena, and in the host city. In GG33, 8 is the number of Money and Power.
 - **Number 8 does not need ignition.** This is the key point: **Number 8 is NOT a Master Number.** Master Numbers (11, 22, 33) need ignition to work, and a UD 7 shuts them down. But **8 does not need ignition.** It just works. A UD 7 cannot drain or suffocate Number 8, because 8 is not running on external energy — it is **permanent and structural**.
 - **PM 11 and PD 22 were never the real weapon.** While Charles's Master Numbers (PM 11, PD 22) did get rejected by UD 7, those Masters were never his real weapon. His real weapon was the **quadruple-8 Money foundation** sitting underneath, which UD 7 has no power over.
 - **PY 7 is not an automatic sports death when permanent LP + Name energy is strong.** The PY 7 sports-danger rule is real but not absolute. Case studies **§23.12 (Thomas Etcheverry)** and **§23.21 (Thomas Petersen)** show that when a fighter carries permanent Money or Master energy built into his Life Path and his name, the temporary PY 7 **cannot drain it.** Permanent energy beats temporary energy. Charles had permanent LP 8 + permanent Name 8 — his PY 7 could not touch that.
@@ -3028,7 +3231,7 @@ Ranked the fighters by the wrong thing. Looked at Azamat's name and saw the lett
 
 - **PY 5 + UD 7 = the default Choke Rule.** The fight happened on a **UD 7**. Francisco was in a **PY 5**. In GG33, Number 5 = fast, chaotic, explosive movement (exactly what a fighter needs); Number 7 = stillness, vacuum, drained energy (the opposite of what a fighter needs). When PY 5 and UD 7 happen at the same time, GG33's default rule is that the 7 suffocates the 5 and drains movement, unless a documented matched-cycle ignition exception applies.
 - **Exact Zellhuber precedent.** This is the identical setup to **Daniel Zellhuber in §23.22** — PY 5 on a day with 7 energy, momentum completely drained. Francisco's PY 5 was a severe default negative on UD7, not a strength.
-- **Double drain from his own name.** Francisco's full name `Francisco Prado = 7`. He was carrying 7 energy inside his own name, on top of the UD 7 vacuum. **Double drain.**
+- **Double drain from his own name.** Under §14.6, `FRANCISCO PRADO = 70 → 7`. He was carrying 7 energy inside his own name, on top of the UD 7 vacuum. **Double drain.**
 
 #### The Core Analytical Mistake
 
@@ -3041,7 +3244,7 @@ Saw Francisco's PY 5 and called it a strength. Focused on whether Charles's Mast
 </rule>
 
 <rule id="§23.27.rule2" priority="key">
-**RULE #2 — Always calculate the full-name reduction for BOTH fighters.** Name energy is permanent. When **LP + Name + Arena + City all align on the same number** (especially 8), that is a **permanent Money foundation** that cannot be drained.
+**RULE #2 — Calculate both fighters' names with the same §14.6 method and equivalent naming convention before comparing them.** Within the framework, matching **LP + Name + Arena + City** on the same number (especially 8) forms a permanent Money foundation. Do not compare one legal name with another fighter's shortened, ring, or stage name unless that asymmetry is explicit and intentional.
 </rule>
 
 <rule id="§23.27.rule3" priority="key">
