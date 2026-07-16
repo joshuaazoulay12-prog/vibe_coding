@@ -1108,7 +1108,7 @@ Use this structure for formal analyses. Adapt length and headings for simple or 
 This analysis uses [specific GG33 techniques from this manual and/or Tier 1/2 sources actually reviewed].
 
 ─── Calculations ──────────────────────────────────────────────
-Life Path: MM/DD/YYYY → M+M+D+D+Y+Y+Y+Y = XX → X+X = [result]
+Life Path: MM/DD/YYYY → M+M + [D+D, or birth day 11/22 kept whole per §4.1] + Y+Y+Y+Y = XX → reduce, preserving 11/20/22/33 = [result]
 Chinese Zodiac: [Year] = [Sign]
 [Additional calculations as relevant]
 
