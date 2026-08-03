@@ -8,8 +8,47 @@ aerospace & defence companies that completed an IPO or were acquired between
 
 | File | Contents |
 |---|---|
+| `Europe_Improved.xlsx` | **Current deliverable.** The stricter competing build with 4 additions and 6 corrections applied (133 completed rows + 14 pending) |
 | `Europe_Tab_Audit.xlsx` | 15 findings across factual errors, omissions, scope exceptions and format defects |
-| `Europe_Corrected.xlsx` | Repaired dataset (232 rows), change log, additions, removals, per-row verification register, methodology |
+| `Europe_Corrected.xlsx` | Earlier standalone Europe rebuild (232 rows) — superseded, retained for its verification register |
+
+## Second-review outcome (2026-08-02)
+
+A competing build was assessed against this one and judged **better on balance**: it preserves the
+full workbook, applies a stricter and consistently documented "A&D is the target's primary
+business" test with a retain/exclude/correct decision for every original row, separates pending
+deals, carries two source URLs per row, and includes ~20 in-scope deals this repo had missed
+(WASS Submarine Systems/Fincantieri €287m, Marshall Land Systems, Sofisport/FN Browning,
+Paul Boyé/NFM, Summa Defence, Hirtenberger/4iG, Harder Digital/THEON, MADES/Cicor and others).
+
+It was therefore adopted and improved rather than replaced. Changes applied:
+
+**Added (4)** — absent from that build *and* from its audit log, all passing its own stated policy:
+
+| Target | Event | Date |
+|---|---|---|
+| Milrem Robotics | EDGE Group majority stake | 2023-02-15 |
+| CS Group | Sopra Steria 75.06% | 2023-02-28 |
+| TKMS AG & Co. KGaA | Frankfurt Prime Standard admission | 2025-10-20 |
+| Spirit AeroSystems Belfast + Prestwick | Airbus carve-out | 2025-12-08 |
+
+TKMS is flagged in Deal Structure as a spin-off admission with no offering and no proceeds, so it
+can be filtered out under a strict "public offering" reading.
+
+**Corrected (6)**
+
+| Row | Was | Now |
+|---|---|---|
+| Milectria Group | SEK 266m + SEK 77m earn-out | **SEK 190m (€17.1m)** + €18m earn-out |
+| ALL.SPACE | $355m "transaction value" | **$46.3m** initial consideration at completion; $355m retained as the announced headline |
+| Sky-Hero | text `2023-06 (estimated)` | **2023-07-14** |
+| Tethys | text `2026-05 (estimated)` | **2026-05-04** |
+| Ultra Maritime SM&P | 2025-04-25 | **2025-04-28** |
+| VoltAero | 2026-06-23 | **2026-06-29** |
+
+Also removed 94 trailing blank rows, re-sorted and renumbered `EUR-001`…`EUR-133`, reconciled
+`Master_Deals`, remapped every audit-log ID, and appended all changes to `Europe_Audit_Log`,
+`Sources_Audit` and `Checks`.
 
 ## Scope rule applied
 
