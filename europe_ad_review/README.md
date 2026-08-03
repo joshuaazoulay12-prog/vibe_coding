@@ -18,27 +18,27 @@ European-headquartered. European acquirers buying non-European targets are out o
 
 ## Verification coverage
 
-The original tab is two datasets appended without harmonisation:
-
-- **Block A** — 157 rows (`EUR-004`…`EUR-198`), a PitchBook export. Source URL on 16 of 157.
-- **Block B** — 66 rows (`EUR-199`…`EUR-264`), primary-source research. Source URL on 66 of 66.
-
-116 of the 157 Block A rows were individually checked against company releases, exchange
-filings and regulatory announcements:
+**All 223 original rows were individually checked** against company press releases, exchange
+filings, regulatory announcements and court records.
 
 | Outcome | Rows |
 |---|---|
-| Correct as recorded | 32 |
-| Required a factual correction | 65 |
-| Deal value recorded where none was disclosed | 15 |
-| Failed or marginally passed the A&D scope test | 18 |
+| Correct as recorded | 80 |
+| Required a factual correction | 116 |
+| Deal value recorded where none was disclosed | 18 |
+| Partially verified | 2 |
+| No primary source located | 3 |
 
-A 28% clean rate on the rows that could be checked. The remaining 41 Block A rows — all
-sub-$10m bolt-ons — could not be matched to any independent primary source and are marked
-`NOT INDEPENDENTLY VERIFIED` in the `Reliability` column.
+A 36% clean rate. Three rows could not be corroborated at all and are marked
+`NO PRIMARY SOURCE LOCATED`: **EUR-144** Aeropolis (recorded acquirer appears wrong —
+sources point to Infracorp, not Mareterra/Sophrance), **EUR-168** Interactive Technical
+Solutions, **EUR-174** TEMMA. Two are partially verified: **EUR-249** Burcas (acquisition
+confirmed, date not corroborated) and **EUR-261** PBH Teknik (date confirmed, value not
+corroborated).
 
-Six Block B rows were spot-checked (Destinus/Daedalean, Gabler Group IPO, Molex/Smiths
-Interconnect, Eaton/Ultra PCS, Lockheed/Ultra Maritime, Doncasters IPO). All held up.
+The original tab was two datasets appended without harmonisation — a PitchBook export
+(`EUR-004`…`EUR-198`, source URL on 16 of 157) and a later primary-source pass
+(`EUR-199`…`EUR-264`, source URL on all 66). The error rate is concentrated in the first.
 
 ## Row reconciliation
 
@@ -50,7 +50,7 @@ Verified in-scope events added           +14
 Corrected tab                            232
 ```
 
-## Recurring defects in Block A
+## Systematic defects found
 
 1. **Announcement dates recorded as completion dates** while the row reads "Completed"
    (≥14 rows). Worst case: Hamamatsu/NKT Photonics, dated 14 months early to a point when
@@ -59,14 +59,28 @@ Corrected tab                            232
    the vendor figure often differs materially — ESCO/Ultra Maritime SM&P $472m vs $550m
    actual; Halma/MK Test £6.9m vs £44m actual; York/ALL.SPACE $355m vs $46.3m disclosed.
 3. **Maximum earn-out booked as headline value** without disclosure.
-4. **Minority and partial stakes recorded as "Full Acquisition"** — Indra/TESS Defence
-   (26.33%), Indra/Epicom (30%), Leonardo/GEM (30%→65%), CY4Gate/Diateam (55.33%),
-   Orbyt/OTESAT-Maritel (94.09%), ENAV/AiviewGroup (85%), 4iG/N7 Defence (75%+1).
+4. **Minority and partial stakes recorded as "Full Acquisition"** — 24 rows corrected,
+   including Indra/TESS Defence (26.33%), Indra/Epicom (30%), Leonardo/GEM (30%→65%),
+   CY4Gate/Diateam (55.33%), EFA/ES Systems (63.02%), Satori/MAGnetIC (80%),
+   ENAV/AiviewGroup (85%), Orbyt/OTESAT (94.09%), Otokar/Automecanica (96.77%),
+   Argo/Poseidon (99.55%), HEICO/Cook Defence (80%), and Fincantieri's four underwater
+   stakes (52.60%, 61.95%, 51%, 49%).
 5. **Revenue recorded as deal value** — Indutrade/Crane Electronics.
 6. **One transaction split across two rows** — Al-Met and Roota Engineering were a single
    purchase of Pressure Technologies' PMC division. Merged.
 7. **Currency and unit errors** — Waterfront Fluid Controls: INR 205.624m recorded as
    USD 254.06m, a ~100x overstatement.
+8. **IPO placement volume labelled as issuer proceeds** — SMAG (€129.6m placed vs ~€30m
+   raised), Gabler Group, Savox. Exosens was the largest single error in the tab: €1.10bn
+   raised and a €3.90bn valuation recorded against an actual €402.5m offering and ~€1.02bn
+   market capitalisation.
+9. **Wrong acquirer country** — Defence Tech Holding recorded as Polish (Italian); EFA Group
+   as Singaporean (Greek); Sigma Advanced Systems as British (Indian — and recorded
+   correctly two rows later).
+10. **Events that did not happen as recorded** — Uravi/Spafax booked as a completed 100%
+   acquisition in June 2025 when only a 10% stake was taken in March 2026; Aubert & Duval
+   booked as completed when it remains subject to regulatory approval; Defence Holdings
+   recorded inverted, where what actually changed hands was an esports business for £100,000.
 
 ## Workbook-level issues outside this tab (flagged, not fixed)
 
@@ -86,5 +100,5 @@ python build.py        # applies corrections + additions, writes built.pkl
 python write_xlsx.py   # renders Europe_Corrected.xlsx
 ```
 
-`verif.py` holds the per-row verification findings and sources; `corrections.py` the
+`verif.py` and `pass2.py` hold the per-row verification findings and sources; `corrections.py` the
 field-level overrides; `additions.py` the verified missing events.

@@ -4,6 +4,14 @@ from openpyxl.utils import get_column_letter
 exec(open('verif.py').read())
 exec(open('corrections.py').read())
 exec(open('additions.py').read())
+exec(open('pass2.py').read())
+V.update(V2)
+for k, d in C2.items():
+    C.setdefault(k, {})
+    n1 = C[k].pop('note', None); n2 = d.get('note')
+    C[k].update(d)
+    notes = [x for x in (n1, n2) if x]
+    if notes: C[k]['note'] = '  '.join(notes)
 
 src = openpyxl.load_workbook('original.xlsx', data_only=False)
 ws  = src['Europe']
@@ -52,8 +60,9 @@ for r in range(2, ws.max_row+1):
     vd = V.get(did, (None,None,None))
     if vd[0]:
         reliab = {'OK':'Primary-source verified','FIX':'Primary-source verified - corrected',
-                  'EST':'Primary-source verified - value undisclosed','SCOPE':'Primary-source verified'}.get(vd[0].split('/')[0],'Primary-source verified')
-    elif n>=199: reliab = 'Vendor/primary source cited, not re-verified in this pass'
+                  'EST':'Primary-source verified - value undisclosed','SCOPE':'Primary-source verified',
+                  'UNVERIFIED':'NO PRIMARY SOURCE LOCATED - do not rely on value or date',
+                  'PARTIAL':'Partially verified - see note'}.get(vd[0].split('/')[0],'Primary-source verified')
     else:        reliab = 'NOT INDEPENDENTLY VERIFIED - vendor data only'
     evt = 'IPO' if g(r,'Transaction Type')=='IPO' else 'Merger/Acquisition'
     tier = c.get('tier', g(r,'Inclusion Tier'))
